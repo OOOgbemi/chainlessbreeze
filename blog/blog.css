@@ -1,0 +1,127 @@
+
+body {
+
+background-color: GhostWhite;
+background-image: linear-gradient(to right, LightBlue, LemonChiffon, Cyan);
+font-size: 14px;
+font-family: 'Cormorant Upright';
+}
+
+
+dl.nav {
+
+list-style-type: circle;
+
+
+
+
+}
+
+
+.poetry {
+
+color: black;
+font-size: 12px;
+
+
+}
+
+.blinker {
+
+height: 10%;
+width: 5%;
+position: absolute;
+opacity: 50%;
+background-color: red;
+z-index: 1;
+
+}
+
+.leaf {
+position: absolute;
+z-index: 3;
+}
+
+textarea {
+position: static;
+margin-left: 20%;
+font-family: serif;
+border-style: double;
+border-color: fuchsia;
+resize: none;
+color: blue;
+border-width: medium;
+z-index: 2;
+font-size: 15px;
+}
+
+.box {
+
+top: 150px;
+Left: 125px;
+height: 30%;
+width: 20%;
+background-image: linear-gradient(white, blue, aliceblue);
+position: absolute;
+margin: auto;
+border-style: double;
+border-color: lightgreen;
+color: aqua;
+z-index=2;
+text-align: left;
+overflow: scroll;
+
+}
+
+.box2 {
+
+bottom: 150px;
+right: 125px;
+height: 30%;
+width: 20%;
+background-image: linear-gradient(white, blue, aliceblue);
+position: absolute;
+margin: auto;
+border-style: double;
+border-color: lightgreen;
+color: aqua;
+z-index=2;
+text-align: left;
+overflow: scroll;
+
+}
+
+.fungi {
+
+position: static;
+height: 15%;
+width: 15%; 
+z-index: 3;
+}
+
+.title {
+font-family: 'Moon Dance', cursive;
+font-size: 15px;
+}
+
+.welcomepoem {
+
+height: 70%;
+width: 70%;
+position: absolute;
+z-index=3;
+}
+
+.welcometulip {
+
+margin-bottom: 50%
+height: 30%;
+width: 30%;
+position: absolute;
+z-index=3;
+
+
+}
+
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/mechanics/mec-5/mec432.cur), auto !important;} /* End https://www.cursors-4u.com */
