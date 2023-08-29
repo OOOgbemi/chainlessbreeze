@@ -1,0 +1,97 @@
+
+body {
+
+background-color: black;
+font-family: 'Mukta';
+color: LightGray;
+}
+
+
+a {
+font-family: 'Mukta';
+color: LightGray;
+text-decoration: none;
+
+
+}
+
+
+.textbox {
+
+
+
+width: 400px;
+height: 600px;
+background-color: rosybrown;
+position: fixed;
+left: 32%;
+top: 8%;
+Border-style: dotted;
+Border-width: 2px;
+border-color: blue;
+Z-index: 0;
+
+}
+
+
+.othertextbox {
+
+
+
+width: 400px;
+height: 600px;
+background-color: rosybrown;
+position: fixed;
+left: 45%;
+top: 12%;
+Border-style: ridge;
+Border-width: 2px;
+border-color: lawngreen;
+Z-index: 1;
+
+
+}
+
+.thirdtextbox {
+
+
+
+width: 400px;
+height: 600px;
+background-color: rosybrown;
+position: fixed;
+left: 26%;
+top: 20%;
+Border-style: ridge;
+Border-width: 2px;
+border-color: lime;
+Z-index: 1;
+
+
+}
+
+.story {
+width: 400px;
+height: 620px;
+position: fixed;
+left: 36%;
+top: 14%;
+overflow: scroll;
+z-index: 2;
+color: lavenderblush;
+font-family: 'M PLUS 1p';
+}
+
+.anim {
+text-decoration-line: underline; 
+text-decoration-style: wavy; 
+text-decoration-color: LightGray;
+animation-name: wavycolor; 
+animation-duration: 3s; 
+animation-iteration-count: infinite;
+
+}
+
+
+
+
