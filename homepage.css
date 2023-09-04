@@ -1,8 +1,8 @@
 
 body {
 
-background-color: GhostWhite;
-background-image: url('087C.jpg');
+background-color: white;
+
 background-repeat: repeat;
 font-size: 75px;
 font-family: 'Handjet';
@@ -58,7 +58,7 @@ position: fixed;
 .t:hover + .thidden {
 
 Display: block;
-color: antiquewhite;
+color: aquamarine;
 }
 
 
@@ -82,7 +82,7 @@ position: fixed;
 .s:hover + .shidden {
 
 Display: block;
-color: antiquewhite;
+color: aquamarine;
 }
 
 .e1 {
@@ -107,7 +107,7 @@ position: fixed;
 .e1:hover + .e1hidden {
 
 Display: block;
-color: antiquewhite;
+color: aquamarine;
 }
 
 .m {
@@ -129,7 +129,7 @@ position: fixed;
 .m:hover + .mhidden {
 
 Display: block;
-color: antiquewhite;
+color: aquamarine;
 }
 
 .o {
@@ -151,7 +151,7 @@ position: fixed;
 .o:hover + .ohidden {
 
 Display: block;
-color: antiquewhite;
+color: aquamarine;
 }
 
 .n {
@@ -174,7 +174,7 @@ position: fixed;
 .n:hover + .nhidden {
 
 Display: block;
-color: antiquewhite;
+color: aquamarine;
 }
 
 .e2 {
@@ -198,7 +198,7 @@ position: fixed;
 .e2:hover + .e2hidden {
 
 Display: block;
-color: cyan;
+color: aquamarine;
 }
 
 
@@ -219,25 +219,37 @@ position: fixed;
 Top: 93.5%;
 font-size: 15px;
 font-family: 'Caveat';
-Color: lavenderblush;
+Color: aquamarine;
 
 }
 
 .squiggle {
 
 position: fixed;
-Left: 25%;
-bottom: -40%;
+Left: 20%;
+bottom: -30%;
 Z-index: 5;
 Transform: rotate(180deg);
+Width: 1600px;
+Height: 1200px;
 
 }
 
 .snakeskin {
 
 position: fixed;
-Left: 80%;
-bottom: -65%;
+Left: 70%;
+bottom: -50%;
 Z-index: 4;
 
 }
+
+.bluestripe {
+
+position: fixed;
+Right: 77%;
+top: -32%;
+Z-index: -1;
+
+}
+
