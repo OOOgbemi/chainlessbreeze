@@ -1,0 +1,87 @@
+
+body {
+
+background-color: lavender;
+font-family: 'Open Sans';
+font-size: 30px;
+color: white;
+
+}
+
+@keyframes umbrella{
+From {top: 0%;}
+To {top: 90%;}
+
+
+}
+
+.umbrella {
+
+animation-name: umbrella; 
+animation-duration: 60s;
+
+}
+
+
+.righttext {
+
+
+
+z-index: 1;
+}
+
+.lefttext {
+
+
+text-align: left;
+z-index: 1;
+}
+
+.hiddenme {
+
+Position: fixed;
+display: block;
+margin-left: auto;
+margin-right: auto;
+bottom: 10%;
+left: 10%;
+Z-index: 2;
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+Opacity: 30%;
+}
+
+.ditheredportrait {
+
+Position: fixed;
+display: block;
+margin-left: auto;
+margin-right: auto;
+bottom: 5%;
+left: 30%;
+Z-index: 1;
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+Opacity: 40%;
+
+
+}
+
+.title {
+
+Position: fixed;
+width: 150px;
+Height: 22;
+}
+
+
+
+.glass {
+position: fixed;
+top: 1px;
+right: 10px;
+Opacity: 10%;
+transform: rotate(50deg);
+
+}
+

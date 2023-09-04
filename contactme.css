@@ -1,0 +1,75 @@
+
+body {
+
+
+top: 0;
+left: 0;
+background-color: Pink;
+background-image: url('./wwcopy.JPG');
+background-size: cover;
+z-index: 3;
+font-family: serif;
+Color:yellow; 
+background-color: White;
+font-style: italic;
+
+}
+
+@keyframes wavy{
+
+from {background-color: SlateBlue;}
+to {background-color: LemonChiffon;}
+
+}
+
+a {
+text-decoration: none;
+
+}
+
+
+
+.centered{
+
+position: absolute;
+top: 25%;
+left: 32%;
+z-index: 4;
+
+}
+
+.buttons{
+
+
+animation-duration: 1s;
+animation-direction: reverse;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+background-color: Gainsboro;
+position: absolute;
+top: 92%;
+left: 90%;
+
+}
+
+.skull {
+
+color: OldLace;
+}
+
+.underlined {
+
+color: Red;
+font-family: serif;
+display: inline;
+
+}
+
+
+.email {
+
+text-align: center;
+Color:yellow; 
+font-size: 30px;
+
+}
