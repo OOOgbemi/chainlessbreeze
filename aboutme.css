@@ -4,7 +4,7 @@ body {
 background-color: lavender;
 font-family: 'Open Sans';
 font-size: 30px;
-color: white;
+color: ghostwhite;
 
 }
 
@@ -43,7 +43,7 @@ Position: fixed;
 display: block;
 margin-left: auto;
 margin-right: auto;
-bottom: 10%;
+bottom: 4%;
 left: 10%;
 Z-index: 2;
 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -57,7 +57,7 @@ Position: fixed;
 display: block;
 margin-left: auto;
 margin-right: auto;
-bottom: 5%;
+bottom: 19%;
 left: 30%;
 Z-index: 1;
 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
