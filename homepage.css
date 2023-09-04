@@ -4,7 +4,7 @@ body {
 background-color: GhostWhite;
 background-image: url('087C.jpg');
 background-repeat: repeat;
-font-size: 50px;
+font-size: 75px;
 font-family: 'Handjet';
 Color: blue;
 }
@@ -17,14 +17,13 @@ list-style-type: circle;
 }
 
 a {
-font-size: 50px;
+font-size: 75px;
 font-family: 'Handjet';
-Color: blue;
 text-decoration: none;
 }
 
 a:visited {
-font-size: 50px;
+font-size: 75px;
 font-family: 'Handjet';
 Color: blue;
 text-decoration: none;
@@ -38,7 +37,8 @@ text-decoration: underline;
 .t {
 position: fixed;
 Top: 10%;
-font-size: 50px;
+Left: 5%
+font-size: 75px;
 font-family: 'Handjet';
 Color: blue;
 }
@@ -58,21 +58,22 @@ position: fixed;
 .t:hover + .thidden {
 
 Display: block;
-color: red;
+color: antiquewhite;
 }
 
 
 .s {
 position: fixed;
-Left: 50px;
+Left: 78px;
 Top: 40%;
+color: cyan;
 }
 
 .shidden {
 
 font-size: 25px;
 font-family: 'Handjet';
-Color: blue;
+Color: cyan;
 Display: none;
 position: fixed;
 
@@ -81,14 +82,14 @@ position: fixed;
 .s:hover + .shidden {
 
 Display: block;
-color: red;
+color: antiquewhite;
 }
 
 .e1 {
 position: fixed;
-Left: 100px;
+Left: 130px;
 Top: 30%;
-font-size: 50px;
+font-size: 75px;
 font-family: 'Handjet';
 Color: blue;
 }
@@ -106,12 +107,12 @@ position: fixed;
 .e1:hover + .e1hidden {
 
 Display: block;
-color: red;
+color: antiquewhite;
 }
 
 .m {
 position: fixed;
-Left: 150px;
+Left: 180px;
 Top: 55%;
 }
 
@@ -128,13 +129,13 @@ position: fixed;
 .m:hover + .mhidden {
 
 Display: block;
-color: red;
+color: antiquewhite;
 }
 
 .o {
 position: fixed;
-Left: 200px;
-Top: 15%;
+Left: 230px;
+Top: 18%;
 }
 
 .ohidden {
@@ -150,13 +151,14 @@ position: fixed;
 .o:hover + .ohidden {
 
 Display: block;
-color: red;
+color: antiquewhite;
 }
 
 .n {
 position: fixed;
-top: 45%;
-Left: 250px;
+top: 55%;
+Left: 330px;
+z-index: 6;
 }
 
 .nhidden {
@@ -172,13 +174,15 @@ position: fixed;
 .n:hover + .nhidden {
 
 Display: block;
-color: red;
+color: antiquewhite;
 }
 
 .e2 {
 position: fixed;
-Left: 300px;
-Top: 70%;
+Left: 450px;
+Top: 60%;
+color: cyan;
+z-index: 6;
 }
 
 .e2hidden {
@@ -194,7 +198,7 @@ position: fixed;
 .e2:hover + .e2hidden {
 
 Display: block;
-color: red;
+color: cyan;
 }
 
 
@@ -219,3 +223,21 @@ Color: lavenderblush;
 
 }
 
+.squiggle {
+
+position: fixed;
+Left: 25%;
+bottom: -40%;
+Z-index: 5;
+Transform: rotate(180deg);
+
+}
+
+.snakeskin {
+
+position: fixed;
+Left: 80%;
+bottom: -65%;
+Z-index: 4;
+
+}
