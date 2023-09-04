@@ -1,7 +1,7 @@
 
 body {
 
-background-color: rosybrown;
+background-color: ghostwhite;
 font-family: serif;
 }
 
@@ -12,7 +12,7 @@ font-family: serif;
 
 width: 400px;
 height: 600px;
-background-color: rosybrown;
+background-color: ghostwhite;
 position: fixed;
 left: 32%;
 top: 8%;
@@ -36,13 +36,13 @@ Height: 22;
 
 width: 400px;
 height: 600px;
-background-color: rosybrown;
+background-color: ghostwhite;
 position: fixed;
 left: 45%;
 top: 12%;
-Border-style: ridge;
+Border-style: dotted;
 Border-width: 2px;
-border-color: lawngreen;
+border-color: blue;
 Z-index: 1;
 
 
@@ -54,13 +54,13 @@ Z-index: 1;
 
 width: 400px;
 height: 600px;
-background-color: rosybrown;
+background-color: white;
 position: fixed;
 left: 26%;
 top: 20%;
-Border-style: ridge;
+Border-style: dotted;
 Border-width: 2px;
-border-color: lime;
+border-color: blue;
 Z-index: 1;
 
 
@@ -74,6 +74,7 @@ left: 36%;
 top: 14%;
 overflow: scroll;
 z-index: 2;
-color: lavenderblush;
+color: black;
 font-family: 'M PLUS 1p';
+font-size: 12px;
 }
