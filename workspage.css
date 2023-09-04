@@ -1,244 +1,96 @@
 
 body {
 
-background-color: GhostWhite;
-background-image: url('087C.jpg');
-background-repeat: repeat;
-font-size: 75px;
-font-family: 'Handjet';
-Color: blue;
-}
-
-
-dl.nav {
-
-list-style-type: circle;
+background-color: black;
+font-family: 'Mukta';
+color: lightgrey;
 
 }
+
 
 a {
-font-size: 75px;
-font-family: 'Handjet';
+font-family: 'Mukta';
+color: lightgrey;
 text-decoration: none;
+
+
 }
 
-a:visited {
-font-size: 75px;
-font-family: 'Handjet';
-Color: blue;
-text-decoration: none;
-}
 
-a:active {
-color: red;
-text-decoration: underline;
-}
+.textbox {
 
-.t {
+
+
+width: 400px;
+height: 600px;
+background-color: rosybrown;
 position: fixed;
-Top: 10%;
-Left: 5%
-font-size: 75px;
-font-family: 'Handjet';
-Color: blue;
+left: 32%;
+top: 8%;
+Border-style: dotted;
+Border-width: 2px;
+border-color: blue;
+Z-index: 0;
+
 }
 
 
+.othertextbox {
 
-.thidden {
 
-font-size: 25px;
-font-family: 'Handjet';
-Color: blue;
-Display: none;
+
+width: 400px;
+height: 600px;
+background-color: rosybrown;
 position: fixed;
+left: 45%;
+top: 12%;
+Border-style: ridge;
+Border-width: 2px;
+border-color: lawngreen;
+Z-index: 1;
+
 
 }
 
-.t:hover + .thidden {
-
-Display: block;
-color: antiquewhite;
-}
+.thirdtextbox {
 
 
-.s {
+
+width: 400px;
+height: 600px;
+background-color: rosybrown;
 position: fixed;
-Left: 78px;
-Top: 40%;
-color: cyan;
+left: 26%;
+top: 20%;
+Border-style: ridge;
+Border-width: 2px;
+border-color: lime;
+Z-index: 1;
+
+
 }
 
-.shidden {
-
-font-size: 25px;
-font-family: 'Handjet';
-Color: cyan;
-Display: none;
+.story {
+width: 400px;
+height: 620px;
 position: fixed;
+left: 36%;
+top: 14%;
+overflow: scroll;
+z-index: 2;
+color: lavenderblush;
+font-family: 'M PLUS 1p';
+}
+
+.anim {
+text-decoration-line: underline; 
+text-decoration-style: wavy; 
+text-decoration-color: LightGray;
+animation-name: wavycolor; 
+animation-duration: 3s; 
+animation-iteration-count: infinite;
 
 }
 
-.s:hover + .shidden {
-
-Display: block;
-color: antiquewhite;
-}
-
-.e1 {
-position: fixed;
-Left: 130px;
-Top: 30%;
-font-size: 75px;
-font-family: 'Handjet';
-Color: blue;
-}
-
-.e1hidden {
-
-font-size: 25px;
-font-family: 'Handjet';
-Color: blue;
-Display: none;
-position: fixed;
-
-}
-
-.e1:hover + .e1hidden {
-
-Display: block;
-color: antiquewhite;
-}
-
-.m {
-position: fixed;
-Left: 180px;
-Top: 55%;
-}
-
-.mhidden {
-
-font-size: 25px;
-font-family: 'Handjet';
-Color: blue;
-Display: none;
-position: fixed;
-
-}
-
-.m:hover + .mhidden {
-
-Display: block;
-color: antiquewhite;
-}
-
-.o {
-position: fixed;
-Left: 230px;
-Top: 18%;
-}
-
-.ohidden {
-
-font-size: 25px;
-font-family: 'Handjet';
-Color: blue;
-Display: none;
-position: fixed;
-
-}
-
-.o:hover + .ohidden {
-
-Display: block;
-color: antiquewhite;
-}
-
-.n {
-position: fixed;
-top: 55%;
-Left: 330px;
-z-index: 6;
-}
-
-.nhidden {
-
-font-size: 25px;
-font-family: 'Handjet';
-Color: blue;
-Display: none;
-position: fixed;
-
-}
-
-.n:hover + .nhidden {
-
-Display: block;
-color: antiquewhite;
-}
-
-.e2 {
-position: fixed;
-Left: 450px;
-Top: 60%;
-color: cyan;
-z-index: 6;
-}
-
-.e2hidden {
-
-font-size: 25px;
-font-family: 'Handjet';
-Color: blue;
-Display: none;
-position: fixed;
-
-}
-
-.e2:hover + .e2hidden {
-
-Display: block;
-color: cyan;
-}
-
-
-
-.blinker {
-
-height: 10%;
-width: 5%;
-position: absolute;
-opacity: 50%;
-background-color: red;
-z-index: 1;
-
-}
-
-.marqueehome {
-position: fixed;
-Top: 93.5%;
-font-size: 15px;
-font-family: 'Caveat';
-Color: lavenderblush;
-
-}
-
-.squiggle {
-
-position: fixed;
-Left: 25%;
-bottom: -40%;
-Z-index: 5;
-Transform: rotate(180deg);
-
-}
-
-.snakeskin {
-
-position: fixed;
-Left: 80%;
-bottom: -65%;
-Z-index: 4;
-
-}
 
