@@ -1,0 +1,108 @@
+
+body {
+
+
+top: 0;
+left: 0;
+background-color: yellow;
+background-image: url('./audience2.JPG');
+background-size: cover;
+z-index: 3;
+font-family: serif;
+
+}
+
+@keyframes wavy{
+
+from {background-color: SlateBlue;}
+to {background-color: LemonChiffon;}
+
+}
+
+a {
+text-decoration: none;
+
+}
+
+.links {
+Color: black; 
+background-color: black;
+text-decoration-color: white;
+font-style: italic;
+}
+
+.homebutton {
+Color: black; 
+background-color: yellow;
+text-decoration-color: white;
+font-style: italic;
+
+
+}
+
+.centered{
+
+position: absolute;
+top: 25%;
+left: 32%;
+z-index: 4;
+
+}
+
+.buttons{
+
+
+animation-duration: 1s;
+animation-direction: reverse;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+background-color: Gainsboro;
+position: absolute;
+top: 92%;
+left: 90%;
+
+}
+
+.skull {
+
+color: OldLace;
+}
+
+.underlined {
+
+color: Red;
+font-family: serif;
+display: inline;
+
+}
+
+a {
+Color: #ff3300;
+}
+
+a:hover {
+Color: cyan;
+Font-family: 'Great Vibes';
+
+}
+
+.tcmarquee {
+
+position: fixed;
+right: 16%;
+Top: 17%;
+font-size: 12px;
+Font-family: 'Titillium Web';
+Font-style: italic;
+Color: cyan;
+width="400px"
+text-align: justify;
+}
+
+
+.title {
+
+text-align: center;
+color: Red;
+
+}
