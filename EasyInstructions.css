@@ -9,7 +9,7 @@ background-size: cover;
 z-index: 3;
 font-family: andale mono, monospace;
 Color: white;
-
+Cursor: pointer;
 }
 
 @keyframes wavy{
