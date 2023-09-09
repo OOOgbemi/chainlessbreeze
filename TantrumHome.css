@@ -1,0 +1,52 @@
+
+body {
+
+
+top: 0;
+left: 0;
+background-color: antiquewhite;
+background-image: url('./984.gif');
+font-family: serif;
+
+}
+
+@keyframes wavy{
+
+from {background-color: SlateBlue;}
+to {background-color: LemonChiffon;}
+
+}
+
+
+
+.buttons{
+
+
+animation-duration: 1s;
+animation-direction: reverse;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+background-color: red;
+position: absolute;
+
+top: 35%;
+left: 50%;
+
+}
+
+
+
+
+.backboard {
+
+Display: block;
+Width: 50%;
+Height: 70%;
+background-color: lightgray;
+Position: fixed;
+Left: 25%;
+top: 10%;
+border-style: ridge;
+Padding: 10px;
+
+}

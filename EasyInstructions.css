@@ -1,0 +1,96 @@
+
+body {
+
+
+top: 0;
+left: 0;
+background-color: Blue;
+background-size: cover;
+z-index: 3;
+font-family: andale mono, monospace;
+Color: white;
+
+}
+
+@keyframes wavy{
+
+from {background-color: SlateBlue;}
+to {background-color: LemonChiffon;}
+
+}
+
+
+.picture {
+
+position: fixed;
+left: 20%
+
+}
+
+
+.centered{
+
+position: absolute;
+top: 25%;
+left: 32%;
+z-index: 4;
+
+}
+
+.buttons{
+
+
+animation-duration: 1s;
+animation-direction: reverse;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+background-color: Gainsboro;
+position: absolute;
+
+top: 92%;
+left: 92%;
+
+}
+
+.skull {
+
+color: OldLace;
+}
+
+.underlined {
+
+color: Red;
+font-family: serif;
+display: inline;
+
+}
+
+
+.title {
+
+text-align: left;
+font-family: andale mono, monospace;
+animation: glow 1s ease-in-out infinite alternate;
+color: White;
+}
+
+
+.cursor {
+
+animation-name: blink;
+animation-duration: 0.7s;
+animation-iteration-count: infinite;
+
+
+}
+
+@keyframes blink {
+
+from {color: White;}
+to {color: Blue;}
+
+
+}
+
+
+}
