@@ -6,7 +6,16 @@ top: 0;
 left: 0;
 background-color: antiquewhite;
 background-image: url('./984.gif');
-font-family: serif;
+font-family: 'Pinyon Script';
+color: lime;
+Text-shadow: 1px 1px gold;
+font-size: 27px;
+
+}
+
+ul {
+
+List-style-image: url('./bluesequin.png');
 
 }
 
@@ -29,7 +38,7 @@ animation-direction: alternate;
 background-color: red;
 position: absolute;
 
-top: 35%;
+top: 62%;
 left: 50%;
 
 }
@@ -38,7 +47,6 @@ left: 50%;
 
 
 .backboard {
-
 Display: block;
 Width: 50%;
 Height: 70%;
@@ -47,6 +55,6 @@ Position: fixed;
 Left: 25%;
 top: 10%;
 border-style: ridge;
-Padding: 10px;
+Padding: 20px;
 
 }
