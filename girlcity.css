@@ -33,20 +33,24 @@ font-size: 20px;
 
 .story {
 Border-style: solid;
-border-color: deeppink;
+border-color: pink;
 Border-radius: 25px;
-Padding: 5px;
+Border-width: 5px;
+Box-shadow: 1px 1px black;
 Background-color: white;
-width: 280px;
+width: 260px;
 height: 430px;
 position: fixed;
-left: 40%;
+left: 38.2%;
 top: 20%;
 overflow: scroll;
 z-index: 2;
-color: black;
-font-family: 'Open Sans';
+color: #afa9f5;
+font-family: 'Oswald';
 font-size: 12px;
+padding: 10px;
+background-color: white;
+text-shadow: 1px 1px lavender;
 }
 
 @keyframes pulse{
@@ -70,5 +74,4 @@ Z-index: -1;
 
 }
 
-
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/symbols/sym-3/sym235.ani), url(https://cur.cursors-4u.net/symbols/sym-3/sym235.png), auto !important;} /* End https://www.cursors-4u.com */
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol317.cur), auto !important;} /* End https://www.cursors-4u.com */
