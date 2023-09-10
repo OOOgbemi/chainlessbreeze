@@ -5,17 +5,17 @@ body {
 top: 0;
 left: 0;
 background-color: antiquewhite;
-background-image: url('./984.GIF');
+background-image: url('./984.gif');
 font-family: 'Pinyon Script';
-color: lime;
-Text-shadow: 1px 1px gold;
+color: palevioletred;
+Text-shadow: 4px 4px lawngreen;
 font-size: 27px;
 
 }
 
 ul {
 
-List-style-image: url('./BlueSequin.png');
+List-style-image: url('./bluesequin.png');
 
 }
 
@@ -35,7 +35,7 @@ animation-duration: 1s;
 animation-direction: reverse;
 animation-iteration-count: infinite;
 animation-direction: alternate;
-background-color: red;
+background-color: lightgrey;
 position: absolute;
 
 top: 62%;
