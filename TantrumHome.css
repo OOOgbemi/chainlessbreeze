@@ -5,19 +5,14 @@ body {
 top: 0;
 left: 0;
 background-color: antiquewhite;
-background-image: url('./984.GIF');
-font-family: 'Pinyon Script';
+background-image: url('./984.gif');
+font-family: monospace;
 color: palevioletred;
-Text-shadow: 4px 4px lawngreen;
-font-size: 25px;
+Text-shadow: 1px 1px chartreuse;
+font-size: 15px;
 
 }
 
-ul {
-
-List-style-image: url('./BlueSequin.png');
-
-}
 
 @keyframes wavy{
 
@@ -35,10 +30,10 @@ animation-duration: 1s;
 animation-direction: reverse;
 animation-iteration-count: infinite;
 animation-direction: alternate;
-background-color: lightgrey;
+background-color: red;
 position: absolute;
 
-top: 62%;
+top: 24%;
 left: 50%;
 
 }
