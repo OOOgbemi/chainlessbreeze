@@ -2,7 +2,7 @@
 body {
 
 background-color: gainsboro;
-background-image: url('./StrangerFeature.png');
+background-image: url('./opg4.png');
 font-family: 'Mukta';
 color: LightGray;
 }
@@ -31,14 +31,14 @@ Left: 35%;
 top: 25%;
 border: 2px solid #ccc;
 border-radius: 4px;
-border-color: lime;
+border-color: darkblue;
 font-family: 'Shippori Mincho';
 
 }
 
 .storyspace:focus {
 
-border-color: violet;
+border-color: yellow;
 outline: none;
 }
 
