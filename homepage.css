@@ -136,6 +136,7 @@ color: aquamarine;
 position: fixed;
 Left: 230px;
 Top: 18%;
+z-index: 6;
 }
 
 .ohidden {
@@ -220,6 +221,7 @@ Top: 93.5%;
 font-size: 15px;
 font-family: 'Caveat';
 Color: aquamarine;
+z-index: 3;
 
 }
 
@@ -240,7 +242,7 @@ Height: 1200px;
 position: fixed;
 Left: 70%;
 bottom: -50%;
-Z-index: 4;
+Z-index: 3;
 
 }
 
@@ -252,4 +254,6 @@ top: -32%;
 Z-index: -1;
 
 }
+
+
 
