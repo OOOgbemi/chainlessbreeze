@@ -5,7 +5,6 @@ background-color: gainsboro;
 background-image: url('./SD194.JPG');
 font-family: 'Mukta';
 color: lime;
-cursor: pointer;
 font-size: 12px;
 }
 
@@ -14,13 +13,12 @@ a {
 font-family: 'Mukta';
 color: LightGray;
 text-decoration: none;
-
+cursor: grab;
 
 }
 
 .tile {
 
-cursor: grab;
 
 }
 
