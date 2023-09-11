@@ -31,14 +31,14 @@ Left: 39.5%;
 top: 25%;
 border: 2px solid #ccc;
 border-radius: 4px;
-border-color: darkblue;
+border-color: lawngreen;
 font-family: 'Shippori Mincho';
 
 }
 
 .storyspace:focus {
 
-border-color: yellow;
+border-color: deeppink;
 outline: none;
 }
 
