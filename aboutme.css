@@ -1,10 +1,10 @@
 
 body {
 
-background-color: lavender;
+background-color: white;
 font-family: 'Open Sans';
 font-size: 150px;
-Color: gainsboro;
+Color: lavenderblush;
 
 }
 
@@ -84,3 +84,5 @@ Opacity: 10%;
 transform: rotate(50deg);
 
 }
+
+
