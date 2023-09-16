@@ -1,0 +1,46 @@
+
+body {
+
+background-color: gainsboro;
+background-image: url('./darkpaint.png');
+font-family: 'Mukta';
+color: LightGray;
+}
+
+
+a {
+font-family: 'Mukta';
+color: LightGray;
+text-decoration: none;
+
+
+}
+
+.prompt {
+
+
+
+
+
+}
+
+.storyspace {
+
+position: fixed;
+Left: 39.5%;
+top: 25%;
+border: 2px solid #ccc;
+border-radius: 4px;
+border-color: darkblue;
+font-family: 'Shippori Mincho';
+Color: blue;
+
+}
+
+.storyspace:focus {
+
+border-color: purple;
+outline: none;
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat721.cur), auto !important;} /* End https://www.cursors-4u.com */
