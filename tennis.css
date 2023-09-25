@@ -4,12 +4,14 @@ body {
 
 top: 0;
 left: 0;
-background-color: blue;
+background-color: green;
 background-size: cover;
 z-index: 3;
-font-family: andale mono, monospace;
+font-family: 'Fanwood Text';
 Color: white;
 Cursor: pointer;
+padding: 250px;
+Border-style: solid;
 }
 
 @keyframes wavy{
@@ -69,9 +71,9 @@ display: inline;
 .title {
 
 text-align: left;
-font-family: andale mono, monospace;
+font-family: 'Bacasime Antique';
 animation: glow 1s ease-in-out infinite alternate;
-color: White;
+color: white;
 }
 
 
