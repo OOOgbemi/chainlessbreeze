@@ -2,7 +2,7 @@
 body {
 
 background-color: seashell;
-background-image: url(./girlcity.gif);
+background-image: url(./SC005.JPG);
 font-family: serif;
 }
 
@@ -32,25 +32,24 @@ font-size: 20px;
 
 
 .story {
+background-image: url(./ciq.jpg);
 Border-style: solid;
-border-color: pink;
+border-color: gainsboro;
 Border-radius: 25px;
 Border-width: 5px;
 Box-shadow: 1px 1px black;
-Background-color: white;
-width: 260px;
+width: 227px;
 height: 430px;
 position: fixed;
 left: 40.5%;
-top: 20%;
+top: 15%;
 overflow: scroll;
 z-index: 2;
-color: #afa9f5;
-font-family: 'Oswald';
+color: aliceblue;
+font-family: 'Kosugi Maru';
 font-size: 15px;
 padding: 10px;
-background-color: white;
-text-shadow: 1px 1px lavender;
+text-shadow: 1px 1px #afa9f5;
 }
 
 @keyframes pulse{
@@ -75,3 +74,4 @@ Z-index: -1;
 }
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol317.cur), auto !important;} /* End https://www.cursors-4u.com */
+
