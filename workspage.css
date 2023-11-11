@@ -3,18 +3,46 @@ body {
 
 background-color: black;
 font-family: 'Mukta';
-color: lightgrey;
+color: lavender;
+background-image: url('./workslights.png');
+background-size: cover;
+}
+
+
+@font-face {
+    font-family: 'aquilinetworegular';
+    src: url('./AquilineTwo-webfont.eot');
+    src: url('./AquilineTwo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./AquilineTwo-webfont.woff2') format('woff2'),
+         url('./AquilineTwo-webfont.woff') format('woff'),
+         url('./AquilineTwo-webfont.ttf') format('truetype'),
+         url('./AquilineTwo-webfont.svg#aquilinetworegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
+
 
 
 a {
+Text-decoration: none;
+Color: blue;
+}
+
+.graylink {
 font-family: 'Mukta';
 color: lightgrey;
-text-decoration: none;
 
 
 }
+
+.blacklink {
+
+font-family: 'Mukta';
+color: black;
+
+}
+
 
 
 .textbox {
@@ -92,5 +120,68 @@ animation-duration: 3s;
 animation-iteration-count: infinite;
 
 }
+
+
+.tf6t {
+
+Margin-left: 60%;
+font-family: 'aquilinetworegular';
+color: blue;
+}
+
+.girlcity {
+
+Margin-left: 30%;
+font-family: 'aquilinetworegular';
+color: blue;
+}
+
+.tigerlily {
+
+Margin-left: 50%;
+font-family: 'aquilinetworegular';
+color: blue;
+}
+
+.jungle {
+
+Margin-left: 70%;
+font-family: 'aquilinetworegular';
+color: blue;
+
+}
+
+.wos {
+
+Margin-left: 50%;
+font-family: 'aquilinetworegular';
+color: yellow;
+
+}
+
+.secretary {
+
+Margin-left: 30%;
+font-family: 'aquilinetworegular';
+color: blue;
+
+}
+
+.homebutton {
+
+Margin-left: 50%;
+font-family: 'aquilinetworegular';
+color: fuchsia;
+
+}
+
+.comet {
+
+Margin-left: 50%;
+font-family: 'aquilinetworegular';
+color: fuchsia;
+
+}
+
 
 
