@@ -124,64 +124,100 @@ animation-iteration-count: infinite;
 
 .tf6t {
 
-Margin-left: 60%;
+Margin-left: 59%;
 font-family: 'aquilinetworegular';
 color: blue;
+}
+
+.tf6t:hover {
+
+font-family: sans-serif;
+color: yellow;
+font-size: 25px;
+
 }
 
 .girlcity {
 
-Margin-left: 30%;
+Margin-left: 29%;
 font-family: 'aquilinetworegular';
 color: blue;
+}
+
+.girlcity:hover {
+
+font-family: sans-serif;
+color: yellow;
+font-size: 25px;
 }
 
 .tigerlily {
 
-Margin-left: 50%;
+Margin-left: 49%;
 font-family: 'aquilinetworegular';
 color: blue;
+}
+
+.tigerlily:hover {
+
+Margin-left: 49%;
+font-family: sans-serif;
+color: yellow;
+font-size: 25px;
 }
 
 .jungle {
 
-Margin-left: 70%;
+Margin-left: 69%;
 font-family: 'aquilinetworegular';
 color: blue;
 
 }
 
-.wos {
+.jungle:hover {
 
-Margin-left: 50%;
+Margin-left: 69%;
+font-family: sans-serif;
+color: yellow;
+font-size: 25px;
+}
+
+.secretary {
+
+Margin-left: 49%;
 font-family: 'aquilinetworegular';
 color: yellow;
 
 }
 
-.secretary {
+.wos {
 
-Margin-left: 30%;
+Margin-left: 29%;
 font-family: 'aquilinetworegular';
 color: blue;
 
 }
 
+.wos:hover {
+
+Margin-left: 29%;
+font-family: sans-serif;
+color: yellow;
+font-size: 25px;
+
+}
+
 .homebutton {
 
-Margin-left: 50%;
-font-family: 'aquilinetworegular';
+Margin-left: 49%;
+font-family: sans-serif;
 color: fuchsia;
 
 }
 
-.comet {
 
-Margin-left: 50%;
-font-family: 'aquilinetworegular';
-color: fuchsia;
 
-}
+
 
 
 
