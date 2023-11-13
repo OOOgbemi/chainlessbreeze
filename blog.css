@@ -2,7 +2,7 @@
 body {
 
 background-color: GhostWhite;
-background-image: linear-gradient(to right, LightBlue, LemonChiffon, Cyan);
+background-image: linear-gradient(to right, lavenderblush, LemonChiffon, pink);
 font-size: 14px;
 font-family: 'Cormorant Upright';
 }
@@ -61,15 +61,16 @@ top: 150px;
 Left: 125px;
 height: 30%;
 width: 20%;
-background-image: linear-gradient(white, blue, aliceblue);
+background-image: linear-gradient(white, rosybrown, papayawhip);
 position: absolute;
 margin: auto;
 border-style: double;
-border-color: lightgreen;
-color: aqua;
+border-color: black;
+color: mistyrose;
 z-index=2;
 text-align: left;
 overflow: scroll;
+padding: 3px;
 
 }
 
@@ -79,16 +80,17 @@ bottom: 150px;
 right: 125px;
 height: 30%;
 width: 20%;
-background-image: linear-gradient(white, blue, aliceblue);
+background-image: linear-gradient(white, rosybrown, papayawhip);
 position: absolute;
 margin: auto;
 border-style: double;
-border-color: lightgreen;
-color: aqua;
+border-color: black;
+color: mistyrose;
 z-index=2;
 text-align: left;
 overflow: scroll;
-
+border-radius: 7px 7px 7px 7px;
+padding: 3px;
 }
 
 .fungi {
@@ -122,6 +124,5 @@ z-index=3;
 
 
 }
-
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/mechanics/mec-5/mec432.cur), auto !important;} /* End https://www.cursors-4u.com */
