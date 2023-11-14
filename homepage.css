@@ -66,7 +66,6 @@ Color: lavenderblush;
 
 font-size: 25px;
 font-family: 'Handjet';
-Color: cyan;
 Display: none;
 position: fixed;
 
@@ -75,7 +74,7 @@ position: fixed;
 .s:hover + .shidden {
 
 Display: block;
-color: orange;
+color: chartreuse;
 }
 
 .e1 {
