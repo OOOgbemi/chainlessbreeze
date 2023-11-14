@@ -52,7 +52,7 @@ position: fixed;
 .t:hover + .thidden {
 
 Display: block;
-color: orange;
+color: chartreuse;
 }
 
 
@@ -73,7 +73,7 @@ position: fixed;
 .s:hover + .shidden {
 
 Display: block;
-color: chartreuse;
+color: orange;
 }
 
 .e1 {
@@ -95,7 +95,7 @@ position: fixed;
 .e1:hover + .e1hidden {
 
 Display: block;
-color: orange;
+color: chartreuse;
 }
 
 .m {
@@ -117,7 +117,7 @@ position: fixed;
 .m:hover + .mhidden {
 
 Display: block;
-color: orange;
+color: chartreuse;
 }
 
 .o {
@@ -138,7 +138,7 @@ position: fixed;
 .o:hover + .ohidden {
 
 Display: block;
-color: orange;
+color: chartreuse;
 }
 
 .n {
@@ -159,7 +159,7 @@ position: fixed;
 .n:hover + .nhidden {
 
 Display: block;
-color: orange;
+color: chartreuse;
 }
 
 .e2 {
@@ -181,7 +181,7 @@ position: fixed;
 .e2:hover + .e2hidden {
 
 Display: block;
-color: orange;
+color: chartreuse;
 }
 
 
@@ -250,6 +250,5 @@ Padding: 10px;
 box-shadow: 4px 4px 3px orchid, 5px 5px 5px yellow;
 font-weight: bold;
 }
-
 
 
