@@ -1,12 +1,10 @@
 
 body {
 
-background-color: white;
-
-background-repeat: repeat;
-font-size: 75px;
-font-family: 'Handjet';
-Color: blue;
+background-color: whitesmoke;
+font-size: 11px;
+font-family: sans-serif;
+Color: lavenderblush;
 }
 
 
@@ -17,15 +15,15 @@ list-style-type: circle;
 }
 
 a {
-font-size: 75px;
-font-family: 'Handjet';
+
+font-family: sans-serif;
 text-decoration: none;
+Color: lavenderblush;
 }
 
 a:visited {
-font-size: 75px;
-font-family: 'Handjet';
-Color: blue;
+font-family: sans-serif;
+Color: lavenderblush;
 text-decoration: none;
 }
 
@@ -35,12 +33,9 @@ text-decoration: underline;
 }
 
 .t {
-position: fixed;
-Top: 10%;
-Left: 5%
-font-size: 75px;
-font-family: 'Handjet';
-Color: blue;
+
+font-family: sans-serif;
+Color: lavenderblush;
 }
 
 
@@ -58,15 +53,13 @@ position: fixed;
 .t:hover + .thidden {
 
 Display: block;
-color: aquamarine;
+color: orange;
 }
 
 
 .s {
-position: fixed;
-Left: 78px;
-Top: 40%;
-color: cyan;
+
+Color: lavenderblush;
 }
 
 .shidden {
@@ -82,16 +75,13 @@ position: fixed;
 .s:hover + .shidden {
 
 Display: block;
-color: aquamarine;
+color: orange;
 }
 
 .e1 {
-position: fixed;
-Left: 130px;
-Top: 30%;
-font-size: 75px;
-font-family: 'Handjet';
-Color: blue;
+
+font-family: sans-serif;
+Color: lavenderblush;
 }
 
 .e1hidden {
@@ -107,13 +97,13 @@ position: fixed;
 .e1:hover + .e1hidden {
 
 Display: block;
-color: aquamarine;
+color: orange;
 }
 
 .m {
-position: fixed;
-Left: 180px;
-Top: 55%;
+
+Color: lavenderblush;
+
 }
 
 .mhidden {
@@ -129,14 +119,12 @@ position: fixed;
 .m:hover + .mhidden {
 
 Display: block;
-color: aquamarine;
+color: orange;
 }
 
 .o {
-position: fixed;
-Left: 230px;
-Top: 18%;
-z-index: 6;
+
+Color: lavenderblush;
 }
 
 .ohidden {
@@ -152,14 +140,12 @@ position: fixed;
 .o:hover + .ohidden {
 
 Display: block;
-color: aquamarine;
+color: orange;
 }
 
 .n {
-position: fixed;
-top: 55%;
-Left: 330px;
-z-index: 6;
+
+Color: lavenderblush;
 }
 
 .nhidden {
@@ -175,15 +161,13 @@ position: fixed;
 .n:hover + .nhidden {
 
 Display: block;
-color: aquamarine;
+color: orange;
 }
 
 .e2 {
-position: fixed;
-Left: 450px;
-Top: 60%;
-color: cyan;
-z-index: 6;
+
+Color: lavenderblush;
+
 }
 
 .e2hidden {
@@ -199,7 +183,7 @@ position: fixed;
 .e2:hover + .e2hidden {
 
 Display: block;
-color: aquamarine;
+color: orange;
 }
 
 
@@ -255,5 +239,18 @@ Z-index: -1;
 
 }
 
+.legend {
+
+Width: 150px;
+Height: 200px;
+Margin-left: 60%;
+Overflow: scroll;
+Position: absolute;
+background-color: darkgray;
+Border-style: ridge;
+Padding: 10px;
+box-shadow: 4px 4px 3px orchid;
+font-weight: bold;
+}
 
 
