@@ -57,8 +57,8 @@ font-size: 15px;
 
 .box {
 
-top: 150px;
-Left: 125px;
+top: 110px;
+Left: 175px;
 height: 30%;
 width: 20%;
 background-image: linear-gradient(white, rosybrown, papayawhip);
@@ -76,8 +76,8 @@ padding: 3px;
 
 .box2 {
 
-bottom: 150px;
-right: 125px;
+bottom: 250px;
+right: 300px;
 height: 30%;
 width: 20%;
 background-image: linear-gradient(white, rosybrown, papayawhip);
@@ -90,6 +90,24 @@ z-index=2;
 text-align: left;
 overflow: scroll;
 border-radius: 6px 6px 6px 6px;
+padding: 3px;
+}
+
+.box3 {
+
+Bottom: 110px;
+Left: 175px;
+height: 30%;
+width: 20%;
+background-image: linear-gradient(white, rosybrown, papayawhip);
+position: absolute;
+margin: auto;
+border-style: double;
+border-color: black;
+color: mistyrose;
+z-index=2;
+text-align: left;
+overflow: scroll;
 padding: 3px;
 }
 
