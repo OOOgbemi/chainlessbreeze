@@ -2,9 +2,9 @@
 body {
 
 background-color: whitesmoke;
-font-size: 11px;
+font-size: 13px;
 font-family: sans-serif;
-Color: lavenderblush;
+
 }
 
 
@@ -18,12 +18,12 @@ a {
 
 font-family: sans-serif;
 text-decoration: none;
-Color: lavenderblush;
+
 }
 
 a:visited {
 font-family: sans-serif;
-Color: lavenderblush;
+
 text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ Color: lavenderblush;
 
 .thidden {
 
-font-size: 25px;
+font-size: 26px;
 font-family: 'Handjet';
 Color: blue;
 Display: none;
@@ -58,12 +58,12 @@ color: orange;
 
 .s {
 
-Color: lavenderblush;
+Color: mistyrose;
 }
 
 .shidden {
 
-font-size: 25px;
+font-size: 26px;
 font-family: 'Handjet';
 Display: none;
 position: fixed;
@@ -84,7 +84,7 @@ Color: lavenderblush;
 
 .e1hidden {
 
-font-size: 25px;
+font-size: 26px;
 font-family: 'Handjet';
 Color: blue;
 Display: none;
@@ -100,13 +100,13 @@ color: orange;
 
 .m {
 
-Color: lavenderblush;
+color: mistyrose;
 
 }
 
 .mhidden {
 
-font-size: 25px;
+font-size: 26px;
 font-family: 'Handjet';
 Color: blue;
 Display: none;
@@ -127,7 +127,7 @@ Color: lavenderblush;
 
 .ohidden {
 
-font-size: 25px;
+font-size: 26px;
 font-family: 'Handjet';
 Color: blue;
 Display: none;
@@ -143,12 +143,12 @@ color: orange;
 
 .n {
 
-Color: lavenderblush;
+Color: mistyrose;
 }
 
 .nhidden {
 
-font-size: 25px;
+font-size: 26px;
 font-family: 'Handjet';
 Color: blue;
 Display: none;
@@ -170,7 +170,7 @@ Color: lavenderblush;
 
 .e2hidden {
 
-font-size: 25px;
+font-size: 26px;
 font-family: 'Handjet';
 Color: blue;
 Display: none;
@@ -247,8 +247,9 @@ Position: absolute;
 background-color: darkgray;
 Border-style: ridge;
 Padding: 10px;
-box-shadow: 4px 4px 3px orchid;
+box-shadow: 4px 4px 3px orchid, 5px 5px 5px yellow;
 font-weight: bold;
 }
+
 
 
