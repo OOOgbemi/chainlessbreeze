@@ -1,68 +1,75 @@
 
 body {
 
-background-color: whitesmoke;
-font-family: sans-serif;
-font-size: 10px;
-Color: lavenderblush;
+
+top: 0;
+left: 0;
+background-color: Pink;
+background-image: url('./pinkarc.JPG');
+background-size: cover;
+z-index: 3;
+font-family: serif;
+Color:yellow; 
+background-color: White;
+font-style: italic;
 
 }
 
-a.legendlink {
+@keyframes wavy{
 
-Color: lavenderblush;
-font-family: sans-serif;
+from {background-color: SlateBlue;}
+to {background-color: LemonChiffon;}
+
+}
+
+a {
 text-decoration: none;
 
 }
 
-a.legendlink:visited {
-Color: lavenderblush;
-text-decoration: none;
+
+
+.centered{
+
+position: absolute;
+top: 25%;
+left: 32%;
+z-index: 4;
+
+}
+
+.buttons{
+
+
+animation-duration: 1s;
+animation-direction: reverse;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+background-color: Gainsboro;
+position: absolute;
+top: 92%;
+left: 90%;
+
+}
+
+.skull {
+
+color: OldLace;
+}
+
+.underlined {
+
+color: Red;
+font-family: serif;
+display: inline;
 
 }
 
 
-a.homelink {
+.email {
 
-color: orange;
-text-decoration: none;
-text-shadow: 0 0 3px orchid;
-}
-
-a.homelink:hover {
-
-text-shadow: none
-
-}
-
-.mypicture {
-
-opacity: 40%;
-Width: 300px;
-Height: 225px;
-Margin-left: 80%;
-
-}
-
-.legend {
-
-Width: 150px;
-Height: 200px;
-Margin-left: 60%;
-Overflow: scroll;
-Position: absolute;
-background-color: darkgray;
-Border-style: ridge;
-Padding: 10px;
-box-shadow: 5px 5px 2.5px dimgray;
-}
-
-.homebutton {
-
-font-size: 19px;
-color: orchid;
-Position:fixed;
-
+text-align: center;
+Color:yellow; 
+font-size: 30px;
 
 }
