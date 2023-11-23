@@ -4,7 +4,7 @@ body {
 background-color: whitesmoke;
 font-size: 13px;
 font-family: sans-serif;
-
+cursor: pointer;
 }
 
 
@@ -35,6 +35,7 @@ text-decoration: underline;
 
 font-family: sans-serif;
 Color: lavenderblush;
+text-shadow: 2px 2px 6px LightCyan;
 }
 
 
@@ -58,7 +59,8 @@ color: chartreuse;
 
 .s {
 
-Color: mistyrose;
+Color: lemonchiffon;
+text-shadow: 2px 2px 6px LightCyan;
 }
 
 .shidden {
@@ -67,6 +69,7 @@ font-size: 26px;
 font-family: 'Handjet';
 Display: none;
 position: fixed;
+
 
 }
 
@@ -80,6 +83,7 @@ color: orange;
 
 font-family: sans-serif;
 Color: lavenderblush;
+text-shadow: 2px 2px 6px LightCyan;
 }
 
 .e1hidden {
@@ -100,8 +104,8 @@ color: chartreuse;
 
 .m {
 
-color: mistyrose;
-
+color: aliceblue;
+text-shadow: 2px 2px 6px LightCyan;
 }
 
 .mhidden {
@@ -123,6 +127,7 @@ color: chartreuse;
 .o {
 
 Color: lavenderblush;
+text-shadow: 2px 2px 6px LightCyan;
 }
 
 .ohidden {
@@ -143,7 +148,8 @@ color: chartreuse;
 
 .n {
 
-Color: mistyrose;
+Color: honeydew;
+text-shadow: 2px 2px 6px LightCyan;
 }
 
 .nhidden {
@@ -165,7 +171,7 @@ color: chartreuse;
 .e2 {
 
 Color: lavenderblush;
-
+text-shadow: 2px 2px 6px LightCyan;
 }
 
 .e2hidden {
@@ -241,7 +247,8 @@ Z-index: -1;
 
 Width: 150px;
 Height: 200px;
-Margin-left: 60%;
+Margin-left: 70%;
+Margin-top: 25%;
 Overflow: scroll;
 Position: absolute;
 background-color: darkgray;
