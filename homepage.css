@@ -82,7 +82,7 @@ color: orange;
 .e1 {
 
 font-family: sans-serif;
-Color: lavenderblush;
+Color: antiquewhite;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -247,7 +247,7 @@ Z-index: -1;
 
 Width: 150px;
 Height: 200px;
-Margin-left: 70%;
+Margin-left: 60%;
 Margin-top: 25%;
 Overflow: scroll;
 Position: absolute;
@@ -257,5 +257,4 @@ Padding: 10px;
 box-shadow: 4px 4px 3px orchid, 5px 5px 5px yellow;
 font-weight: bold;
 }
-
 
