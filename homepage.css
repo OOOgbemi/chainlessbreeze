@@ -34,7 +34,7 @@ text-decoration: underline;
 .t {
 
 font-family: sans-serif;
-Color: lavenderblush;
+Color: mistyrose;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -59,7 +59,7 @@ color: chartreuse;
 
 .s {
 
-Color: lemonchiffon;
+Color: lavenderblush;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -126,7 +126,7 @@ color: chartreuse;
 
 .o {
 
-Color: lavenderblush;
+Color: honeydew;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -148,7 +148,7 @@ color: chartreuse;
 
 .n {
 
-Color: honeydew;
+Color: lemonchiffon;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -170,7 +170,7 @@ color: chartreuse;
 
 .e2 {
 
-Color: lavenderblush;
+Color: azure;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -257,4 +257,6 @@ Padding: 10px;
 box-shadow: 4px 4px 3px orchid, 5px 5px 5px yellow;
 font-weight: bold;
 }
+
+
 
