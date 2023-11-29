@@ -1,0 +1,92 @@
+
+body {
+
+background-color: GhostWhite;
+background-image: linear-gradient(to right, purple, steelblue, rebeccapurple);
+font-size: 14px;
+font-family: 'Cormorant Upright';
+}
+
+
+dl.nav {
+
+list-style-type: circle;
+
+
+
+
+}
+
+a.todaylink {
+
+color: aqua;
+text-decoration-line: underline; 
+text-decoration-style: wavy; 
+text-decoration-color: olive; 
+font-family: 'Noto Sans'; 
+
+}
+
+a.todaylink:visited {
+
+color: aqua;
+text-decoration-line: underline; 
+text-decoration-style: wavy; 
+text-decoration-color: olive; 
+font-family: 'Noto Sans'; 
+
+
+}
+
+a.resourceslink {
+
+
+text-decoration-color: gold;
+Color: greenyellow;
+}
+
+a.resourceslink:visited {
+
+text-decoration-color: gold;
+Color: greenyellow;
+
+}
+
+a.downloadlink {
+
+
+text-decoration: none;
+Color: greenyellow;
+Text-shadow: 1px 1px aqua;
+}
+
+a.downloadlink:visited {
+
+text-decoration: none;
+Color: greenyellow;
+Text-shadow: 1px 1px aqua;
+}
+
+
+.box {
+
+top: 110px;
+Left: 320px;
+height: 30%;
+width: 20%;
+background-image: linear-gradient(rebeccapurple, dimgray, cadetblue);
+position: fixed;
+margin: auto;
+Color: greenyellow;
+border-style: double;
+border-color: black;
+z-index=2;
+text-align: left;
+overflow: scroll;
+padding: 3px;
+
+}
+
+
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat986.cur), auto !important;} /* End https://www.cursors-4u.com */

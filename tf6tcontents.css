@@ -1,0 +1,156 @@
+
+body {
+
+background-color: ghostwhite;
+font-family: serif;
+}
+
+
+.textbox6 {
+
+
+
+width: 400px;
+height: 600px;
+background-color: white;
+position: fixed;
+left: 30%;
+top: 10%;
+Border-style: dotted;
+Border-width: 2px;
+border-color: blue;
+Z-index: 0;
+
+}
+
+.textbox5 {
+
+
+
+width: 400px;
+height: 600px;
+background-color: white;
+position: fixed;
+left: 41%;
+top: 17%;
+Border-style: dotted;
+Border-width: 2px;
+border-color: blue;
+Z-index: 0;
+
+}
+
+.textbox2 {
+
+
+
+width: 400px;
+height: 600px;
+background-color: white;
+position: fixed;
+left: 40%;
+top: 15%;
+Border-style: dotted;
+Border-width: 2px;
+border-color: blue;
+Z-index: 2;
+
+}
+.textbox {
+
+
+
+width: 400px;
+height: 600px;
+background-color: white;
+position: fixed;
+left: 34%;
+top: 3%;
+Border-style: dotted;
+Border-width: 2px;
+border-color: blue;
+Z-index: 3;
+
+}
+
+.title {
+
+Position: fixed;
+width: 150px;
+Height: 22;
+}
+
+.othertextbox {
+
+
+
+width: 400px;
+height: 600px;
+background-color: white;
+position: fixed;
+left: 32%;
+top: 20%;
+Border-style: dotted;
+Border-width: 2px;
+border-color: blue;
+Z-index: 1;
+
+
+}
+
+.thirdtextbox {
+
+
+
+width: 400px;
+height: 600px;
+background-color: white;
+position: fixed;
+left: 36%;
+top: 7.5%;
+Border-style: dotted;
+Border-width: 2px;
+border-color: blue;
+Z-index: 4;
+overflow: scroll;
+color: black;
+font-family: 'Nanum Myeongjo';
+font-size: 13px;
+padding: 10px;
+}
+
+a.numberlink {
+
+
+font-family: 'Great Vibes'; 
+color: aqua; 
+font-size: 21px;
+Text-decoration: none;
+}
+
+a.numberlink:visited {
+
+font-family: 'Great Vibes'; 
+color: aqua; 
+font-size: 21px;
+Text-decoration: none;
+
+}
+
+a.urn {
+
+color: darkblue; 
+font-size: 21px;
+text-decoration: none;
+
+
+}
+
+a.urn:visited {
+
+color: darkblue; 
+font-size: 21px;
+text-decoration: none;
+
+
+}
