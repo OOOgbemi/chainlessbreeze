@@ -7,6 +7,15 @@ font-size: 14px;
 font-family: 'Cormorant Upright';
 }
 
+a {
+
+text-decoration-line: underline; 
+text-decoration-style: wavy; 
+text-decoration-color: chartreuse; 
+font-family: 'Noto Sans'; 
+color: olive;
+
+}
 
 dl.nav {
 
@@ -18,29 +27,7 @@ list-style-type: circle;
 }
 
 
-.poetry {
 
-color: black;
-font-size: 12px;
-
-
-}
-
-.blinker {
-
-height: 10%;
-width: 5%;
-position: absolute;
-opacity: 50%;
-background-color: red;
-z-index: 1;
-
-}
-
-.leaf {
-position: absolute;
-z-index: 3;
-}
 
 textarea {
 position: static;
@@ -58,11 +45,11 @@ font-size: 15px;
 .box {
 
 top: 110px;
-Left: 175px;
+Left: 320px;
 height: 30%;
 width: 20%;
 background-image: linear-gradient(white, rosybrown, papayawhip);
-position: absolute;
+position: fixed;
 margin: auto;
 border-style: double;
 border-color: black;
@@ -74,73 +61,6 @@ padding: 3px;
 
 }
 
-.box2 {
 
-bottom: 250px;
-right: 300px;
-height: 30%;
-width: 20%;
-background-image: linear-gradient(white, rosybrown, papayawhip);
-position: absolute;
-margin: auto;
-border-style: double;
-border-color: black;
-color: mistyrose;
-z-index=2;
-text-align: left;
-overflow: scroll;
-border-radius: 6px 6px 6px 6px;
-padding: 3px;
-}
-
-.box3 {
-
-Bottom: 110px;
-Left: 175px;
-height: 30%;
-width: 20%;
-background-image: linear-gradient(white, rosybrown, papayawhip);
-position: absolute;
-margin: auto;
-border-style: double;
-border-color: black;
-color: mistyrose;
-z-index=2;
-text-align: left;
-overflow: scroll;
-padding: 3px;
-}
-
-.fungi {
-
-position: static;
-height: 15%;
-width: 15%; 
-z-index: 3;
-}
-
-.title {
-font-family: 'Moon Dance', cursive;
-font-size: 15px;
-}
-
-.welcomepoem {
-
-height: 70%;
-width: 70%;
-position: absolute;
-z-index=3;
-}
-
-.welcometulip {
-
-margin-bottom: 50%
-height: 30%;
-width: 30%;
-position: absolute;
-z-index=3;
-
-
-}
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/games/gam-2/gam189.cur), auto !important;} /* End https://www.cursors-4u.com */
