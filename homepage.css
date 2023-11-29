@@ -59,7 +59,7 @@ color: chartreuse;
 
 .s {
 
-Color: antiquewhite;
+Color: aliceblue;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -82,7 +82,7 @@ color: orange;
 .e1 {
 
 font-family: sans-serif;
-Color: mistyrose;
+Color: aliceblue;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -104,7 +104,7 @@ color: chartreuse;
 
 .m {
 
-color: lavenderblush;
+color: antiquewhite;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -126,7 +126,7 @@ color: chartreuse;
 
 .o {
 
-Color: lemonchiffon;
+Color: antiquewhite;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -148,7 +148,7 @@ color: chartreuse;
 
 .n {
 
-Color: azure;
+Color: antiquewhite;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -170,7 +170,7 @@ color: chartreuse;
 
 .e2 {
 
-Color: honeydew;
+Color: aliceblue;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -247,8 +247,8 @@ Z-index: -1;
 
 Width: 150px;
 Height: 200px;
-Margin-left: 56%;
-Margin-top: 25%;
+Margin-left: 60%;
+Margin-top: 10%;
 Overflow: scroll;
 Position: absolute;
 background-color: darkgrey;
