@@ -82,7 +82,7 @@ color: orange;
 .e1 {
 
 font-family: sans-serif;
-Color: aliceblue;
+Color: antiquewhite;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -148,7 +148,7 @@ color: chartreuse;
 
 .n {
 
-Color: antiquewhite;
+Color: aliceblue;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -257,6 +257,7 @@ Padding: 10px;
 box-shadow: 4px 4px 3px orchid, 5px 5px 5px yellow;
 font-weight: bold;
 }
+
 
 
 
