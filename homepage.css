@@ -59,7 +59,7 @@ color: chartreuse;
 
 .s {
 
-Color: aliceblue;
+Color: antiquewhite;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -126,7 +126,7 @@ color: chartreuse;
 
 .o {
 
-Color: antiquewhite;
+Color: aliceblue;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -248,7 +248,7 @@ Z-index: -1;
 Width: 145px;
 Height: 200px;
 Margin-left: 28%;
-Margin-top: 10%;
+Margin-top: 9%;
 Overflow: scroll;
 Position: absolute;
 background-color: darkgray;
@@ -257,6 +257,7 @@ Padding: 10px;
 box-shadow: 4px 4px 3px orchid, 5px 5px 5px yellow;
 font-weight: bold;
 }
+
 
 
 
