@@ -34,7 +34,7 @@ text-decoration: underline;
 .t {
 
 font-family: sans-serif;
-Color: aliceblue;
+Color: beige;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -59,7 +59,7 @@ color: chartreuse;
 
 .s {
 
-Color: antiquewhite;
+Color: beige;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -82,7 +82,7 @@ color: orange;
 .e1 {
 
 font-family: sans-serif;
-Color: antiquewhite;
+Color: beige;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -104,7 +104,7 @@ color: chartreuse;
 
 .m {
 
-color: antiquewhite;
+color: beige;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -126,7 +126,7 @@ color: chartreuse;
 
 .o {
 
-Color: aliceblue;
+Color: beige;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -148,7 +148,7 @@ color: chartreuse;
 
 .n {
 
-Color: aliceblue;
+Color: beige;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -170,7 +170,7 @@ color: chartreuse;
 
 .e2 {
 
-Color: aliceblue;
+Color: beige;
 text-shadow: 2px 2px 6px LightCyan;
 }
 
@@ -247,17 +247,17 @@ Z-index: -1;
 
 Width: 145px;
 Height: 200px;
-Margin-left: 26%;
-Margin-top: 9%;
+Margin-left: 33%;
+Margin-top: 22%;
 Overflow: scroll;
 Position: absolute;
 background-color: darkgray;
 Border-style: ridge;
+border-width: 4px;
 Padding: 10px;
-box-shadow: 4px 4px 3px orchid, 5px 5px 5px yellow;
+box-shadow: 4px 4px 5px orchid, 5px 5px 5px forestgreen, 6px 6px 5px yellow;
 font-weight: bold;
 }
-
 
 
 
