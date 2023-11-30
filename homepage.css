@@ -245,13 +245,13 @@ Z-index: -1;
 
 .legend {
 
-Width: 150px;
+Width: 145px;
 Height: 200px;
-Margin-left: 68%;
-Margin-top: 1%;
+Margin-left: 28%;
+Margin-top: 10%;
 Overflow: scroll;
 Position: absolute;
-background-color: darkgrey;
+background-color: darkgray;
 Border-style: ridge;
 Padding: 10px;
 box-shadow: 4px 4px 3px orchid, 5px 5px 5px yellow;
