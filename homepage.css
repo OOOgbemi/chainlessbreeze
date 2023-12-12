@@ -249,8 +249,8 @@ Z-index: -1;
 
 Width: 145px;
 Height: 200px;
-Margin-left: 44%;
-Margin-top: 22%;
+Margin-left: 49%;
+Margin-top: 21%;
 Overflow: scroll;
 Position: absolute;
 background-color: silver;
@@ -260,5 +260,7 @@ Padding: 10px;
 box-shadow: 4px 4px 5px orchid, 5px 5px 5px forestgreen, 6px 6px 5px yellow;
 font-weight: bold;
 }
+
+
 
 
