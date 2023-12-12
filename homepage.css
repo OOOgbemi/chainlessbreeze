@@ -4,7 +4,8 @@ body {
 background-color: whitesmoke;
 font-size: 13px;
 font-family: sans-serif;
-cursor: pointer;
+cursor: url('Squiggle3.png'), auto !important;
+cursor: url('Squiggle3.png'), pointer !important;
 }
 
 
@@ -18,17 +19,18 @@ a {
 
 font-family: sans-serif;
 text-decoration: none;
-
+cursor: url('Squiggle3.png'), auto !important;
 }
 
 a:visited {
 font-family: sans-serif;
-
+cursor: url('Squiggle3.png'), auto !important;
 text-decoration: none;
 }
 
 a:active {
 text-decoration: underline;
+cursor: url('Squiggle3.png'), auto !important;
 }
 
 .t {
@@ -258,7 +260,5 @@ Padding: 10px;
 box-shadow: 4px 4px 5px orchid, 5px 5px 5px forestgreen, 6px 6px 5px yellow;
 font-weight: bold;
 }
-
-
 
 
