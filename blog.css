@@ -44,7 +44,7 @@ font-size: 15px;
 
 .box {
 
-top: 110px;
+top: 120px;
 Left: 320px;
 height: 30%;
 width: 20%;
@@ -58,7 +58,7 @@ z-index=2;
 text-align: left;
 overflow: scroll;
 padding: 3px;
-
+border-radius: 5px;
 }
 
 
