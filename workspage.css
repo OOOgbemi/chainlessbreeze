@@ -216,6 +216,23 @@ color: fuchsia;
 }
 
 
+.cc {
+
+Margin-left: 61%;
+font-family: 'aquilinetworegular';
+color: blue;
+Margin-top: 1%;
+}
+
+.cc:hover {
+
+Margin-left: 61%;
+Margin-top: 1%;
+font-family: sans-serif;
+color: yellow;
+font-size: 25px;
+
+}
 
 
 
