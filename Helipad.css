@@ -1,0 +1,78 @@
+
+body {
+background-color: rebeccapurple;
+background-image: radial-gradient(orchid, thistle, linen, mistyrose);
+color: aliceblue;
+Font-size: 20px;
+Text-align: center;
+font-family: 'Uchen';
+animation-name: pulser;
+animation-duration: 0.07s;
+animation-iteration-count: infinite;
+animation-timing-function: ease;
+animation-direction: alternate;
+}
+
+@keyframes pulser{
+
+0% {background-image: radial-gradient(orchid, thistle, linen, mistyrose);}
+50% {background-image: radial-gradient(orchid, thistle, linen, lavenderblush);}
+100% {background-image: radial-gradient(orchid, thistle, linen, mistyrose);}
+
+}
+
+@keyframes glow{
+
+from {text-shadow: 1px 1px 1px aqua, 3px 3px 3px white, 4px 4px 4px honeydew, 5px 6px 5px chartreuse;}
+to {text-shadow: 1px 1px 1px yellow, 3px 3px 3px white, 4px 4px 4px honeydew, 5px 6px 5px deeppink;}
+
+}
+
+
+a {
+text-decoration: none;
+color: mistyrose; 
+font-size: 25px; 
+font-family: 'Amiko';
+cursor: url('Scribble.png'), auto;
+}
+
+a:hover {
+
+cursor: url('Scribble.png'), auto;
+color: mistyrose; 
+font-size: 25px; 
+font-family: 'Amiko';
+animation-name: glow;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-direction: alternate;
+
+}
+
+a:visited {
+cursor: url('Scribble.png'), auto;
+color: mistyrose; 
+font-size: 25px; 
+font-family: 'Amiko';
+}
+
+u {
+text-decoration-style: wavy;
+}
+
+
+
+
+.portal {
+
+color: mistyrose; 
+font-size: 25px; 
+font-family: 'Amiko';
+text-shadow: 1px 1px 1px aqua, 3px 3px 3px white, 4px 4px 4px honeydew, 5px 6px 5px chartreuse;
+
+}
+
+
+
