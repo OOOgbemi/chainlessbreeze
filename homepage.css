@@ -271,7 +271,7 @@ font-weight: bold;
 
 .windows {
 
-z-index: -3;
+z-index: -4;
 position: absolute;
 Margin-left: 30%;
 Margin-top: -5%;
@@ -279,11 +279,16 @@ Margin-top: -5%;
 
 .shadow {
 
-z-index: -2;
+z-index: -3;
 position: fixed;
 Margin-left: 20%;
 Margin-top: 15%;
 }
 
-
-
+canvas {
+z-index: -1;
+position: fixed;
+Margin-left: 20%;
+Margin-top: 15%;
+background-image: url('./shadow.JPG');
+}
