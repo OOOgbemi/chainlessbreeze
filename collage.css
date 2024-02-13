@@ -1,0 +1,33 @@
+
+body {
+
+
+top: 0;
+left: 0;
+background-color: white;
+color: hotpink;
+font-family: sans-serif;
+
+
+a {
+
+color: hotpink;
+font-family: sans-serif;
+text-decoration: none;
+
+}
+
+}
+
+.sweethearts {
+
+margin-top: 12%;
+margin-left: 60%;
+position: fixed;
+}
+
+.writing {
+position: fixed;
+
+}
+

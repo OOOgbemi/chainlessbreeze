@@ -1,0 +1,110 @@
+
+body {
+
+background-color: aquamarine;
+font-family: sans-serif;
+color: saddlebrown;
+font-size: 12px;
+}
+
+
+a {
+font-family: sans-serif;
+color: saddlebrown;
+text-decoration: none;
+Cursor: grab;
+
+
+}
+
+.tile {
+
+
+}
+
+.purplebeams:hover {
+
+background-image: url('./purplebeamstile.png');
+
+
+}
+
+.storyspace {
+
+position: fixed;
+Left: 35%;
+top: 25%;
+border: 2px solid #ccc;
+border-radius: 4px;
+border-color: lime;
+font-family: 'Shippori Mincho';
+
+}
+
+.storyspace:focus {
+
+border-color: violet;
+outline: none;
+}
+
+mark {
+
+Background-color: white;
+color: black;
+
+}
+
+.m {
+
+color: honeydew;
+text-shadow: 2px 2px 6px LightCyan;
+}
+
+.mhidden {
+
+font-size: 26px;
+font-family: 'Handjet';
+Color: blue;
+Display: none;
+position: fixed;
+z-index: 10;
+}
+
+.m:hover + .mhidden {
+
+Display: block;
+color: yellow;
+font-family: sans-serif;
+font-size: 12px;
+z-index: 10;
+margin-left: 40%;
+margin-top: 25%;
+}
+
+
+.n {
+
+color: honeydew;
+text-shadow: 2px 2px 6px LightCyan;
+}
+
+.nhidden {
+
+font-size: 26px;
+font-family: 'Handjet';
+Color: blue;
+Display: none;
+position: fixed;
+z-index: 10;
+}
+
+.n:hover + .nhidden {
+
+Display: block;
+color: yellow;
+font-family: sans-serif;
+font-size: 12px;
+z-index: 10;
+margin-left: 60%;
+margin-top: 20%;
+}
