@@ -5,11 +5,11 @@ body {
 top: 0;
 left: 0;
 background-color: lightpink;
-color: cyan;
-font-family: 'Nanum Myeongjo';
+color: orangered;
+font-family: 'Shippori Mincho';
 font-size: 20px;
-background-image: url('bowsbows.gif');
-
+background-image: url('glitterme.jpg');
+background-size: contain;
 }
 
 .bluecollage {
