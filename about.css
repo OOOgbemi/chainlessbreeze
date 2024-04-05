@@ -5,10 +5,10 @@ body {
 top: 0;
 left: 0;
 background-color: lightpink;
-color: orangered;
+color: aquamarine;
 font-family: 'Shippori Mincho';
 font-size: 20px;
-background-image: url('glitterme.JPG');
+background-image: url('glitterme.jpg');
 background-size: contain;
 }
 
