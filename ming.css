@@ -26,3 +26,7 @@ font-size: 30px;
 text-decoration: none;
 
 }
+
+a:visited {
+text-decoration: none;
+}
