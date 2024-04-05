@@ -4,8 +4,8 @@ body {
 
 top: 0;
 left: 0;
-background-color: Bisque;
-color: aqua;
+background-color: orangered;
+color: red;
 font-family: 'Nanum Myeongjo';
 font-size: 35px;
 
@@ -21,7 +21,7 @@ margin-left: 40%;
 
 .bluecollage:hover {
 
-border: 2px dotted chartreuse;
+border: 2px dotted pink;
 
 
 }
