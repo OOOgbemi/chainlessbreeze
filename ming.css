@@ -5,10 +5,10 @@ body {
 top: 0;
 left: 0;
 background-color: grey;
-background-image: url('./blur.jpg');
-background-size: 100%;
+background-image: radial-gradient(gainsboro, yellow, grey);
+background-size: contain;
 color: red;
-font-family: "Open Sans", sans-serif;
+font-family: "Uchen", serif;
 font-size: 30px;
 
 }
