@@ -26,6 +26,13 @@ border: 2px dotted pink;
 
 }
 
+.script {
+
+margin-left: 20%;
+z-index: -1;
+
+}
+
 
 .centered{
 
