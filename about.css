@@ -12,58 +12,7 @@ background-image: url('glitterme.jpg');
 background-size: contain;
 }
 
-.bluecollage {
 
-margin-left: 40%;
-
-}
-
-.intro {
-
-position: fixed;
-z-index: 5;
-
-}
-
-.glitter2 {
-
-margin-left: 50%;
-margin-top: 15%;
-position: fixed;
-
-}
-
-
-.me {
-
-z-index: 8;
-position: fixed;
-margin-left: 45%;
-margin-top: -10%;
-box-shadow: 1px 1px 5px azure;
-}
-
-.meone {
-
-z-index: 0;
-position: fixed;
-
-}
-
-.metwo {
-
-margin-left: 30%;
-margin-top: 20%;
-border: 5px dotted yellow;
-position: fixed;
-z-index: 4;
-}
-
-.writing {
-position: absolute;
-z-index: 4;
-
-}
 
 .whitemarquee {
 z-index: 100;
@@ -73,7 +22,19 @@ text-shadow: 1px 1px 2px gray;
 }
 
 
+a {
+color: aquamarine;
+font-family: 'Shippori Mincho';
+font-size: 40px;
+text-decoration: none;
 
+}
+
+a.credits:hover {
+
+
+
+}
 
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat985.cur), auto !important;} /* End https://www.cursors-4u.com */
