@@ -12,35 +12,6 @@ background-image: url('glitterme.jpg');
 background-size: contain;
 }
 
-@media screen and (max-width: 1000px) {
-
-body {
-
-background-image: url('onthebus.JPG');
-color: yellow;
-background-size: cover;
-font-size: 50px; 
-}
-
-.whitemarquee {
-
-margin-top: 150%;
-color: deeppink;
-
-}
-  
-.about {
-color: yellow;
-font-size: 60px; 
-}
-
-
-a {
-color: deeppink;
-
-}
-
-}
 
 
 .whitemarquee {
@@ -71,6 +42,36 @@ text-decoration: none;
 a.credits:hover {
 
 
+
+}
+
+@media screen and (max-width: 1000px) {
+
+body {
+
+background-image: url('onthebus.JPG');
+color: yellow;
+background-size: cover;
+font-size: 50px; 
+}
+
+.whitemarquee {
+
+margin-top: 150%;
+color: deeppink;
+
+}
+  
+.about {
+color: yellow;
+font-size: 60px; 
+}
+
+
+a {
+color: deeppink;
+
+}
 
 }
 
