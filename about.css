@@ -19,11 +19,18 @@ body {
 background-image: url('onthebus.JPG');
 font-size: 30px;
 color: yellow;
+background-size: cover;
 }
 
 .whitemarquee {
 
 margin-top: 150%;
+color: deeppink;
+
+.about {
+color: yellow;
+
+}
 }
 
 
@@ -45,7 +52,7 @@ text-shadow: 1px 1px 2px gray;
 .about {
 
 position: fixed; 
-color: deeppink; 
+color: aquamarine; 
 font-size: 35px; 
 z-index: 3;
 
