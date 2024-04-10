@@ -12,6 +12,16 @@ background-image: url('glitterme.jpg');
 background-size: contain;
 }
 
+@media screen and (max width: 600px) {
+
+body {
+
+background-image: url('onthebus.JPG');
+font-size: 30;
+
+}
+
+}
 
 
 .whitemarquee {
