@@ -52,7 +52,6 @@ body {
 background-image: url('onthebus.JPG');
 color: yellow;
 background-size: cover;
-font-size: 50px; 
 }
 
 .whitemarquee {
@@ -64,7 +63,7 @@ color: deeppink;
   
 .about {
 color: yellow;
-font-size: 60px; 
+font-size: 50px; 
 }
 
 
