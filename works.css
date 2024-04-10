@@ -26,10 +26,34 @@ text-decoration: none;
 margin-top: 8%;
 margin-left: 53%;
 position: fixed;
+z-index: -2;
 }
 
 .writing {
 position: fixed;
 
 }
+
+@media screen and (max-width: 1000px) {
+
+body {
+
+background-image: url(./sweethearts.png);
+color: pink;
+background-size: cover;
+text-shadow: 1px 1px 2px hotpink;
+}
+
+.sweethearts {
+
+display: none;
+
+}
+
+a {
+
+color: pink;
+text-shadow: 1px 1px 2px hotpink;
+}
+
 
