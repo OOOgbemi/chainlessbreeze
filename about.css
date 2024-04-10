@@ -17,7 +17,6 @@ background-size: contain;
 body {
 
 background-image: url('onthebus.JPG');
-font-size: 30px;
 color: yellow;
 background-size: cover;
 }
@@ -29,7 +28,7 @@ color: deeppink;
 
 .about {
 color: yellow;
-
+font-size: 45px; 
 }
 }
 
