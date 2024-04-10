@@ -19,6 +19,7 @@ z-index: 100;
 font-family: 'Handjet';
 margin-top: 50%;
 text-shadow: 1px 1px 2px gray;
+color: aquamarine;
 }
 
 .about {
@@ -57,13 +58,12 @@ background-size: cover;
 .whitemarquee {
 
 margin-top: 150%;
-color: deeppink;
 
 }
   
 .about {
 color: yellow;
-font-size: 50px; 
+font-size: 47px; 
 }
 
 
