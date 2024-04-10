@@ -42,6 +42,7 @@ background-image: url(./sweethearts.png);
 color: pink;
 background-size: cover;
 text-shadow: 1px 1px 2px hotpink;
+font-size: 25px;
 }
 
 .sweethearts {
