@@ -4,6 +4,17 @@ background-image: url('./warningcopy.png');
 background-size: cover;
 }
 
+@media screen and (max width: 600px) {
+
+body {
+
+background-image: url('./verticalwarning.png');
+
+}
+
+}
+
+
 
 .button {
   
