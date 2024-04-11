@@ -5,9 +5,9 @@ body {
 top: 0;
 left: 0;
 background-color: grey;
-background-image: radial-gradient(gainsboro, yellow, grey);
+background-image: radial-gradient(mistyrose, grey, oldlace);
 background-size: contain;
-color: red;
+color: white;
 font-family: "Uchen", serif;
 font-size: 30px;
 
@@ -20,13 +20,10 @@ padding-right: 21%;
 
 }
 
+
 a {
 font-family: "Uchen", serif;
 font-size: 30px;
 text-decoration: none;
-
-}
-
-a:visited {
-text-decoration: none;
+color: cornsilk;
 }
