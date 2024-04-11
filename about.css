@@ -19,13 +19,13 @@ z-index: 100;
 font-family: 'Handjet';
 margin-top: 50%;
 text-shadow: 1px 1px 2px gray;
-color: aquamarine;
+color: aqua;
 }
 
 .about {
 
 position: fixed; 
-color: aquamarine; 
+color: aqua; 
 font-size: 35px; 
 z-index: 3;
 
@@ -33,7 +33,7 @@ z-index: 3;
 
 
 a {
-color: aquamarine;
+color: aqua;
 font-family: 'Shippori Mincho';
 font-size: 40px;
 text-decoration: none;
