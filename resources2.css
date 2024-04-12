@@ -1,7 +1,7 @@
 
 body {
 
-background-color: aquamarine;
+background-color: lightpink;
 font-family: sans-serif;
 color: saddlebrown;
 font-size: 12px;
@@ -57,7 +57,7 @@ color: black;
 .m {
 
 color: honeydew;
-text-shadow: 2px 2px 6px LightCyan;
+
 }
 
 .mhidden {
@@ -85,7 +85,7 @@ margin-top: 25%;
 .n {
 
 color: honeydew;
-text-shadow: 2px 2px 6px LightCyan;
+
 }
 
 .nhidden {
