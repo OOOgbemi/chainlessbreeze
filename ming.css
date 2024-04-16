@@ -5,9 +5,9 @@ body {
 top: 0;
 left: 0;
 background-color: grey;
-background-image: radial-gradient(mistyrose, grey, oldlace);
+background-image: radial-gradient(lightsalmon, dimgrey, lightyellow);
 background-size: contain;
-color: white;
+color: honeydew;
 font-family: "Uchen", serif;
 font-size: 30px;
 
