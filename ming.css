@@ -5,9 +5,9 @@ body {
 top: 0;
 left: 0;
 background-color: grey;
-background-image: radial-gradient(lightsalmon, dimgrey, lightyellow);
+background-image: radial-gradient(lightsalmon, slategray, rosybrown);
 background-size: contain;
-color: mediumspringgreen;
+color: yellowgreen;
 font-family: "Uchen", serif;
 font-size: 30px;
 
@@ -25,5 +25,5 @@ a {
 font-family: "Uchen", serif;
 font-size: 30px;
 text-decoration: none;
-color: cornsilk;
+color: aqua;
 }
