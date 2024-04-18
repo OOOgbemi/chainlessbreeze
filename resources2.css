@@ -1,16 +1,16 @@
 
 body {
 
-background-color: whitesmoke;
+background-color: gainsboro;
 font-family: sans-serif;
-color: rebeccapurple;
+color: orchid;
 font-size: 12px;
 }
 
 
 a {
 font-family: sans-serif;
-color: rebeccapurple;
+color: orchid;
 text-decoration: none;
 Cursor: grab;
 
@@ -73,7 +73,7 @@ z-index: 10;
 .m:hover + .mhidden {
 
 Display: block;
-color: darkorange;
+color: orange;
 font-family: sans-serif;
 font-size: 12px;
 z-index: 10;
@@ -101,7 +101,7 @@ z-index: 10;
 .n:hover + .nhidden {
 
 Display: block;
-color: darkorange;
+color: orange;
 font-family: sans-serif;
 font-size: 12px;
 z-index: 10;
