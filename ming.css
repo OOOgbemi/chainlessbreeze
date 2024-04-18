@@ -5,9 +5,9 @@ body {
 top: 0;
 left: 0;
 background-color: grey;
-background-image: radial-gradient(lightsalmon, slategray, rosybrown);
+background-image: radial-gradient(teal, slategray, rosybrown);
 background-size: contain;
-color: yellowgreen;
+color: greenyellow;
 font-family: "Uchen", serif;
 font-size: 30px;
 
