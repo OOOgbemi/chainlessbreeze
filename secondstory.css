@@ -5,7 +5,7 @@ body {
 top: 0;
 left: 0;
 background-color: aliceblue;
-color: red;
+color: olivedrab;
 font-family: "Open Sans", sans-serif;
 font-size: 12px;
 
@@ -21,10 +21,10 @@ margin-right: 10%;
 a {
 
 text-decoration: none;
-color: green;
+color: hotpink;
 
 }
 
 a:visited {
-color: green;
+color: hotpink;
 }
