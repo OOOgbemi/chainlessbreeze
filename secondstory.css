@@ -5,8 +5,7 @@ body {
 top: 0;
 left: 0;
 background-color: aliceblue;
-color: mistyrose;
-text-shadow: 1px 1px slategray;
+color: slategray;
 background-image: url('pastel2.jpg');
 background-size: contain;
 -webkit-backdrop-filter: blur(20px);
