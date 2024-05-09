@@ -36,12 +36,12 @@ text-decoration: none;
 }
 
 a.chapters {
-color: slategray;
+color: blue;
 }
 
 
 a.chapters:visited {
-color: slategray;
+color: blue;
 }
 
 a:visited {
