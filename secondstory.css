@@ -30,17 +30,18 @@ height: 100%;
 
 a {
 
+color: lawngreen;
 text-decoration: none;
 
 }
 
 a.chapters {
-color: lawngreen;
+color: slategray;
 }
 
 
 a.chapters:visited {
-color: lawngreen;
+color: slategray;
 }
 
 a:visited {
