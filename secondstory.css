@@ -30,7 +30,7 @@ height: 100%;
 
 a {
 
-color: lawngreen;
+color: fuchsia;
 text-decoration: none;
 
 }
@@ -45,6 +45,6 @@ color: blue;
 }
 
 a:visited {
-color: lawngreen;
+color: fuchsia;
 
 }
