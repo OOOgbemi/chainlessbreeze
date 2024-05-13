@@ -5,11 +5,12 @@ body {
 top: 0;
 left: 0;
 background-color: aliceblue;
-color: steelblue;
-background-image: url('pastel2.jpg');
+color: mistyrose;
+text-shadow: 1px 1px slategray;
+background-image: url('pinklights.JPG');
 background-size: contain;
--webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 font-family: "Inconsolata", serif;
 font-size: 16px;
 height: 100%;
@@ -30,21 +31,20 @@ height: 100%;
 
 a {
 
-color: fuchsia;
 text-decoration: none;
 
 }
 
 a.chapters {
-color: blue;
+color: hotpink;
 }
 
 
 a.chapters:visited {
-color: blue;
+color: hotpink;
 }
 
 a:visited {
-color: fuchsia;
+color: yellow;
 
 }
