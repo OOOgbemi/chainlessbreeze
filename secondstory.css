@@ -7,7 +7,7 @@ left: 0;
 background-color: aliceblue;
 color: mistyrose;
 text-shadow: 1px 1px slategray;
-background-image: url('pinklights.JPG');
+background-image: url('pinklights.jpg');
 background-size: contain;
 -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
