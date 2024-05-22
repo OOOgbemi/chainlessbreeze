@@ -19,19 +19,19 @@ z-index: 100;
 font-family: 'Handjet';
 margin-top: 50%;
 text-shadow: 1px 1px 2px gray;
-color: orangered;
+color: aqua;
 }
 
 .about {
 position: fixed; 
-color: orangered; 
+color: aqua; 
 font-size: 35px; 
 z-index: 3;
 
 }
 
 a {
-color: orangered;
+color: aqua;
 font-family: 'Shippori Mincho';
 font-size: 40px;
 text-decoration: none;
