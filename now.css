@@ -11,13 +11,17 @@ font-family: sans-serif;
 
 a {
 
-color: pink;
+color: red;
 font-family: sans-serif;
 text-decoration: none;
 
 }
 
-
+a:visited {
+color: red;
+font-family: sans-serif;
+text-decoration: none;
+}
 
 
 
