@@ -4,22 +4,22 @@ body {
 
 top: 0;
 left: 0;
-background-color: white;
-color: cornflowerblue;
+background-color: orangered;
+color: white;
 font-family: sans-serif;
 font-size: 30px;
 }
 
 a {
 
-color: red;
+color: white;
 font-family: sans-serif;
 text-decoration: none;
 
 }
 
 a:visited {
-color: red;
+color: white;
 font-family: sans-serif;
 text-decoration: none;
 }
@@ -33,27 +33,4 @@ padding: 10px;
 border-style: none none none dotted;
 }
 
-@media screen and (max-width: 1000px) {
 
-body {
-
-background-image: url('./sweethearts.png');
-color: pink;
-background-size: cover;
-text-shadow: 1px 1px 2px hotpink;
-font-size: 25px;
-}
-
-.sweethearts {
-
-display: none;
-
-}
-
-a {
-
-color: pink;
-text-shadow: 1px 1px 2px hotpink;
-}
-
-}
