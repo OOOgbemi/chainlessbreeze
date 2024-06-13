@@ -1,0 +1,78 @@
+
+body {
+
+background-color: white;
+font-family: sans-serif;
+font-size: 13px;
+color: orangered;
+background-size: cover;
+}
+
+
+@font-face {
+    font-family: 'aquilinetworegular';
+    src: url('./AquilineTwo-webfont.eot');
+    src: url('./AquilineTwo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./AquilineTwo-webfont.woff2') format('woff2'),
+         url('./AquilineTwo-webfont.woff') format('woff'),
+         url('./AquilineTwo-webfont.ttf') format('truetype'),
+         url('./AquilineTwo-webfont.svg#aquilinetworegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+table {
+
+border: 1px dotted;
+border-radius: 10px;
+}
+
+th {
+ 
+
+font-family: cursive;
+}
+
+td {
+
+
+
+}
+
+
+a {
+Text-decoration: none;
+color: orangered;
+}
+
+a:active {
+color: lime;
+}
+
+a:visited {
+color: orangered;
+}
+
+
+
+a.pinklink {
+
+color: orangered;
+}
+
+a.pinklink:visited {
+color: orangered;
+}
+
+a.pinklink:active {
+color: lime;
+
+}
+
+.graylink {
+font-family: 'Mukta';
+color: lightgrey;
+
+
+}
