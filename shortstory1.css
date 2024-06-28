@@ -4,7 +4,7 @@ body {
 
 top: 0;
 left: 0;
-background-color: whitesmoke;
+background-color: whitemoke;
 color: black;
 font-family: 'Nanum Myeongjo';
 font-size: 16px;
@@ -24,8 +24,8 @@ border: 1px solid black;
 
 .title {
 text-align: center;
-text-decoration-color: underline chartreuse;
-
+text-decoration-line: underline;
+text-decoration-style: wavy;
 }
 
 
