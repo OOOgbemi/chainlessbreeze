@@ -26,11 +26,13 @@ table {
 
 border: 1px dotted;
 border-radius: 10px;
+border-color: pink;
 }
 
 th {
  
 font-family: Mukta;
+color: orangered;
 }
 
 td {
