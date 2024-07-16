@@ -1,10 +1,10 @@
 
 body {
 
-background-color: white;
-font-family: Mukta;
+background-color: #0f00e3;
+font-family: sans-serif;
 font-size: 15px;
-color: orangered;
+color: snow;
 background-size: cover;
 }
 
@@ -24,15 +24,15 @@ background-size: cover;
 
 table {
 
-border: 1px dotted;
+border: 1px solid;
 border-radius: 10px;
-border-color: pink;
+border-color: #e0ff54;
 }
 
 th {
  
 font-family: Mukta;
-color: orangered;
+color: snow;
 }
 
 td {
@@ -44,7 +44,7 @@ td {
 
 a {
 Text-decoration: none;
-color: orangered;
+color: snow;
 }
 
 a:active {
@@ -52,18 +52,18 @@ color: lime;
 }
 
 a:visited {
-color: orangered;
+color: snow;
 }
 
 
 
 a.pinklink {
 
-color: orangered;
+color: snow;
 }
 
 a.pinklink:visited {
-color: orangered;
+color: snow;
 }
 
 a.pinklink:active {
@@ -77,3 +77,4 @@ color: lightgrey;
 
 
 }
+
