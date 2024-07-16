@@ -1,0 +1,44 @@
+
+body {
+
+
+top: 0;
+left: 0;
+background-color: #e0ff54;
+color: #0f00e3;
+font-family: 'Xanh Mono';
+
+font-size: 20px;
+
+a {
+
+
+
+text-decoration: none;
+color: #0f00e3;
+}
+
+a:visited {
+
+color: #0f00e3;
+}
+
+}
+
+.bluebox {
+width: 300px;
+height: 225px;
+
+border-radius: 20px;
+padding: 1%;
+}
+
+.me {
+
+border-radius: 20px;
+border: 1px dotted yellow;
+}
+
+.about {
+text-align: right;
+}
