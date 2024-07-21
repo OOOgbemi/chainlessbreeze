@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frangipani</title>
+<link href = './om_nav_2.css' rel = 'stylesheet'>
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Handjet:wght,ELSH@100..900,14.1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+<a href = "./secondstory.html">
+<div class = "block1">
+Tennis Story &#x2593
+</div>
+</a>
+
+<a href = "./newsletter.html">
+<div class = "block2">
+My Newsletter &#x266C &#x266A
+</div>
+</a>
+
+<div class = "block3">
+&#x273E Resources &#x2193
+<br>
+&#x2192 Free html Reading Log 
+<br> 
+fully customizable. add entries in the html file & then open it up locally in your browser!
+<br>
+
+&#x2192 Gradient Blog
+<br> 
+a gradient blog is a simple template for a blog that is best suited to trivial subjects. Click to download!
+<br>
+
+&#x2192 Book Club Questions for Writers, Big Groups, and Intimate Relationships
+<br>
+a downloadable question set for book clubs of 1, 2, or very many people!
+</div>
+
+<div class = "block4">
+Short Stories
+<br>
+<a href = "./shortstory2.html">&#x2192Mingogirl, or A Good Woman Swallows Your Heart Whole</a>
+
+<a href = "./shortstory1.html">&#x2192New Spin Optics</a>
+</div>
+
+<div class = "block5">
+"Tibby"
+<br>
+Latest:
+</div>
+
+<div class = "block6">
+<span style = "color: blue; text-decoration: underline; text-decoration-color: snow;">About this Publication</span>
+<br>
+<i>Frangipani</i> is a fluctuating, Lagos-based magazine that is interested in <i>artmaking processes.</i> It is updated continually in fairly irregular issues. It was designed and created by Oritsemughone Ogbemi, a writer who is in Lagos right now. 
+<br>The time here is <span id = "clock" style = "background-color: blue; color: aqua;"></span> 
+<br>
+You can visit Oritsemughone's website at: <a href = "https://www.tsemone.com" class = "mywebsite">www.tsemone.com</a>
+
+</div>
+
+<a href = 'https://ogbemi.bearblog.dev'>
+<div class = "block7">
+Oritsemughone Red Notebook
+</div>
+</a>
+
+<div class = "block8">
+<u>Tips for Using this Website</u>
+<br><ul>
+<li>Decrease the brightness of your screen</li>
+<br>
+<li>Some of the blocks may require you to scroll</li>
+<br>
+<li>There are hidden secrets!</li>
+<br>
+</ul>
+</div>
+
+
+
+<a href= "./fr_1.png"  class = "glow">Free Wallpaper (Download)</a>
+
+
+
+<p>
+<a href = "fr_submit.html" class = "contribute">&emsp;Magazine</a>
+</p>
+
+<p class = "title">
+Oritsemughone&emsp;
+</p>
+
+
+<p class = "symbol">
+&#x2593
+</p>
+
+<p class = "marquee">Last Updated on 21/7/24 with a new color story</p>
+
+<script>
+(function () {
+
+  var clockElement = document.getElementById( "clock" );
+
+  function updateClock ( clock ) {
+    clock.innerHTML = new Date().toLocaleTimeString();
+  }
+
+  setInterval(function () {
+      updateClock( clockElement );
+  }, 1000);
+
+}());
+
+</script>
+
+<script>
+dragElement(document.getElementById("picture"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    // if present, the header is where you move the DIV from:
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    // otherwise, move the DIV from anywhere inside the DIV: 
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+</script>
+
+
+</body>
+</html>
