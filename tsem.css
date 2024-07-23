@@ -14,14 +14,14 @@ font-size: 38px;
 
 .bluecollage {
 
-border: 2px dotted slateblue;
+border: 2px dashed slateblue;
 margin-left: 41%;
 
 }
 
 .bluecollage:hover {
 
-border: 2px dashed slateblue;
+border: 2px dotted slateblue;
 
 
 }
