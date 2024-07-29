@@ -33,5 +33,12 @@ a {
 font-family: 'Nanum Myeongjo';
 font-size: 30px;
 text-decoration: none;
-color: blue;
+color: black;
+}
+
+a:visited {
+font-family: 'Nanum Myeongjo';
+font-size: 30px;
+text-decoration: none;
+color: black;
 }
