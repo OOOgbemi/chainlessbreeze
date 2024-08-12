@@ -38,19 +38,19 @@ height: 100%;
 a {
 
 text-decoration: none;
-color: hotpink;
-}
-
-a.chapters {
-color: hotpink;
-}
-
-
-a.chapters:visited {
-color: hotpink;
+color: deeppink;
 }
 
 a:visited {
+color: deeppink;
+
+}
+
+a.backlink {
 color: hotpink;
 
+}
+
+a.backlink:visited {
+color: hotpink;
 }
