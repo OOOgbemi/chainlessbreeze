@@ -28,28 +28,10 @@ position: fixed;
 font-size: 75px;
 top: 64%;
 text-decoration: none;
-color: snow;
+color: #e0ff54;
 
 }
 
-a.contribute:visited {
-
-font-family: 'Ballet';
-position: fixed;
-font-size: 75px;
-text-decoration: none;
-color: white;
-
-}
-
-a.contribute:hover {
-font-family: 'Ballet';
-position: fixed;
-font-size: 75px;
-text-decoration: none;
-color: lightcyan;
-
-}
 
 a.coverbutton {
 color: snow;
