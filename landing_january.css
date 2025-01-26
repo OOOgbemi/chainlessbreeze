@@ -1,0 +1,25 @@
+body {
+Background-color: MistyRose;
+Background-image: url("flower_bg.png");
+background-size: cover;
+font-family: 'Handjet';
+color: mediumblue;
+font-size: 60px;
+font-weight: 300;
+text-shadow: 1px 1px 3px lightblue;
+padding: 2px;
+margin-top: -3%;
+}
+
+a {
+color: chartreuse;
+
+}
+
+a:visited {
+
+chartreuse;
+
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/anime/ani-9/ani879.ani), url(https://cur.cursors-4u.net/anime/ani-9/ani879.png), auto !important;} /* End https://www.cursors-4u.com */
