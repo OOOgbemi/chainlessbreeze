@@ -107,10 +107,67 @@ border: 1px solid blue;
 
 }
 
+.palm {
+
+background-color: gainsboro;
+width: 300px;
+height: 250px;
+position: fixed;
+left: 20px;
+top: 280px;
+border: 1px solid black;
+padding: 4px;
+}
+
+
+.palm:hover {
+
+border: 1px solid blue;
+
+}
+
+.glassy {
+
+background-color: gainsboro;
+width: 225px;
+height: 325px;
+position: fixed;
+left: 340px;
+top: 355px;
+border: 1px solid black;
+padding: 4px;
+}
+
+
+.glassy:hover {
+
+border: 1px solid blue;
+
+}
+
+.when {
+
+background-color: gainsboro;
+width: 300px;
+height: 250px;
+position: fixed;
+left: 585px;
+top: 280px;
+border: 1px solid black;
+padding: 4px;
+}
+
+
+.when:hover {
+
+border: 1px solid blue;
+
+}
+
 .description {
 
 position: fixed;
-bottom: 5%;
+bottom: 1%;
 color: blue
 
 }
