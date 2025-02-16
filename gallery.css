@@ -12,6 +12,7 @@ font-family: monospace;
 font-weight: lighter;
 text-align: center;
 cursor: url('./FluoCursorSmall.png'), pointer;
+overflow-x: scroll;
 }
 
 a {
