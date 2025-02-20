@@ -12,7 +12,6 @@ font-family: monospace;
 font-weight: lighter;
 text-align: center;
 cursor: url('./FluoCursorSmall.png'), pointer;
-overflow-x: scroll;
 }
 
 a {
@@ -171,4 +170,11 @@ position: fixed;
 bottom: 1%;
 color: blue
 
+}
+
+.paper {
+position: fixed;
+bottom: 5%;
+right: 1%;
+color: chartreuse;
 }
