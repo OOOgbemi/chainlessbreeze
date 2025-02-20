@@ -1,0 +1,136 @@
+html {
+
+cursor: url('./FluoCursorSmall.png'), pointer;
+}
+
+body {
+
+
+top: 0;
+left: 0;
+background-color: lightsteelblue;
+color: chartreuse;
+font-size: 12px;
+font-family: monospace;
+font-weight: lighter;
+text-align: center;
+cursor: url('./FluoCursorSmall.png'), pointer;
+background-image: url('./brownpaper.JPG');
+}
+
+a {
+
+color: chartreuse;
+text-decoration: none;
+cursor: url('./FluoCursorSmall.png'), pointer;
+}
+
+a:visited {
+
+color: chartreuse;
+text-decoration: none;
+cursor: url('./FluoCursorSmall.png'), pointer;
+}
+
+a:hover {
+
+color: blue;
+text-decoration: none;
+cursor: url('./FluoCursorSmall.png'), pointer;
+}
+
+.collage {
+
+height: 325px;
+width: 260px;
+box-shadow: 1px 1px 5px gray;
+}
+
+.collage:hover {
+
+border-color: blue;
+
+}
+
+.one {
+
+position: fixed;
+left: 33%;
+top: 28%;
+transform: rotate(10deg);
+z-index: 1;
+transition-property: z-index;
+}
+
+.two {
+position: fixed;
+left: 38%;
+top: 20%;
+transform: rotate(-10deg);
+z-index: 2;
+transition-property: z-index;
+}
+
+
+.three {
+position: fixed;
+left: 38%;
+top: 22%;
+transform: rotate(12deg);
+z-index: 3;
+transition-property: z-index;
+}
+
+
+.four {
+position: fixed;
+left: 43%;
+top: 23%;
+transform: rotate(-13deg);
+z-index: 4;
+transition-property: z-index;
+}
+
+.five {
+position: fixed;
+left: 33%;
+top: 33%;
+transform: rotate(15deg);
+z-index: 4;
+transition-property: z-index;
+}
+
+
+.one:hover {
+z-index: 6;
+}
+
+.two:hover {
+z-index: 6;
+}
+
+
+.three:hover {
+z-index: 6;
+}
+
+
+.four:hover {
+z-index: 6;
+}
+
+
+.five:hover {
+z-index: 6;
+}
+
+
+
+
+.description {
+
+position: fixed;
+bottom: 1%;
+color: chartreuse;
+
+}
