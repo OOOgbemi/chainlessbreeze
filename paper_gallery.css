@@ -1,6 +1,6 @@
 html {
 
-cursor: url('./FluoCursorSmall.png'), pointer;
+cursor: pointer;
 }
 
 body {
@@ -14,7 +14,7 @@ font-size: 12px;
 font-family: monospace;
 font-weight: lighter;
 text-align: center;
-cursor: url('./FluoCursorSmall.png'), pointer;
+cursor: pointer;
 background-image: url('./brownpaper.JPG');
 }
 
@@ -22,21 +22,21 @@ a {
 
 color: chartreuse;
 text-decoration: none;
-cursor: url('./FluoCursorSmall.png'), pointer;
+cursor: pointer;
 }
 
 a:visited {
 
 color: chartreuse;
 text-decoration: none;
-cursor: url('./FluoCursorSmall.png'), pointer;
+cursor: pointer;
 }
 
 a:hover {
 
 color: blue;
 text-decoration: none;
-cursor: url('./FluoCursorSmall.png'), pointer;
+cursor: pointer;
 }
 
 .collage {
