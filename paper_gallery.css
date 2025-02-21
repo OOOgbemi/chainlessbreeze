@@ -100,6 +100,16 @@ z-index: 4;
 transition-property: z-index;
 }
 
+.six {
+position: fixed;
+left: 37%;
+top: 40%;
+transform: rotate(-15deg);
+z-index: 4;
+transition-property: z-index;
+}
+
+
 
 .one:hover {
 z-index: 6;
@@ -124,6 +134,9 @@ z-index: 6;
 z-index: 6;
 }
 
+.six:hover {
+z-index: 6;
+}
 
 
 
