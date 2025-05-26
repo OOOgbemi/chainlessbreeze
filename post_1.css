@@ -1,0 +1,73 @@
+body {
+background-color: #413649;
+color: #bcb9c9;
+font-family: 'NanumGothicCoding';
+font-weight: lighter;
+padding: 5%;
+letter-spacing: 1px;
+
+}
+
+a {
+color: #8d7993;
+text-decoration: none;
+
+}
+
+img {
+
+float: right;
+}
+
+.box {
+padding: 1%;
+width: 500px;
+height: 600px;
+overflow: scroll;
+border-top: 1px dotted lavender;
+border-right: 1px dotted lavender;
+}
+
+.tags {
+height: 300px;
+width: 300px;
+color: lemonchiffon;
+
+border-top: 1px dotted red;
+position: fixed;
+bottom: 30%;
+right: 20%;
+}
+
+a {
+text-decoration: none;
+
+}
+
+
+@keyframes glow{
+
+from {text-shadow: 1px 1px 3px lemonchiffon;}
+tp {text-shadow: 5px 5px 8px cyan;}
+
+
+}
+
+.latest {
+
+text-shadow: 1px 1px 3px lemonchiffon; 
+letter-spacing: 9px; 
+animation: glow 3s ease-in-out infinite;
+
+
+}
+
+
+.bigpic {
+
+position: fixed;
+bottom: 22%;
+right: 13%;
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/cursors/cur-11/cur1067.ani), url(https://ani.cursors-4u.net/cursors/cur-11/cur1067.png), auto !important;} /* End https://www.cursors-4u.com */
