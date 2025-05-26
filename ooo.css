@@ -47,7 +47,7 @@ animation: glow 3s ease-in-out infinite;
 
 
 .headings {
-position: absolute;
+position: fixed;
 bottom: 20%;
 left: 0.7%;
 
