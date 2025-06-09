@@ -47,7 +47,7 @@ animation: glow 3s ease-in-out infinite;
 
 .headings {
 position: fixed;
-bottom: 30%;
+bottom: 26%;
 left: 0.7%;
 
 }
@@ -56,9 +56,8 @@ left: 0.7%;
 
 position: fixed;
 left: 80%;
-top: 25%;
-transform: skewY(20deg);
+top: 22%;
+transform: skewY(-20deg);
 }
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/cursors/cur-11/cur1067.ani), url(https://ani.cursors-4u.net/cursors/cur-11/cur1067.png), auto !important;} /* End https://www.cursors-4u.com */
-
