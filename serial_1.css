@@ -1,0 +1,88 @@
+
+body {
+
+
+top: 0;
+left: 0;
+background-color: midnightblue;
+background-image: url('./dullbeams_serial.jpg');
+color: #242424;
+background-size: repeat;
+font-family: serif;
+font-size: 18px;
+height: 100%;
+}
+
+@font-face {
+    font-family: DayRoman;
+    src: url(./day_roman/DAYROM__.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.writing {
+opacity: 80%;
+color: midnightblue;
+padding: 2%;
+border: 1px solid navy;
+box-shadow: 2px 2px black;
+margin-left: 29%;
+margin-right: 28%;
+margin-top: 3%;
+height: 650px;
+width: 475px;
+overflow: scroll;
+background-color: #a3bc82;
+font-size: 16px;
+letter-spacing: 0.5px;
+}
+
+.background {
+
+height: 100%;
+background-position: center;
+
+}
+
+a {
+
+text-decoration: none;
+color: red;
+}
+
+
+a:visited {
+color: red;
+
+}
+
+a:hover {
+color: midnightblue;
+
+}
+
+
+a.backlink {
+color: navy;
+
+}
+
+a.backlink:visited {
+color: midnightblue;
+}
+
+.buttons {
+position: fixed;
+bottom: 1%;
+left: 1%;
+transform: rotate(-3deg);
+}
+
+
+.counter {
+position: fixed;
+top: 150%;
+right: 10%;
+
+}
