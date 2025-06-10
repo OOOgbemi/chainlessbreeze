@@ -75,8 +75,8 @@ color: midnightblue;
 .buttons {
 position: fixed;
 bottom: 1%;
-left: 1%;
-transform: rotate(-3deg);
+right: 1%;
+transform: rotate(2deg);
 }
 
 
