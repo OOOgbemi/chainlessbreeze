@@ -23,13 +23,13 @@ height: 100%;
 
 .writing {
 opacity: 80%;
-color: midnightblue;
+color: #000054;
 padding: 2%;
 border: 1px solid navy;
 box-shadow: 2px 2px black;
 margin-left: 29%;
 margin-right: 28%;
-margin-top: 3%;
+margin-top: 5%;
 height: 650px;
 width: 475px;
 overflow: scroll;
@@ -75,8 +75,8 @@ color: midnightblue;
 .buttons {
 position: fixed;
 bottom: 1%;
-right: 1%;
-transform: rotate(2deg);
+left: 1%;
+transform: rotate(-2deg);
 }
 
 
