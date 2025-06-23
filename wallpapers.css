@@ -1,0 +1,56 @@
+html {
+width: 100%;
+height: 100%;
+
+}
+
+body {
+background-color: gainsboro;
+font-family: verdana;
+}
+
+a {
+
+color: black;
+text-decoration: none;
+}
+
+
+a:hover {
+
+color: lime;
+
+}
+
+.sidebar {
+height: 100%;
+position: fixed;
+background-image: linear-gradient(to right, whitesmoke, aliceblue, gray);
+border: 1px solid whitesmoke;
+outline: 1px solid gray;
+width: 1.7%;
+right: 0%;
+top: 0%;
+writing-mode: vertical-rl;
+padding: 6px;
+z-index: 1;
+font-size: 14px;
+}
+
+
+.basebar {
+width: 100%;
+position: fixed;
+border-top: 1px dashed black;
+height: 2.5%;
+left: 0%;
+bottom: 0%;
+padding: 6px;
+z-index: 0;
+color: black;
+font-family: monospace;
+padding-top: -5px;
+}
+
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1047.cur), auto !important;} /* End https://www.cursors-4u.com */

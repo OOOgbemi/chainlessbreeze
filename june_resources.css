@@ -1,0 +1,146 @@
+
+body {
+
+background-color: thistle;
+font-family: verdana;
+color: deeppink;
+font-size: 14px;
+}
+
+
+a {
+
+color: deeppink;
+text-decoration: none;
+Cursor: grab;
+
+
+}
+
+.tile {
+
+
+}
+
+
+
+.m {
+
+color: deeppink;
+
+}
+
+.mhidden {
+
+display: none;
+position: fixed;
+}
+
+.m:hover + .mhidden {
+
+display: block;
+font-size: 12px;
+z-index: 10;
+margin-left: 40%;
+margin-top: 25%;
+}
+
+
+.n {
+
+color: deeppink;
+
+}
+
+.nhidden {
+
+
+display: none;
+position: fixed;
+
+}
+
+.n:hover + .nhidden {
+
+display: block;
+margin-left: 45%;
+margin-top: 20%;
+font-size: 12px;
+}
+
+.o {
+
+color: deeppink;
+
+}
+
+.ohidden {
+
+display: none;
+position: fixed;
+
+}
+
+.o:hover + .ohidden {
+
+display: block;
+font-size: 12px;
+margin-left: 50%;
+margin-top: 40%;
+}
+
+.s {
+
+color: thistle;
+
+}
+
+.shidden {
+
+display: none;
+position: fixed;
+
+}
+
+.s:hover + .shidden {
+
+display: block;
+margin-left: 50%;
+margin-top: 40%;
+font-size: 12px;
+}
+
+
+.sidebar {
+height: 100%;
+position: fixed;
+background-image: linear-gradient(to right, whitesmoke, aliceblue, gray);
+border: 1px solid whitesmoke;
+outline: 1px solid gray;
+width: 1.7%;
+right: 0%;
+top: 0%;
+writing-mode: vertical-rl;
+padding: 6px;
+z-index: 1;
+font-size: 14px;
+font-family: verdana;
+color: black;
+font-family: verdana;
+}
+
+.basebar {
+width: 100%;
+position: fixed;
+border-top: 1px dashed deeppink;
+height: 2.5%;
+left: 0%;
+bottom: 0%;
+padding: 6px;
+z-index: 0;
+color: deeppink;
+font-family: serif;
+padding-top: -5px;
+font-size: 15px;
+}
+

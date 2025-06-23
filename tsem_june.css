@@ -1,0 +1,182 @@
+html {
+cursor: pointer;
+
+}
+
+body {
+padding: 3%;
+background-color: lavender;
+color: #2d2d2d;
+background-size: cover;
+
+
+font-family: verdana;
+font-size: 14px;
+}
+
+a {
+
+color: black;
+text-decoration: none;
+}
+
+
+a:hover {
+
+color: lime;
+
+}
+
+.curtain {
+position: fixed;
+left: 30%;
+top: 30%;
+
+}
+
+.window4 {
+position: fixed;
+left: 12%;
+top: 55%;
+left: 50%;
+width: 330px;
+height: 266px;
+background-color: gray;
+border-right: 2.7px solid dimgray;
+border-bottom: 2.7px solid dimgray;
+border-top: 2.7px solid lightgray;
+border-left: 2.7px solid lightgray;
+padding: 5px;
+z-index: 9;
+
+}
+
+
+.paintheader {
+background-color: midnightblue;
+width: 96%;
+color: white;
+padding: 3px;
+position: absolute;
+top: 1.5%;
+font-family: sans-serif;
+}
+
+
+.doodle {
+
+
+position: relative;
+margin-top: 2px;
+margin-left: 2.9px;
+}
+
+.red {
+width: 9px;
+height: 9px;
+background-color: red;
+color: white;
+border: 2px outset red;
+position: relative;
+top: 0.6px;
+float: left;
+
+}
+
+.x {
+font-family: verdana;
+position: absolute;
+bottom: -1.6px;
+left: 0.5px;
+font-size: 12px;
+}
+
+.scrollbox {
+
+width: 97.5%;
+height: 88%;
+top: 10.5%;
+background-color: gainsboro;
+overflow: scroll;
+position: absolute;
+
+}
+
+
+.me {
+
+
+}
+
+.portfolio {
+
+position: fixed;
+left: 11%;
+top: 25%;
+}
+
+
+.sidebar {
+height: 100%;
+position: fixed;
+background-image: linear-gradient(to right, whitesmoke, aliceblue, gray);
+border: 1px solid whitesmoke;
+outline: 1px solid gray;
+width: 1.7%;
+right: 0%;
+top: 0%;
+writing-mode: vertical-rl;
+padding: 6px;
+z-index: 1;
+font-size: 14px;
+font-family: verdana;
+color: black;
+}
+
+
+
+.basebar {
+width: 100%;
+position: fixed;
+background-color: lavender;
+border-top: 1px dashed black;
+height: 2.5%;
+left: 0%;
+bottom: 0%;
+padding: 6px;
+z-index: 0;
+color: deeppink;
+font-family: cursive;
+padding-top: -5px;
+}
+
+
+
+
+
+.blinker {
+position: fixed;
+bottom: 55%;
+right: 10%;
+box-shadow: 1px 1px 3px gray;
+
+}
+
+
+.blog {
+
+position: fixed;
+left: 70%;
+
+}
+
+
+.collage {
+position: fixed;
+top: 40%;
+
+}
+
+
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1045.cur), auto !important;} /* End https://www.cursors-4u.com */
