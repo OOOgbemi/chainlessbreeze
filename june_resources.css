@@ -4,7 +4,7 @@ body {
 background-color: thistle;
 font-family: verdana;
 color: deeppink;
-font-size: 14px;
+font-size: 12px;
 }
 
 
@@ -111,24 +111,6 @@ font-size: 12px;
 }
 
 
-.sidebar {
-height: 100%;
-position: fixed;
-background-image: linear-gradient(to right, whitesmoke, aliceblue, gray);
-border: 1px solid whitesmoke;
-outline: 1px solid gray;
-width: 1.7%;
-right: 0%;
-top: 0%;
-writing-mode: vertical-rl;
-padding: 6px;
-z-index: 1;
-font-size: 14px;
-font-family: verdana;
-color: black;
-font-family: verdana;
-}
-
 .basebar {
 width: 100%;
 position: fixed;
@@ -139,7 +121,7 @@ bottom: 0%;
 padding: 6px;
 z-index: 0;
 color: deeppink;
-font-family: serif;
+
 padding-top: -5px;
 font-size: 15px;
 }
