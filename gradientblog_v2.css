@@ -18,6 +18,8 @@ border: 1px solid black;
 border-radius: 5px;
 padding: 2px;
 filter: grayscale(100%);
+margin-right: 60px;
+margin-top: 10px;
 }
 
 
@@ -50,17 +52,14 @@ text-decoration-color: black;
 
 
 .box {
-
+position: fixed;
 top: 17%;
 left: 30%;
 height: 60%;
 width: 40%;
 background-color: gainsboro;
-position: fixed;
-margin: auto;
 border-style: double;
 border-color: black;
-z-index=2;
 text-align: left;
 overflow: scroll;
 padding: 6px;
