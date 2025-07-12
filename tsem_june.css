@@ -1,6 +1,7 @@
 html {
 cursor: pointer;
-
+height: 100%;
+width: 100%;
 }
 
 body {
@@ -8,10 +9,10 @@ padding: 3%;
 background-color: lavender;
 color: #2d2d2d;
 background-size: cover;
-
-
 font-family: verdana;
 font-size: 14px;
+
+
 }
 
 a {
@@ -138,7 +139,6 @@ color: black;
 .basebar {
 width: 100%;
 position: fixed;
-background-color: lavender;
 border-top: 1px dashed black;
 height: 2.5%;
 left: 0%;
@@ -177,6 +177,11 @@ top: 40%;
 
 }
 
+.newblinker {
+position: fixed;
+right: 0.1%;
+
+}
 
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1045.cur), auto !important;} /* End https://www.cursors-4u.com */
