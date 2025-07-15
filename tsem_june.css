@@ -184,4 +184,12 @@ transform: rotate(90deg);
 }
 
 
+.3d {
+
+position: fixed;
+bottom: 7%;
+left: 4%;
+}
+
+
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1045.cur), auto !important;} /* End https://www.cursors-4u.com */
