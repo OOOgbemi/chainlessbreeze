@@ -83,4 +83,11 @@ position: fixed;
 right: 3%;
 top: 10%;
 transform: rotate(-13deg);
+border: 1px white dashed;
+}
+
+.guestbook:hover {
+
+border: none;
+
 }
