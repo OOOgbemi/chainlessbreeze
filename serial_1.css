@@ -39,6 +39,7 @@ font-size: 16px;
 letter-spacing: 0.5px;
 }
 
+
 .background {
 
 height: 100%;
@@ -80,14 +81,13 @@ right: 10%;
 .guestbook {
 
 position: fixed;
-right: 4%;
+right: 1%;
 bottom: 9%;
-
 border: 1px white dashed;
+
 }
 
 .guestbook:hover {
 
 border: none;
-
 }
