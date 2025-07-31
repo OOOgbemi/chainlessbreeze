@@ -9,6 +9,18 @@ background-color: gainsboro;
 font-family: verdana;
 }
 
+body.about {
+
+background-image: url("lacybg.gif");
+background-size: repeat;
+
+}
+
+@font-face {
+    font-family: 'Yapix'; 
+    src: url('./yapix/yapix.ttf'); 
+}
+
 a {
 
 color: black;
@@ -50,7 +62,41 @@ z-index: 0;
 color: black;
 font-family: monospace;
 padding-top: -5px;
+background-color: gainsboro;
 }
 
+
+.frilly1 {
+
+position: fixed;
+bottom: 250px;
+left: 40px;
+}
+
+
+
+.moodtxt {
+font-family: 'Yapix'; 
+color: dimgray;
+font-size: 12px;
+width: 190px;
+height: 190px;
+position: fixed;
+
+}
+
+
+.thoughts {
+width: 2px;
+height: 190px;
+width: 190px;
+position: fixed;
+bottom: 300px;
+left: 88px;
+font-family: 'Yapix'; 
+font-size: 12px;
+color: dimgray;
+overflow: scroll;
+}
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1047.cur), auto !important;} /* End https://www.cursors-4u.com */
