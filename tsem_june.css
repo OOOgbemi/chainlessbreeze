@@ -35,11 +35,11 @@ top: 30%;
 
 }
 
-.window4 {
+.doodlewindow {
 position: fixed;
 left: 12%;
 top: 55%;
-left: 50%;
+left: 51%;
 width: 330px;
 height: 266px;
 background-color: gray;
@@ -151,15 +151,24 @@ padding-top: -5px;
 }
 
 
-
-
-
-.blinker {
+.wallpaperblinkie {
 position: fixed;
 bottom: 55%;
 right: 10%;
 box-shadow: 1px 1px 3px gray;
 
+}
+
+.folder1 {
+position: fixed;
+bottom: 40%;
+}
+
+
+.folder2 {
+position: fixed;
+bottom: 40%;
+left: 11%;
 }
 
 
