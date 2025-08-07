@@ -153,3 +153,11 @@ font-size: 55px;
 padding: 1px;
 }
 
+
+
+.shards:hover {
+
+transform: rotate(-5deg);
+
+
+}
