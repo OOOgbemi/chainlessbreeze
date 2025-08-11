@@ -1,3 +1,9 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
 background-color: #21274f;
 background-size: cover;
@@ -41,11 +47,9 @@ max-width: 400px;
 
 
 .bio {
-position: fixed;
-left: 1%;
-top: 3%;
 width: 300px;
-width: 300px;
+margin-top: 2%;
+margin-left: 2%;
 color: yellow;
 border: 1px dashed;
 background-color: black;
@@ -53,14 +57,28 @@ padding: 2px;
 border-radius: 8px;
 }
 
-.d1w2advertisement {
-position: fixed;
-bottom: 71%;
-left: 1%;
+.advertisement {
 width: 300px;
+margin-left: 2%;
+margin-top: 4%;
 border: 1px solid;
 color: yellow;
 background-color: black;
 padding: 4px;
+
+}
+
+.chapbookcover {
+width: 250px; 
+height: 356px; 
+position: fixed; 
+bottom: 38%; 
+right: 38%; 
+transform: rotate(-22deg); 
+box-shadow: 1px 1px 5px black;
+}
+
+.chapbookcover:hover {
+box-shadow: 1px 1px 5px white;
 
 }
