@@ -35,12 +35,13 @@ color: lime;
 }
 
 .sidebar {
+box-sizing: border-box;
 height: 100%;
 position: fixed;
 background-image: linear-gradient(to right, whitesmoke, aliceblue, gray);
 border: 1px solid whitesmoke;
 outline: 1px solid gray;
-width: 1.7%;
+width: 33px;
 right: 0%;
 top: 0%;
 writing-mode: vertical-rl;
@@ -51,10 +52,11 @@ font-size: 14px;
 
 
 .basebar {
+box-sizing: border-box;
 width: 100%;
 position: fixed;
 border-top: 1px dashed black;
-height: 2.5%;
+height: 33px%;
 left: 0%;
 bottom: 0%;
 padding: 6px;
