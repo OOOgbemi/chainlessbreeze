@@ -1,10 +1,9 @@
 body {
 background-color: #21274f;
 background-size: cover;
-font-family: andale mono;
+font-family: Andale Mono, monospace;
 color: red;
 margin-top: -4%;
-
 font-weight: normal;
 letter-spacing: -1px;
 font-size: 14px;
@@ -44,6 +43,7 @@ max-width: 400px;
 .bio {
 position: fixed;
 left: 1%;
+top: 3%;
 width: 300px;
 width: 300px;
 color: yellow;
