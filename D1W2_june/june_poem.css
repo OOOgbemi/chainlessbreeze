@@ -75,7 +75,7 @@ to {filter: invert(100%);}
 }
 
 
-    .description {
+.description {
 border: 3px double black;
 background-color: gainsboro;
 width: 20%;
