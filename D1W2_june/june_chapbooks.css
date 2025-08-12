@@ -203,12 +203,12 @@ background-color: lime;
 }
 
 .shopheader {
--webkit-text-stroke: 1px lime;
+-webkit-text-stroke: 1px black;
 
-margin-top: 22px;
+margin-top: 33px;
 color: gainsboro;
 font-size: 38px;
-color: blue;
+color: lime;
 text-align: center;
 
 }
