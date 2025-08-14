@@ -55,7 +55,7 @@ font-family: verdana;
 .basebar {
 width: 100%;
 position: fixed;
-border-top: 1px solid blue;
+border-top: 1px solid #3a3a3a;
 height: 30px;
 left: 0%;
 bottom: 0%;
@@ -81,17 +81,17 @@ background-color: gainsboro;
 width: 300px;
 padding: 4.5px;
 position: fixed;
-top: 25%;
-left: 22%;
+top: 23%;
+left: 17%;
 color: black;
 font-size: 17px;
   }
 
-.summary {
+.buy {
 text-align: center;
 position: fixed;
-left: 26%;
-bottom: 50%;
+left: 43%;
+bottom: 59%;
 border: 3px double blue;
 color: blue;
 background-color: gainsboro;
@@ -109,10 +109,11 @@ max-width: 200px;
 padding: 4.5px;
 position: fixed;
 left: 6%;
-top: 6%;
+top: 8%;
 color: gainsboro;
 -webkit-text-stroke: 1px black;
 font-size: 21px;
+
   }
   
 .dither {
@@ -123,7 +124,7 @@ font-size: 21px;
 background-color: gainsboro;
 position: fixed;
 right: 16%;
-top: 17%;
+top: 19%;
 height: 350px;
 }
 
@@ -181,4 +182,3 @@ animation-iteration-count: infinite;
 animation-fill-mode: linear;
 
 }
-
