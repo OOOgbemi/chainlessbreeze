@@ -1,0 +1,59 @@
+body {
+background-color: #413649;
+color: #bcb9c9;
+font-family: 'NanumGothicCoding';
+font-weight: lighter;
+padding: 5%;
+letter-spacing: 1px;
+
+}
+
+sup {
+text-shadow: 0px 0px 3px #bcb9c9;
+
+}
+
+a {
+text-decoration: none;
+
+}
+
+a:visited {
+
+color: lavender;
+}
+
+img {
+
+float: right;
+}
+
+.box {
+padding: 1%;
+width: 500px;
+height: 600px;
+overflow: scroll;
+border-top: 1px dotted lavender;
+border-right: 1px dotted lavender;
+}
+
+.tags {
+height: 300px;
+width: 300px;
+color: lemonchiffon;
+border-top: 1px dotted red;
+position: fixed;
+bottom: 30%;
+right: 20%;
+}
+
+
+.bigpic {
+
+position: fixed;
+bottom: 22%;
+right: 13%;
+border: none;
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/cursors/cur-11/cur1067.ani), url(https://ani.cursors-4u.net/cursors/cur-11/cur1067.png), auto !important;} /* End https://www.cursors-4u.com */
