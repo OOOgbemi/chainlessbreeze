@@ -4,8 +4,15 @@
           box-sizing: border-box;
 }
 
+/*
+colors
+dull blue: #21274f;
+
+*/
+
+
 body {
-background-color: #21274f;
+background-color: gray;
 background-size: cover;
 font-family: Andale Mono, monospace;
 color: red;
