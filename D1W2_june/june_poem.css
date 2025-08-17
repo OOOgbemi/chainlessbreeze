@@ -185,7 +185,7 @@ animation-fill-mode: linear;
 
 .z {
 position: fixed;
-top: 50%;
+top: 51.5%;
 left: 6%;
 transform: rotate(-6deg);
 }
