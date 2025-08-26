@@ -17,7 +17,7 @@ dull blue: #21274f;
 } 
 body {
 
-background-color: honeydew;
+background-color: lavenderblush;
 background-image: radial-gradient(ellipse farthest-corner at 100px, silver, rgba(225,228,225,0), silver, rgba(224,225,225,0), silver);
 background-size: cover;
 font-family: Andale Mono, monospace;
@@ -93,7 +93,7 @@ height: 356px;
 position: fixed; 
 bottom: 38%; 
 right: 38%; 
-transform: rotate(22deg); 
+transform: rotate(15deg); 
 box-shadow: 1px 1px 6px gray;
 }
 
