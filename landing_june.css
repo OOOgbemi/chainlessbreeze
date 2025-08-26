@@ -73,6 +73,7 @@ border: 1px dashed;
 background-color: black;
 padding: 2px;
 border-radius: 8px;
+box-shadow: 1px 1px 6px gray;
 }
 
 .advertisement {
@@ -83,6 +84,7 @@ border: 1px solid;
 color: yellow;
 background-color: black;
 padding: 4px;
+box-shadow: 1px 1px 6px gray;
 }
 
 .chapbookcover {
@@ -92,7 +94,7 @@ position: fixed;
 bottom: 38%; 
 right: 38%; 
 transform: rotate(22deg); 
-box-shadow: 1px 1px 6px black;
+box-shadow: 1px 1px 6px gray;
 }
 
 .chapbookcover:hover {
