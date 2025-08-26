@@ -10,9 +10,15 @@ dull blue: #21274f;
 
 */
 
-
+@keyframes glow {
+0% {background-color: mistyrose;}
+50% {background-color: lightcyan;}
+100% {background-color: lemonchiffon;}
+} 
 body {
-background-color: gray;
+
+background-color: honeydew;
+background-image: radial-gradient(ellipse farthest-corner at 100px, silver, rgba(225,228,225,0), silver, rgba(224,225,225,0), silver);
 background-size: cover;
 font-family: Andale Mono, monospace;
 color: red;
@@ -20,6 +26,11 @@ margin-top: -4%;
 font-weight: normal;
 letter-spacing: -1px;
 font-size: 14px;
+
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: linear;
 }
 
 a {
@@ -41,7 +52,7 @@ position: fixed;
 left: 13%;
 top: 5%;
  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(5px);
 
 }
 
@@ -72,7 +83,6 @@ border: 1px solid;
 color: yellow;
 background-color: black;
 padding: 4px;
-
 }
 
 .chapbookcover {
@@ -81,7 +91,7 @@ height: 356px;
 position: fixed; 
 bottom: 38%; 
 right: 38%; 
-transform: rotate(-22deg); 
+transform: rotate(22deg); 
 box-shadow: 1px 1px 6px black;
 }
 
@@ -92,6 +102,6 @@ box-shadow: 0px 0px 5px white;
 
 .buybutton {
 position: fixed;
-left: 43%;
+left: 45%;
 top: 25%;
 }
