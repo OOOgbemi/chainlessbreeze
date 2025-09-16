@@ -200,5 +200,6 @@ position: fixed;
 top: 54.5%;
 left: 6%;
 transform: rotate(-6deg);
+filter: grayscale(100%);
 }
 
