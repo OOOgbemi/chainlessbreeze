@@ -74,10 +74,11 @@ background-color: black;
 padding: 2px;
 border-radius: 8px;
 box-shadow: 1px 1px 6px gray;
+resize: both;
 }
 
 .advertisement {
-width: 300px;
+width: 465px;
 margin-left: 2%;
 margin-top: 4%;
 border: 1px solid;
@@ -85,6 +86,7 @@ color: yellow;
 background-color: black;
 padding: 4px;
 box-shadow: 1px 1px 6px gray;
+
 }
 
 .chapbookcover {
@@ -124,3 +126,4 @@ display: none;
 color: chartreuse;
 width: 400px;
 }
+
