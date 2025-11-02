@@ -7,7 +7,7 @@
 /*
 colors
 dull blue: #21274f;
-
+dull green: 264056
 background-image: radial-gradient(ellipse farthest-corner at 100px, silver, rgba(225,228,225,0), silver, rgba(224,225,225,0), silver);
 
 */
@@ -19,7 +19,7 @@ background-image: radial-gradient(ellipse farthest-corner at 100px, silver, rgba
 } 
 body {
 
-background-color: #21274f;
+background-color: #264056;
 
 background-size: cover;
 font-family: Andale Mono, monospace;
