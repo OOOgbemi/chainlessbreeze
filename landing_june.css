@@ -8,6 +8,8 @@
 colors
 dull blue: #21274f;
 
+background-image: radial-gradient(ellipse farthest-corner at 100px, silver, rgba(225,228,225,0), silver, rgba(224,225,225,0), silver);
+
 */
 
 @keyframes glow {
@@ -17,8 +19,8 @@ dull blue: #21274f;
 } 
 body {
 
-background-color: azure;
-background-image: radial-gradient(ellipse farthest-corner at 100px, silver, rgba(225,228,225,0), silver, rgba(224,225,225,0), silver);
+background-color: #21274f;
+
 background-size: cover;
 font-family: Andale Mono, monospace;
 color: red;
@@ -126,4 +128,3 @@ display: none;
 color: chartreuse;
 width: 400px;
 }
-
