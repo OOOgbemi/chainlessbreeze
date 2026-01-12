@@ -41,13 +41,21 @@ word-wrap: break-word;
 border-bottom: 0.9px dotted steelblue;
 }
 
+button {
+color: gray;
+border: 2.5px gray outset;
+border-radius: 0px;
+color: black;
+padding: 3px;
+}
+
 .buttons {
 
-display: none;
+bottom: -2%;
 }
 
 
-.browse {
+.disappear {
 
 display: none;
 }
