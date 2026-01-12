@@ -1,0 +1,53 @@
+
+body {
+
+
+top: 0;
+margin-left: 11px;
+background-color: beige;
+font-family: sans-serif;
+letter-spacing: 0.5px;
+font-weight: lighter;
+color: steelblue;
+padding: 25px;
+border-left: 3px double red;
+overflow: scroll;
+font-size: 17px;
+}
+
+
+
+a {
+background-color: yellow;
+color: black;
+}
+
+p {
+
+word-wrap: break-word;
+width: 66%;
+border-bottom: 0.9px dotted steelblue;
+text-align: justify;
+
+}
+
+
+
+
+span {
+margin-right: 0%;
+width: 10%;
+word-wrap: break-word;
+border-bottom: 0.9px dotted steelblue;
+}
+
+.buttons {
+
+display: none;
+}
+
+
+.browse {
+
+display: none;
+}
