@@ -203,7 +203,7 @@ border-bottom: 0.5px solid black;
     text-transform: uppercase;
     font-weight: bold;
     color: dimgray;
-    border-bottom: 0.5px solid black;
+    
 }
 .c-site {
     text-transform: uppercase;
@@ -225,6 +225,7 @@ border-bottom: 0.5px solid black;
     text-align: justify;
     color: black;
     background-color: whitesmoke;
+	border-top: 0.5px solid black;
 }
 
 /* Pagination */
@@ -241,3 +242,4 @@ border-bottom: 0.5px solid black;
     margin-right: 4px;
     margin-left: 4px;
 }
+
