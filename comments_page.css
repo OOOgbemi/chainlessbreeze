@@ -148,7 +148,7 @@ border-bottom: 0.5px solid black;
     padding: 4px;
     color: black;
     border: 1px solid #2D0B52;
-	outline: none;
+    outline: none;
     font-family: 'Kosugi Maru', sans-serif;
 }
 .c-input:focus {border: 1px solid #B766FF;}
@@ -202,6 +202,7 @@ border-bottom: 0.5px solid black;
     padding: 0;
     text-transform: uppercase;
     font-weight: bold;
+    color: dimgray;
 }
 .c-site {
     text-transform: uppercase;
@@ -218,11 +219,12 @@ border-bottom: 0.5px solid black;
     margin-left: -10px;
     margin-right: -10px;
     padding: 10px;
-    font-family: Verdana;
+    font-family: 'Kosugi Maru', sans-serif;
     font-size: 14px;
     text-align: justify;
     color: black;
     background-color: gainsboro;
+   border: 0.5px dotted black;
 }
 
 /* Pagination */
@@ -239,4 +241,3 @@ border-bottom: 0.5px solid black;
     margin-right: 4px;
     margin-left: 4px;
 }
-
