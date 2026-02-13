@@ -85,6 +85,7 @@ color: white;
 #c_widget {
     box-sizing: border-box;
     height: 100%;
+	width: 80vw;
     overflow: auto;
     padding: 20px;
     background-image: none;
@@ -93,7 +94,7 @@ color: white;
     font-family: 'Courier New';
     font-size: 16px;
     color: black;
-font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Kosugi Maru', sans-serif;
 }
 
 #c_widget button, #c_widget input[type=submit] {
@@ -244,3 +245,4 @@ border-bottom: 0.5px solid black;
     margin-right: 4px;
     margin-left: 4px;
 }
+
