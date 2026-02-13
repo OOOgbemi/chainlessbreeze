@@ -102,7 +102,7 @@ color: white;
     font-family: 'Kosugi Maru', sans-serif;
     text-decoration: none;
 	text-align: center;
-    text-transform: uppercase;
+    
     background-color: gainsboro;
     color: black;
     border: 3px outset white;
@@ -245,4 +245,5 @@ border-bottom: 0.5px solid black;
     margin-right: 4px;
     margin-left: 4px;
 }
+
 
