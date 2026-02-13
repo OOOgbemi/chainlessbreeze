@@ -221,7 +221,7 @@ border-bottom: 0.5px solid black;
     font-family: Verdana;
     font-size: 14px;
     text-align: justify;
-    color: white;
+    color: black;
     background-color: gainsboro;
 }
 
@@ -239,3 +239,4 @@ border-bottom: 0.5px solid black;
     margin-right: 4px;
     margin-left: 4px;
 }
+
