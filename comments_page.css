@@ -162,6 +162,7 @@ border-bottom: 0.5px solid black;
     display: block; 
     margin-left: auto; 
     margin-right: 0;
+	border: 0.5px solid black;
 }
 #c_replyingText {
     color: dimgray;
@@ -242,4 +243,5 @@ border-bottom: 0.5px solid black;
     margin-right: 4px;
     margin-left: 4px;
 }
+
 
