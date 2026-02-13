@@ -10,9 +10,11 @@
 
 body {
 
-background-color: black;
+background-color: lavender;
 color: white;
-
+  font-family: "Kosugi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -85,22 +87,24 @@ color: white;
     height: 100%;
     overflow: auto;
     padding: 20px;
-    background-image: url('sparkle-bg.gif'); /* F2U background provided by https://sadgrl.online/webmastery/downloads/tiledbgs */
+    background-image: none;
+    background-color: lavender;
     background-attachment: fixed;
     font-family: 'Courier New';
     font-size: 16px;
-    color: white;
+    color: black;
+font-family: 'Kosugi Maru', sans-serif;
 }
 
 #c_widget button, #c_widget input[type=submit] {
     padding: 4px;
-    font-family: 'Courier New';
+    font-family: 'Kosugi Maru', sans-serif;
     text-decoration: none;
 	text-align: center;
     text-transform: uppercase;
-    background-color: black;
-    color: #B766FF;
-    border: 1px solid white;
+    background-color: gainsboro;
+    color: black;
+    border: 3px outset white;
 }
 #c_widget button:hover, #c_widget input[type=submit]:hover {
     color: white;
@@ -114,21 +118,26 @@ color: white;
 
 /* Input section */
 #c_inputDiv {
+    font-family: 'Kosugi Maru', sans-serif;
     margin-bottom: 15px;
     padding: 10px;
-    background-color: black;
-    border: 2px solid white;
+    background-color: gainsboro;
+    border: 2px outset white;
+    outline: 0.5px solid dimgray;
 }
 
 #c_widgetTitle {
+    font-family: 'Kosugi Maru', sans-serif;
     margin: -10px;
     margin-bottom: 10px;
     padding: 5px;
-    text-transform: uppercase;
-    font-style: italic;
+    text-transform: lowercase;
+    color: gray;
+    font-style: normal;
     font-weight: bold;
     text-align: right;
-    background-color: #2D0B52;
+    background-color: whitesmoke;
+border-bottom: 0.5px solid black;
 }
 
 .c-inputWrapper {
