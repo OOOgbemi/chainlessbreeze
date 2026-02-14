@@ -427,7 +427,7 @@ function isDST(date) {
     return date;
 }
 // Thank you to https://stackoverflow.com/questions/32192982/get-a-given-weekday-in-a-given-month-with-javascript for the below function
-function nthDayOfMonth(date, day, n, hour) {
+function nthDayOfMonth(n, date, day, hour) {
     var count = 0; 
     var idate = new Date(date);                                                                                                       
     idate.setDate(1);                                                                                                                 
