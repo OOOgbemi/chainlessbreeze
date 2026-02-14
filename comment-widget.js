@@ -441,20 +441,6 @@ function nthDayOfMonth(day, n, date, hour) {
     return idate;       
 }
 // Convert weekday and month names into numbers
-function getDayNum(day) {
-    let num;
-    switch (day.toLowerCase()) {
-        case 'sunday': num = 0; break;
-        case 'monday': num = 1; break;
-        case 'tuesday': num = 2; break;
-        case 'wednesday': num = 3; break;
-        case 'thursday': num = 4; break;
-        case 'friday': num = 5; break;
-        case 'saturday': num = 6; break;
-        default: num = 0; break;
-    }
-    return num;
-}
 function getMonthNum(month) {
     let num;
     switch (month.toLowerCase()) {
@@ -470,6 +456,20 @@ function getMonthNum(month) {
         case 'october': num = 9; break;
         case 'november': num = 10; break;
         case 'december': num = 11; break;
+    }
+    return num;
+}
+function getDayNum(day) {
+    let num;
+    switch (day.toLowerCase()) {
+        case 'sunday': num = 0; break;
+        case 'monday': num = 1; break;
+        case 'tuesday': num = 2; break;
+        case 'wednesday': num = 3; break;
+        case 'thursday': num = 4; break;
+        case 'friday': num = 5; break;
+        case 'saturday': num = 6; break;
+        default: num = 0; break;
     }
     return num;
 }
