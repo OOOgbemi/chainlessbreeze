@@ -222,7 +222,7 @@ function getComments() {
                         // Finally set the value properly
                         comment[json.table.cols[c].label] = val2;
                     }
-                    comment.Timestamp2 = json.table.rows[r].c[0].f;
+                    comment.Timestamp2 = json.table.c[0].rows[r].f;
                     comments.push(comment);
                 }
             }
@@ -427,7 +427,7 @@ function isDST(date) {
     return date;
 }
 // Thank you to https://stackoverflow.com/questions/32192982/get-a-given-weekday-in-a-given-month-with-javascript for the below function
-function nthDayOfMonth(n, date, day, hour) {
+function nthDayOfMonth(day, n, date, hour) {
     var count = 0; 
     var idate = new Date(date);                                                                                                       
     idate.setDate(1);                                                                                                                 
