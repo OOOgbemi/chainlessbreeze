@@ -409,7 +409,7 @@ function convertTimestamp(timestamp) {
     const timezoneDiff = (s_timezone * 60 + date.getTimezoneOffset()) * -1;
     let offsetDate = new Date(date.getTime() + timezoneDiff * 60 * 1000);
     if (s_daylightSavings) {offsetDate = isDST(offsetDate)}
-    return [offsetDate.toLocaleString(), offsetDate.toLocaleDateString()];
+    return [offsetDate.toLocaleString('en-GB'), offsetDate.toLocaleDateString('en-GB')];
 }
 // DST checker
 function isDST(date) {
