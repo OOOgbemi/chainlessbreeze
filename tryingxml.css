@@ -1,0 +1,19 @@
+
+
+body {
+
+background-color: honeydew;
+color: navy;
+
+}
+
+img {
+
+width: 100px;
+height: 100px;
+}
+
+.gridgarden {
+display: flex;
+grid-gap: 0px;
+}
