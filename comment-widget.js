@@ -222,7 +222,7 @@ function getComments() {
                         // Finally set the value properly
                         comment[json.table.cols[c].label] = val2;
                     }
-                    comment.Timestamp2 = json.table.c[0].rows[r].f;
+                    comment.Timestamp2 = json.table.rows[r].c[0].f;
                     comments.push(comment);
                 }
             }
