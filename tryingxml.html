@@ -36,9 +36,9 @@ function myFunction(xml) {
   var pp="";
   var x = xmlDoc.getElementsByTagName("image");
   for (i = 0; i <x.length; i++) { 
-    pp += "<img src ='" +
+    pp += "<div><img src ='" +
     x[i].getElementsByTagName("pic")[0].childNodes[0].nodeValue +
-    "'>";
+    "'></div>";
   }
   document.getElementById("gridgarden").innerHTML = pp;
 }
