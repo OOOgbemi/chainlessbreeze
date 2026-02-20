@@ -51,14 +51,14 @@ const s_filteredWords = [ // Add words to filter by putting them in quotes and s
 ]
 
 // Text - Change what messages/text appear on the form and in the comments section (Mostly self explanatory)
-const s_widgetTitle = 'Leave a comment!';
+const s_widgetTitle = 'Leave a review!';
 const s_nameFieldLabel = 'Name';
-const s_websiteFieldLabel = 'Website (Optional)';
+const s_websiteFieldLabel = 'Social (optional) @';
 const s_textFieldLabel = '';
 const s_submitButtonLabel = 'Submit';
-const s_loadingText = 'Loading comments...';
-const s_noCommentsText = 'No comments yet!';
-const s_closedCommentsText = 'Comments are closed temporarily!';
+const s_loadingText = 'Loading reviews...';
+const s_noCommentsText = 'No reviews yet!';
+const s_closedCommentsText = 'Review form is closed temporarily!';
 const s_websiteText = 'Website'; // The links to websites left by users on their comments
 const s_replyButtonText = 'Reply'; // The button for replying to someone
 const s_replyingText = 'Replying to'; // The text that displays while the user is typing a reply
@@ -106,7 +106,7 @@ const v_formHtml = `
         <label class="c-label c-textLabel" for="entry.${s_textId}">${s_textFieldLabel}</label>
         <textarea class="c-input c-textInput" name="entry.${s_textId}" id="entry.${s_textId}" rows="4" cols="50"  maxlength="${s_maxLength}" required></textarea>
     </div>
-
+<br>
     <input id="c_submitButton" name="c_submitButton" type="submit" value="${s_submitButtonLabel}" disabled>
 `;
 
