@@ -11,7 +11,7 @@
 body {
 height: 100%;
 background-color: #c4a7be;
-background-image: url('./lilac2.png');
+background-image: url('./mats-assets/lilac2.png');
 background-size: cover;
 color: white;
   font-family: "Kosugi", sans-serif;
@@ -206,7 +206,7 @@ border-bottom: 0.5px solid gray;
     margin: -10px;
     margin-top: 10px;
     padding: 10px;
-    background-color: gainsboro;
+    background-color: transparent;
 }
 
 .c-name {
@@ -215,14 +215,12 @@ border-bottom: 0.5px solid gray;
     margin-right: 10px;
     padding: 0;
     text-transform: uppercase;
-    font-weight: bold;
     color: dimgray;
   
 }
 .c-site {
-    text-transform: uppercase;
     text-decoration: none;
-    color: #B766FF;
+    color: white;
 }
 .c-site:hover {color: white;}
 .c-timestamp {
@@ -238,7 +236,7 @@ border-bottom: 0.5px solid gray;
     font-size: 14px;
     text-align: justify;
     color: black;
-    background-color: whitesmoke;
+    background-color: transparent;
     border-top: 0.5px solid black;
 }
 
@@ -263,4 +261,3 @@ border-bottom: 0.5px solid gray;
     color: #42203D;
 
 }
-
