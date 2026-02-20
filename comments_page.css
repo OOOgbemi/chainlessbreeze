@@ -236,7 +236,7 @@ border-bottom: 0.5px solid gray;
     font-size: 14px;
     text-align: justify;
     color: black;
-    background-color: transparent;
+    background-color: rgba(100, 97, 96, 0.5);
     border-top: 0.5px solid black;
 }
 
@@ -261,4 +261,5 @@ border-bottom: 0.5px solid gray;
     color: #42203D;
 
 }
+
 
