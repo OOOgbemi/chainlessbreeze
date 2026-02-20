@@ -9,8 +9,9 @@
 
 
 body {
-
-background-color: lavender;
+height: 100%;
+background-color: #c4a7be;
+background-image: url('./lilac1.jpg');
 color: white;
   font-family: "Kosugi", sans-serif;
   font-weight: 400;
@@ -85,61 +86,66 @@ color: white;
 #c_widget {
     box-sizing: border-box;
     height: 100%;
-	width: 80vw;
+    width: 60vw;
     overflow: auto;
     padding: 20px;
     background-image: none;
-    background-color: lavender;
+    background-color: transparent;
     background-attachment: fixed;
     font-family: 'Courier New';
     font-size: 16px;
     color: black;
-    font-family: 'Kosugi Maru', sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 
 #c_widget button, #c_widget input[type=submit] {
     padding: 4px;
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     text-decoration: none;
-	text-align: center;
-    
+    text-align: center;
     background-color: gainsboro;
     color: black;
     border: 3px outset white;
     outline: 0.5px solid black;
 }
 #c_widget button:hover, #c_widget input[type=submit]:hover {
-    color: white;
-    border: 3px inset white;
+    color: dimgray;
+    border: 3px outset white;
 }
 #c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
 #c_widget button:disabled:hover, #c_widget input[type=submit]:disabled:hover {
-    color: #B766FF;
-    border: 1px solid white;
+    color: black;
+    outline: 0.5px solid white;
 }
 
 /* Input section */
 #c_inputDiv {
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     margin-bottom: 15px;
     padding: 10px;
-    background-color: gainsboro;
-    border: 2px outset white;
-    outline: 0.5px solid dimgray;
+    background-color: rgba(220, 220, 220, 0.2);
+    border: 2px outset aliceblue;
+    outline: 0.5px solid black;
+    box-shadow: 0px 0px 44px white inset;
+    backdrop-filter: blur(40px);
+border-radius: 10px;
 }
 
 #c_widgetTitle {
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     margin: -10px;
     margin-bottom: 10px;
     padding: 5px;
-    text-transform: lowercase;
-    color: gray;
+    
+    color: #42203D;
+-webkit-text-stroke: 0.1px black;
+    text-shadow: 0px 0px 0.7px dimgray;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     text-align: right;
-    background-color: whitesmoke;
-border-bottom: 0.5px solid black;
+    background-color: rgba(220, 220, 220, 0.5);
+border-bottom: 0.5px solid gray;
+
 }
 
 .c-inputWrapper {
@@ -149,9 +155,10 @@ border-bottom: 0.5px solid black;
 .c-input {
     padding: 4px;
     color: black;
-    border: 1px solid #2D0B52;
+    border: 1px dotted dimgray;
     outline: none;
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(255, 255, 255, 0.3);
 }
 .c-input:focus {border: 1px solid #B766FF;}
 
@@ -223,7 +230,7 @@ border-bottom: 0.5px solid black;
     margin-left: -10px;
     margin-right: -10px;
     padding: 10px;
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 14px;
     text-align: justify;
     color: black;
@@ -247,3 +254,8 @@ border-bottom: 0.5px solid black;
 }
 
 
+.c-label {
+
+    color: #42203D;
+
+}
