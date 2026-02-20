@@ -11,7 +11,7 @@
 body {
 height: 100%;
 background-color: #c4a7be;
-background-image: url('.lilac2.png');
+background-image: url('./lilac2.png');
 background-size: cover;
 color: white;
   font-family: "Kosugi", sans-serif;
@@ -261,5 +261,6 @@ border-bottom: 0.5px solid gray;
     color: #42203D;
 
 }
+
 
 
