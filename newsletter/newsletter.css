@@ -20,13 +20,11 @@ margin: 0 0;
 height: 100%;
 overflow-x: hidden;
 overflow-y: scroll;
-backdrop-filter: invert(0%);
-background-color: rgba(255, 255, 255, 0);
+background-color: rgba(1, 1, 1, 0.5);
 color: #c2baf4;
 font-family: "Panchi Mono";
 letter-spacing: 1px;
 box-shadow: 0px 0px 60px greenyellow inset;
-background-color: rgba(1, 1, 1, 0.6);
 cursor: url('./n-cursor.cur'), auto;
 }
 
@@ -69,6 +67,16 @@ to {color: deeppink;}
 u {
 text-decoration-color: lavender;
 
+}
+
+#title {
+display: block !important;
+position: fixed; 
+left: 30%; 
+top: 3%; 
+transform: rotate(0deg);
+width: 500px;
+height: 150px;
 }
 
 #backlink {
