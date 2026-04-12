@@ -78,6 +78,7 @@ border: 3px outset red;
 color: black;
 font-size: 19px;
 text-decoration: none;
+animation: float 3s ease-in-out infinite;
 }
 
 #backlink:active {
