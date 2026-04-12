@@ -1,0 +1,205 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+height: 100%;
+background-image: url('./cyberletter-assets/clay2.jpg');
+background-size: cover;
+background-attachment: fixed;
+cursor: url('./n-cursor.cur');
+
+}
+
+
+body {
+position: fixed;
+margin: 0 0;
+height: 100%;
+overflow-x: hidden;
+overflow-y: scroll;
+color: #c2baf4;
+font-family: "Panchi Mono";
+letter-spacing: 1px;
+box-shadow: none;
+background-color: yellowgreen;
+backdrop-filter: blur(50px);
+cursor: url('./n-cursor.cur'), auto;
+}
+
+@font-face {
+    font-family: "Panchi Mono";
+    src: 
+      url("./panchi/PanchiMono.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+    
+
+}
+
+@keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+@keyframes blink {
+
+from {color: lavender;}
+to {color: deeppink;}
+
+}
+
+@keyframes spun {
+  100% {transform: rotate(.5turn)}
+}
+
+img {
+
+display: none;
+}
+
+#title {
+display: block !important;
+position: fixed; 
+left: 0%; 
+top: 0%; 
+transform: rotate(0deg);
+width: 400px;
+height: 120px;
+}
+
+u {
+text-decoration-color: lavender;
+
+}
+
+#backlink {
+position: fixed;
+top: 93%;
+bottom: 3%;
+left: 3%;
+text-align: center;
+background-color: red;
+border: 3px outset red;
+color: black;
+font-size: 19px;
+text-decoration: none;
+animation: no 3s ease-in-out infinite;
+display: none;
+}
+
+#backlink:active {
+
+border-style: inset;
+
+}
+
+#fill {
+width: 100%;
+height: 150px;
+color: black;
+-webkit-text-stroke: 1px black;
+filter: grayscale(0%) brightness(150%);
+transform: skewY(-2deg);
+}
+
+
+#sample {
+
+position: absolute;
+width: 33%;
+height: 7%;
+right: 0%;
+top: 93%;
+padding: 1%;
+text-shadow: 0px 0px 9px pink;
+color: black;
+font-size: 22px;
+display: none;
+}
+
+.tagline {
+width: 90%;
+height: 90%;
+margin: 100px auto;
+overflow: scroll;
+-webkit-text-stroke: 1.5px blue;
+text-shadow: 0px 0px 1px midnightblue;
+opacity: 95%;
+color: black;
+font-size: 22px;
+padding: 1%;
+text-align: justify;
+border-radius: 40px;
+
+}
+
+
+
+#egg {
+animation: spun 8s infinite linear alternate-reverse;
+
+}
+
+
+/*
+
+failure romance
+
+*/
+
+.text {
+
+width: 60%;
+height: 88%;
+overflow: scroll;
+padding: 1%;
+margin: 50px auto;
+font-size: 20px;
+color: deeppink;
+border-radius: 5px;
+background-color: silver;
+
+}
+
+
+#sample-backlink {
+position: fixed;
+top: 3%;
+left: 3%;
+padding: 1%;
+color: chartreuse;
+border: 1px dotted;
+text-decoration: none;
+font-size: 19px;
+background-color: transparent;
+line-height: 19px;
+}
+
+#sample-backlink:hover {
+
+border: 1px solid;
+
+}
+
+/*
+
+box-shadow: 0px 0px 18px indigo inset;
+outline: 0.5px black;
+background-color: dimgray;
+border: 0.5px solid indigo;
+
+
+
+*/
