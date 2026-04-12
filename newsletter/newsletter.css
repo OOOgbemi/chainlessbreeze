@@ -17,6 +17,7 @@ position: fixed;
 margin: 0 0;
 height: 100%;
 overflow-x: hidden;
+overflow-y: scroll;
 backdrop-filter: invert(0%);
 background-color: rgba(255, 255, 255, 0);
 color: #c2baf4;
@@ -177,16 +178,18 @@ failure romance
 
 .text {
 
-width: 40%;
+width: 60%;
 height: 88%;
 overflow: scroll;
 padding: 1%;
 margin: 50px auto;
-box-shadow: 0px 0px 20px pink;
-background-color: rgba(1, 1, 1, 0.4);
+font-size: 20px;
 color: pink;
 border-radius: 20px;
+background-color: rgba(1, 1, 1, 0.2);
+box-shadow: 0px 0px 60px pink inset;
 }
+
 
 #sample-backlink {
 position: fixed;
