@@ -195,9 +195,11 @@ box-shadow: 0px 0px 60px pink inset;
 position: fixed;
 top: 3%;
 left: 3%;
-color: black;
-background-color: pink;
-border: 3px outset pink;
+padding: 1%;
+color: pink;
+border-radius: 15px;
+background-color: rgba(1, 1, 1, 0.2);
+box-shadow: 0px 0px 10px pink inset;
 text-decoration: none;
 font-size: 19px;
 }
