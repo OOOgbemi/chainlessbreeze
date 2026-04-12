@@ -199,12 +199,17 @@ top: 3%;
 left: 3%;
 padding: 1%;
 color: yellowgreen;
-border-radius: 5px;
 border: 1px dotted;
 text-decoration: none;
 font-size: 19px;
 background-color: transparent;
 line-height: 19px;
+}
+
+#sample-backlink:hover {
+
+border: 1px solid;
+
 }
 
 /*
