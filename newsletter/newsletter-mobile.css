@@ -24,7 +24,7 @@ color: #c2baf4;
 font-family: "Panchi Mono";
 letter-spacing: 1px;
 box-shadow: none;
-background-color: yellowgreen;
+background-color: thistle;
 backdrop-filter: blur(50px);
 cursor: url('./n-cursor.cur'), auto;
 }
