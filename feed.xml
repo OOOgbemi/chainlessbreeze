@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
 <channel>
-<title>Oritsemughone's Website</title>
-<link>https://www.tsemone.com/</link>
-<description>Updates from Oritsemughone Ogbemi's website, including collages, drawings, poetry + new issues of Second Creature, a bulletin on cyberfeminism and love.</description>
+<title>Second Creature by Oritsemughone</title>
+<link>https://www.tsemone.com/newsletter</link>
+<description>Updates from Second Creature, a bulletin on cyberfeminism and love.</description>
 
 <image>
 <url>https://www.tsemone.com/TILES01.png</url>
@@ -14,7 +14,7 @@
 </image>
 
 <item>
-<title>&#x2593; Site Update - Second Creature Sign-Up Page!</title>
+<title>&#x2593; A New Sign-Up Page!</title>
 <link>https://www.tsemone.com/newsletter</link>
 <guid>https://www.tsemone.com/newsletter</guid>
 <pubDate>Sun, 12 Apr 2026 15:17:32 WAT</pubDate>
