@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Oritsemughone Ogbemi</title>
+<link>https://www.tsemone.com/</link>
+<description>Updates from Oritsemughone Ogbemi's website, including collages, drawings, poetry + new issues of Second Creature, a bulletin on cyberfeminism and love.</description>
+
+<image>
+<url>https://www.tsemone.com/TILES01.png</url>
+<title>Logo</title>
+<width>50</width>
+<height>50</height>
+<description>A square-shaped mosaic with 16 dark blue tiles</description>
+</image>
+
+<item>
+<title>Site Update</title>
+<link>https://www.tsemone.com/</link>
+<guid>https://www.tsemone.com/</guid>
+<pubDate>Sun, 12 Apr 2026 15:17:32 WAT</pubDate>
+<description>New sign-up page for Second Creature, a bimonthly cyberfeminist newsletter beamed out to you from the Lagos metropolitan biome.</description>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</channel>
