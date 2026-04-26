@@ -208,7 +208,7 @@ position: fixed;
 top: 3%;
 left: 3%;
 padding: 1%;
-color: chartreuse;
+color: blue;
 border: 1px dotted;
 text-decoration: none;
 font-size: 19px;
@@ -220,6 +220,13 @@ line-height: 19px;
 
 border: 1px solid;
 
+}
+
+::selection {
+  background: deeppink; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: deeppink; /* Gecko Browsers */
 }
 
 /*
