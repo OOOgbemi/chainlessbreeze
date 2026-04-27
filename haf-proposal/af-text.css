@@ -1,0 +1,173 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+ scrollbar-color: transparent transparent; /* thumb and track color */
+  scrollbar-width: 0px;
+}
+
+
+@font-face {
+  font-family: "Zalando Sans Expanded";
+
+  src: 
+    url("./Zalando_Sans_Expanded/ZalandoSansExpanded-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200 900;
+}
+
+body
+{
+background-color: whitesmoke;
+font-family: georgia;
+
+}
+
+@keyframes s1 {
+  100% {transform: rotate(.5turn)}
+}
+
+
+header {
+
+font-size: 33px;
+}
+
+footer {
+position: fixed;
+bottom: 0%;
+left: 0%;
+width: 100%;
+height: 5%;
+background-image: linear-gradient(honeydew, gainsboro, lightgreen);
+border-top: 1px solid lightgray;
+
+}
+
+footer:hover {
+
+background-image: linear-gradient(mistyrose, silver, pink);
+
+}
+
+#column {
+width: 300px;
+text-align: justify;
+height: 90%;
+overflow: scroll;
+font-family: Zalando Sans Expanded;
+font-size: 13.5px;
+
+}
+
+.rightside {
+position: fixed;
+height: 95%;
+right: 0%;
+top: 0%;
+width: 30%;
+background-color: gainsboro;
+border: 1px solid black;
+overflow-y: scroll;
+}
+
+#quote {
+position: relative;
+left: 10%;
+width: 300px;
+overflow: scroll;
+color: black;
+text-align: justify;
+border-bottom: 1px dotted blue;
+font-family: monospace;
+font-size: 14.5px;
+}
+
+#quote:hover {
+color: green;
+
+
+}
+
+#pastwork {
+background-color: yellow;
+position: fixed;
+left: 30%;
+top: 5%;
+color: black;
+width: 200px;
+height: 150px;
+border-radius: 11px;
+padding: 5px;
+font-family: Zalando Sans Expanded;
+font-size: 13.5px;
+z-index: 1;
+box-shadow: 2px 2px 5px dimgray;
+}
+
+.slip {
+width: 300px;
+height: 300px;
+position: fixed;
+top: 10%;
+left: 40%;
+
+}
+
+.paper {
+width: 300px;
+height: 300px;
+position: fixed;
+top: 30%;
+left: 44%;
+transform: rotate(10deg);
+
+}
+
+.hand {
+width: 300px;
+height: 200px;
+position: fixed;
+top: 60%;
+left: 40%;
+
+}
+
+
+.turn {
+animation: s1 8s infinite linear;
+animation-direction: alternate;
+width: 350px;
+height: 350px;
+position: fixed;
+right: 30%;
+top: 10%;
+}
+
+.falseface {
+height: 300px;
+width: 225px;
+position: absolute;
+top: 22%;
+left: 26%;
+z-index: -1;
+}
+
+.falseface2 {
+height: 200px;
+width: 150px;
+position: absolute;
+bottom: 11%;
+right: 26%;
+z-index: -1;
+}
+
+.diagram {
+width: 150px;
+height: 110px;
+position: absolute;
+bottom: 11%;
+left: 26%;
+box-shadow: 0px 0px 5px blue;
+}
