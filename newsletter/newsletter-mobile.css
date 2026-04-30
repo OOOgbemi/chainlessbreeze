@@ -6,7 +6,7 @@
 
 html {
 height: 100%;
-background-image: url('./cyberletter-assets/clay2.jpg');
+background-image: none;
 background-size: cover;
 background-attachment: fixed;
 cursor: url('./n-cursor.cur');
@@ -24,8 +24,9 @@ color: #c2baf4;
 font-family: "Panchi Mono";
 letter-spacing: 1px;
 box-shadow: none;
-background-color: pink;
-backdrop-filter: blur(50px);
+background-color: silver;
+background-image: linear-gradient(silver, cornflowerblue, silver); 
+backdrop-filter: blur(0px);
 cursor: url('./n-cursor.cur'), auto;
 }
 
