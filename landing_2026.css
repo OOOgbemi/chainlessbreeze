@@ -8,7 +8,7 @@ background-color: #F8F8FF;
 font-family: sans-serif;
 letter-spacing: 0.5px;
 font-weight: lighter;
-color: steelblue;
+color: #282828;
 padding: 25px;
 border-left: 3px double red;
 overflow: scroll;
@@ -32,8 +32,6 @@ text-align: justify;
 }
 
 
-
-
 span {
 margin-right: 0%;
 width: 10%;
@@ -46,4 +44,11 @@ border-bottom: 0.9px dotted steelblue;
 position: absolute;
 bottom: 11%;
 left: 4%;
+}
+
+
+#card {
+
+box-shadow: 2px 2px 4px gray;
+
 }
