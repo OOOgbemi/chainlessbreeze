@@ -25,7 +25,7 @@ font-family: "Panchi Mono";
 letter-spacing: 1px;
 box-shadow: none;
 background-color: silver;
-background-image: linear-gradient(silver, slateblue, silver); 
+background-image: linear-gradient(silver, lightsteelblue, silver); 
 backdrop-filter: blur(0px);
 cursor: url('./n-cursor.cur'), auto;
 }
