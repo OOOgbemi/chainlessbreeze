@@ -221,11 +221,12 @@ text-decoration: none;
 font-size: 19px;
 background-color: transparent;
 line-height: 19px;
+border: 1px solid;
 }
 
 #sample-backlink:hover {
 
-border: 1px solid;
+border: 1px dotted;
 
 }
 
