@@ -1,7 +1,10 @@
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
-          box-sizing: border-box;
+         box-sizing: border-box;
+
+
+  cursor: url('https://cdn.cursors-4u.net/previews/cool-blue-ver4-2df53531-128.webp') 4 3, auto !important;
 }
 
 html {
