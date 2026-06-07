@@ -1,0 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+cursor: url('https://cdn.cursors-4u.net/previews/ab-arrow-b60e38db-64.webp') 16 16, auto !important;
+
+}
+
+
+
+body {
+
+background-color: dimgray;
+font-family: verdana;
+color: honeydew;
+font-size: 14px;
+background-image: url('./room.gif');
+text-align: justify;
+}
+
+
+img {
+
+box-shadow: 2px 2px 4px dimgray;
+
+}
+
+#seal {
+
+position: sticky;
+
+width: 290px;
+height: 121px;
+right: 5%;
+top: 5%;
+box-shadow: none;
+transform: rotate(5deg);
+}
+
+#seal:hover {
+
+opacity: 0%;
+
+}
+
