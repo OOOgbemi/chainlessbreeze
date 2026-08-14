@@ -120,7 +120,9 @@ right: 0%;
 bottom: 0%;
 padding: 1%;
 font-size: 20px;
-border-bottom-color: transparent;
+border-bottom-color: blue;
+border-bottom-style: solid;
+border-bottom-width: 2px;
 }
 
 @keyframes pulse {
