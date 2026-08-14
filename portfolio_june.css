@@ -1,0 +1,53 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+Violet: #9883e5;
+Dark Gray: #545454;
+
+*/
+
+
+body {
+padding: 5%;
+background-color: honeydew;
+font-family: verdana;
+color: #4e5b4c;
+font-size: 14px;
+border-bottom: 1px dotted lawngreen;
+height: 50%;
+}
+
+a {
+font-family: verdana;
+color: #4e5b4c;
+text-decoration: none;
+
+}
+
+
+#writing {
+font-size: 14px;
+background-color: honeydew;
+color: #9883e5;
+display: none;
+font-style: normal;
+}
+
+#button {
+font-size: 14px;
+background-color: honeydew;
+color: #9883e5;
+
+}
+
+u {
+text-decoration: underline;
+text-decoration-style: dashed;
+text-decoration-color: gray;
+
+
+}
