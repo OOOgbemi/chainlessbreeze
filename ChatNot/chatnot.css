@@ -1,0 +1,91 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+html {
+height: 100vh;
+}
+
+body {
+
+background-color: ghostwhite;
+font-family: helvetica neue;
+text-align: center;
+color: midnightblue;
+border: 1px solid;
+border-top-color: ghostwhite;
+background-size: cover;
+height: 98%;
+width: 98%;
+margin: auto;
+}
+
+ol {
+width: 30vh;
+border-right: 1px solid;
+text-align: left;
+
+
+}
+
+#chatwindow {
+margin-top: 45vh;
+
+
+
+}
+
+#chat {
+
+
+width: 30vw;
+height: 5vh;
+border: 0.5px solid dimgray;
+resize: none;
+border-radius: 50px;
+display: inline-block;
+padding: 0.7%;
+font-family: sans-serif;
+font-family: monospace;
+color: midnightblue;
+letter-spacing: 1px;
+font-size: 17px;
+overflow: hidden;
+}
+
+#chat:focus {
+
+outline: 1px solid midnightblue;
+}
+
+#send {
+
+border: 3px outset gainsboro;
+outline: 0.5px solid;
+background-color: ghostwhite;
+font-size: 22px;
+padding: 1px;
+
+}
+
+
+
+#send:active {
+border: 3px inset gainsboro;
+
+}
+
+
+#explain {
+width: 100%;
+font-size: 18px;
+position: absolute;
+top: 25%;
+color: midnightblue;
+
+
+
+}
