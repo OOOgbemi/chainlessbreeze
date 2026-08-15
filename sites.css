@@ -6,14 +6,14 @@ height: 100%;
 
 body {
 background-color: white;
-color: hotpink;
+color: cadetblue;
 font-family: Verdana;
 }
 
 
 a {
 
-color: hotpink;
+color: cadetblue;
 
 }
 
@@ -22,7 +22,7 @@ table {
 
 width: 100%;
 
-border: 1px solid hotpink;
+border: 1px solid cadetblue;
 border-left-color: white;
 border-right-color: white;
 }
