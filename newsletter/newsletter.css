@@ -80,12 +80,19 @@ text-decoration-color: lavender;
 
 }
 
+#centertitle {
+
+width: 100%;
+text-align: center;
+
+}
+
 #title {
 display: block !important;
-position: fixed; 
-left: 30%; 
-top: 3%; 
-transform: rotate(0deg);
+margin: auto; 
+position: absolute;
+left: 30%;
+right: 30%;
 width: 500px;
 height: 150px;
 }
