@@ -6,6 +6,7 @@ height: 100%;
 
 body {
 background-color: whitesmoke;
+background-image: linear-gradient(to top, whitesmoke 99%, cadetblue);
 color: cadetblue;
 font-family: Verdana;
 }
@@ -23,8 +24,8 @@ table {
 width: 100%;
 
 border: 1px solid cadetblue;
-border-left-color: white;
-border-right-color: white;
+border-left-color: whitesmoke;
+border-right-color: whitesmoke;
 }
 
 th {
@@ -40,6 +41,7 @@ border-top: 1px dashed;
 padding-top: 10px;
 padding-bottom: 10px;
 }
+
 
 
 
