@@ -16,7 +16,7 @@
 <div id = "bigtable">
 <div id = "toc">
 <div id = "item" style = "text-align: center; background-image: linear-gradient(ghostwhite, gainsboro, lightgray); border-bottom: 0.5px solid black; color: dimgray; box-shadow: none;">&#x2193;</div>
-<div id = "item">13/08</div>
+<div id = "item" onclick = "bringEightthirteen()">13/08</div>
 <div id = "item" onclick = "bringEighttwelve()">12/08</div>
 <div id = "item" onclick = "bringEighteleven()">11/08</div>
 
@@ -83,6 +83,20 @@ for (var i = 0; i < imageEls.length; i++) {
 
 
 myPost.innerHTML = "Nighttime hill with black stars + flowers.";
+}
+
+
+function bringEightthirteen() {
+
+var imageEls = document.getElementsByTagName("img");
+var myPost = document.getElementById("status");
+
+for (var i = 0; i < imageEls.length; i++) {
+                imageEls[i].src = "./IWL-assets/ghost.png";
+ }
+
+
+myPost.innerHTML = "Scent chasing...";
 }
 
 
