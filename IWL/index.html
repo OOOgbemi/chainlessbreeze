@@ -46,7 +46,9 @@
 <div style = "width: 70%; margin: auto;">
 <i>Imagine yourself as a naturalist exploring your inner world. What are the flora and fauna that you observe there? What is the look of the landscape?
 </i></div><br>
-The idea is that our emotions are like creatures<!--and our thoughts are their terrain-->. More info <u>here.</u></div>
+The idea is that our emotions are like creatures<!--and our thoughts are their terrain. More info <u>here.</u>-->.
+<br><br>
+</div>
 
 
 
@@ -59,24 +61,28 @@ The idea is that our emotions are like creatures<!--and our thoughts are their t
 function bringEighteleven() {
 
 var imageEls = document.getElementsByTagName("img");
+var myPost = document.getElementById("status");
 
 for (var i = 0; i < imageEls.length; i++) {
                 imageEls[i].src = "./IWL-assets/jasbiscus.png";
  }
 
 
+myPost.innerHTML = "Strange hibiscus...fragrance of sleep.";
 }
 
 
 function bringEighttwelve() {
 
 var imageEls = document.getElementsByTagName("img");
+var myPost = document.getElementById("status");
 
 for (var i = 0; i < imageEls.length; i++) {
                 imageEls[i].src = "./IWL-assets/nighthill.png";
  }
 
 
+myPost.innerHTML = "Nighttime hill with black stars + flowers.";
 }
 
 
