@@ -168,7 +168,7 @@ box-shadow: 0px 0px 11px pink inset;
     padding: 10px;
     background-color: transparent;
     border-radius: 33px;
-box-shadow: 0px 0px 11px pink inset;
+    box-shadow: 0px 0px 11px pink inset;
 }
 
 .c-name {
@@ -182,7 +182,7 @@ box-shadow: 0px 0px 11px pink inset;
     text-decoration: none;
     color: #deeppink;
 }
-.c-site:hover {color: white;}
+.c-site:hover {color: pink;}
 .c-timestamp {
     float: right;
     opacity: 75%;
@@ -198,6 +198,7 @@ box-shadow: 0px 0px 11px pink inset;
     text-align: justify;
     color: hotpink;
     background-color: transparent;
+    border-radius: 33px;
 }
 
 /* Pagination */
