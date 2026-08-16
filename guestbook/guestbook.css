@@ -1,3 +1,17 @@
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/pink-paw-print-820c6758-32.webp') 32 32, auto !important;
+}
+
+
+body {
+background-color: gainsboro;
+text-align: center;
+
+
+}
+
+
+
 /*
     Below you will be able to freely customize every aspect of the comment widget.
     Most aspects of the widget are 100% able to be customized in CSS, but for strong structural changes,
@@ -57,27 +71,28 @@
 #c_widget {
     box-sizing: border-box;
     height: 100%;
-    width: 70%;
+    width: 50%;
     overflow: auto;
+    margin: auto;
     padding: 20px;
-    background-color: transparent;
-    border-radius: 33px;
-    box-shadow: 0px 0px 11px pink inset;
+    background-color: rgba(255, 255, 255, 0);
     background-attachment: fixed;
     font-family: sans-serif;
     font-weight: lighter;
     font-size: 16px;
-    color: hotpink;
+    color: dimgray;
+
+    backdrop-filter: blur(40px);
 }
 
 #c_widget button, #c_widget input[type=submit] {
     padding: 4px;
-    
+    font-family: sans-serif;
     text-decoration: none;
 	text-align: center;
     
     background-color: transparent;
-    color: hotpink;
+    color: dimgray;
     border: none;
 }
 #c_widget button:hover, #c_widget input[type=submit]:hover {
@@ -94,10 +109,9 @@
 #c_inputDiv {
     margin-bottom: 15px;
     padding: 10px;
-    background-color: black;
-    border: 2px solid white;
-    border-radius: 33px;
-box-shadow: 0px 0px 11px pink inset;
+
+    outline: 1px dotted dimgray;
+
 background-color: transparent;
 }
 
@@ -109,9 +123,7 @@ background-color: transparent;
     font-weight: lighter;
     text-align: center;
     background-color: transparent;
-    border-top-left-radius: 33px;
-    border-top-right-radius: 33px;
-box-shadow: 0px 0px 11px pink inset;
+border-bottom: 1px dotted dimgray;
 
 }
 
@@ -123,9 +135,9 @@ box-shadow: 0px 0px 11px pink inset;
 .c-input {
     padding: 4px;
     color: black;
-    border: 1px solid pink;
-    border-radius: 10px;
+    border: 1px dotted gray;
 	outline: none;
+background-color: whitesmoke;
 }
 .c-input:focus {border: 1px solid #B766FF;}
 
