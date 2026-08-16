@@ -195,7 +195,8 @@ background-color: whitesmoke;
 }
 .c-site {
     text-decoration: none;
-    color: deeppink;
+    color: fuchsia;
+    font-size: 14px;
 }
 .c-site:hover {color: pink;}
 .c-timestamp {
@@ -209,7 +210,6 @@ background-color: whitesmoke;
     margin-left: -10px;
     margin-right: -10px;
     padding: 10px;
-    padding-left: 30px;
     font-family: sans-serif;
     font-weight: lighter;
     font-size: 14px;
