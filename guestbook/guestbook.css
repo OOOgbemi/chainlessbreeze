@@ -162,7 +162,7 @@ background-color: whitesmoke;
     padding: 10px;
     background-color: transparent; 
     border: 1px dotted gray;
-
+    text-align: left;
 }
 .c-reply {
     display: block;
