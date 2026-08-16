@@ -96,7 +96,7 @@ text-align: center;
     border: none;
 }
 #c_widget button:hover, #c_widget input[type=submit]:hover {
-    color: deeppink;
+    color: fuchsia;
     
 }
 #c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
@@ -152,7 +152,7 @@ background-color: whitesmoke;
     margin-right: 0;
 }
 #c_replyingText {
-    color: pink;
+    color: gray;
     text-align: right;
 }
 
@@ -197,7 +197,7 @@ background-color: whitesmoke;
     color: fuchsia;
     font-size: 14px;
 }
-.c-site:hover {color: pink;}
+.c-site:hover {color: gray;}
 .c-timestamp {
     float: right;
     opacity: 75%;
@@ -209,7 +209,7 @@ background-color: whitesmoke;
     margin-left: -10px;
     margin-right: -10px;
     padding: 10px;
-	padding-left: 20px;
+    padding-left: 20px;
     font-family: sans-serif;
     font-weight: lighter;
     font-size: 14px;
