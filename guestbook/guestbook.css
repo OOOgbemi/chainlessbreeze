@@ -191,6 +191,7 @@ background-color: whitesmoke;
     padding: 10px;
     font-weight: lighter;
     text-align: left;
+    border-bottom: 0.5px dotted gray;
 }
 .c-site {
     text-decoration: none;
