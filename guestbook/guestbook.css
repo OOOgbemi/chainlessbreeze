@@ -175,7 +175,7 @@ box-shadow: 0px 0px 11px pink inset;
     display: inline-block;
     margin: 0;
     margin-right: 10px;
-    padding: 0;
+    padding-left: 10px;
     font-weight: lighter;
 }
 .c-site {
@@ -186,6 +186,7 @@ box-shadow: 0px 0px 11px pink inset;
 .c-timestamp {
     float: right;
     opacity: 75%;
+    padding-right: 10px;
 }
 .c-text {
     margin: 0;
