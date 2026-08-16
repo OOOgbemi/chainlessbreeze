@@ -140,7 +140,7 @@ box-shadow: 0px 0px 11px pink inset;
     margin-right: 0;
 }
 #c_replyingText {
-    color: white;
+    color: pink;
     text-align: right;
 }
 
@@ -188,11 +188,13 @@ box-shadow: 0px 0px 11px pink inset;
     float: right;
     opacity: 75%;
     padding-right: 10px;
+    font-size: 14px;
 }
 .c-text {
     margin: 0;
     margin-left: -10px;
     margin-right: -10px;
+    padding: 10px;
     padding-left: 50px;
     font-family: sans-serif;
     font-weight: lighter;
