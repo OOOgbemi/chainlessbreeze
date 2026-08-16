@@ -172,6 +172,7 @@ background-color: whitesmoke;
     margin-right: 0;
     padding: 10px;
     background-color: transparent; 
+    border: 1px dotted gray;
 }
 .c-reply:last-child {margin-bottom: 0;}
 .c-replyContainer {
@@ -179,7 +180,7 @@ background-color: whitesmoke;
     margin-top: 10px;
     padding: 10px;
     background-color: transparent;
-    border-radius: 33px;
+    
 
 }
 
@@ -189,7 +190,7 @@ background-color: whitesmoke;
     margin-right: 10px;
     padding: 10px;
     font-weight: lighter;
-	text-align: left;
+    text-align: left;
 }
 .c-site {
     text-decoration: none;
