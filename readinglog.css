@@ -32,8 +32,7 @@ color: black;
 
 u {
 
-text-decoration-style: wavy;
-text-decoration-thickness: 2px;
+
 }
 
 
@@ -83,12 +82,13 @@ opacity: 0%;
 filter: blur(9px);
 height: 500px;
 width: 500px;
+border-radius: 5%;
 border: 20px solid lightgreen;
 outline: 20px solid pink;
 background-color: lightblue;
 position: absolute;
-left: 33%;
-right: 33%;
+left: 31%;
+right: 31%;
 bottom: -10%;
 opacity: 93%;
 backdrop-filter: blur(10px);
