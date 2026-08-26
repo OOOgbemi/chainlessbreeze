@@ -1,0 +1,61 @@
+
+
+
+body {
+
+background-color: ghostwhite;
+font-family: verdana;
+color: black;
+font-size: 13px;
+
+}
+
+a {
+
+color: blue;
+}
+
+#top-bar {
+  cursor: url('https://cdn.cursors-4u.net/previews/normal-dea9d105-32.webp') 33 33, auto !important;
+position: sticky;
+top: 1%;
+text-align: left;
+color: gray;
+width: 255px;
+backdrop-filter: blur(10px);
+z-index: 1;
+}
+
+figure {
+width: 250px;
+
+}
+
+figcaption {
+
+
+}
+
+#feed {
+
+width: 99%;
+margin: 33px auto;
+
+text-align: right;
+
+}
+
+#pic {
+
+width: 250px;
+height: 250px;
+
+
+}
+
+#pic:active {
+width: 313px;
+height: 313px;
+
+
+}
