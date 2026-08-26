@@ -86,10 +86,12 @@ border: 20px solid lightgreen;
 outline: 20px solid pink;
 background-color: lightblue;
 position: absolute;
+left: 33%;
+right: 33%;
+bottom: -10%;
 opacity: 93%;
 backdrop-filter: blur(10px);
-top: 10%;
-left: 22%;
+
 padding: 200px;
 text-align: center;
 font-size: 200px;
