@@ -1,3 +1,8 @@
+* {
+cursor: url('./cursor.cur'), auto !important;
+
+}
+
 html {
 width: 100%;
 height: 100%;
