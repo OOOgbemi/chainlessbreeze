@@ -6,9 +6,10 @@ height: 100%;
 
 body {
 background-image: linear-gradient(aliceblue, lavenderblush, ghostwhite, white);
-font-family: Yapix;
-
-font-size: 18px;
+font-family: helvetica neue;
+font-weight: lighter;
+letter-spacing: 1px;
+font-size: 16px;
 color: black;
 
 height: 100vh;
@@ -21,7 +22,7 @@ height: 100vh;
 
 a {
 
-color: dimgray;
+color: black;
 
 }
 
@@ -38,11 +39,11 @@ border-right-color: transparent;
 
 th {
 font-family: helvetica neue;
+font-weight: lighter;
 text-align: left;
 font-size: 20px;
 border-top: none;
 border-bottom: none;
-font-weight: normal;
 padding: 3px;
 }
 
