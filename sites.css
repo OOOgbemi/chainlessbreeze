@@ -1,4 +1,5 @@
 * {
+
 cursor: url('./cursor.cur'), auto !important;
 
 }
@@ -10,13 +11,13 @@ height: 100%;
 }
 
 body {
-background-image: linear-gradient(aliceblue, lavenderblush, ghostwhite, white);
-font-family: helvetica neue;
+
+font-family: courier new;
 font-weight: lighter;
 letter-spacing: 1px;
 font-size: 16px;
 color: black;
-
+background-color: ghostwhite;
 height: 100vh;
 }
 
@@ -46,7 +47,7 @@ th {
 font-family: helvetica neue;
 font-weight: lighter;
 text-align: left;
-font-size: 20px;
+font-size: 18px;
 border-top: none;
 border-bottom: none;
 padding: 3px;
@@ -62,4 +63,9 @@ padding-bottom: 10px;
 }
 
 
+
+/*
+background-image: linear-gradient(aliceblue, lavenderblush, ghostwhite, white);
+
+*/
 
