@@ -5,43 +5,55 @@ height: 100%;
 }
 
 body {
-background-color: whitesmoke;
-background-image: linear-gradient(to top, whitesmoke 99%, cadetblue);
-color: cadetblue;
-font-family: Verdana;
+background-image: linear-gradient(aliceblue, lavenderblush, ghostwhite, white);
+font-family: Yapix;
+
+font-size: 18px;
+color: black;
+
+height: 100vh;
 }
 
+@font-face {
+    font-family: 'Yapix'; 
+    src: url('./yapix/yapix.ttf'); 
+}
 
 a {
 
-color: cadetblue;
+color: dimgray;
 
 }
 
 
 table {
 
-width: 100%;
-
-border: 1px solid cadetblue;
-border-left-color: whitesmoke;
-border-right-color: whitesmoke;
+width: 90%;
+border-collapse: collapse;
+border: 0.5px solid;
+margin: auto;
+border-left-color: transparent;
+border-right-color: transparent;
 }
 
 th {
-
+font-family: helvetica neue;
 text-align: left;
-
+font-size: 20px;
+border-top: none;
+border-bottom: none;
+font-weight: normal;
+padding: 3px;
 }
 
 
 td {
 margin-left: -10px;
-border-top: 1px dashed;
+border-top: 0.5px dashed;
+
 padding-top: 10px;
 padding-bottom: 10px;
 }
-
 
 
 
