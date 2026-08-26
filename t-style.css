@@ -1,0 +1,197 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+cursor: url('./cursor.cur'), auto !important;
+}
+
+
+
+body {
+margin: 0 0;
+padding: 1%;
+background-color: ghostwhite;
+font-family: Geist Pixel;
+font-size: 11px;
+color: dimgray;
+text-align: center;
+background-image: radial-gradient(lightgreen 0%, aliceblue 6% 72%, pink 93%);
+height: 100vh;
+
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAABB0lEQVR4Xu3YMQ6DMAAEwfD/RydFpBSUYQ02zFRUyKylK9hepLbfEwlBY4LGBI0JGhM0JmhM0JigMUFjgsYEjQkaEzQmaEzQmKAxQWOCxmYI+v6d5muGM/1thsMLGhM0JuhBtwq4d8WGChoTNCbo4k69wCs29GyCxgSNCTrY0MDpyxYhaEzQmKAreeKGDiVoTNCYoDFBY4LGBI0JGhM0JmhM0NiIoEN/PsxuxMcKGhM0Juhgjwo8YkP3BI0JGhN0cZde4BkbejZBY4LGBD3o0oB7d9hQQWOCxgS9szts6FQEjQkaEzQmaEzQmKAxQWOCxgSNCRoTNCZoTNCYoDFBY4LGBI0JGvsAAPkgVSJ08mQAAAAQZGVCR0RGN0NBNEY2MTY2OTQ5OULmPH9tAAAAAElFTkSuQmCC") 28 /  28px / 0 round;
+    border-width:  15px;
+    border-style:  solid;
+
+}
+
+
+
+@font-face {
+    font-family: 'Geist Pixel';
+    src: url('./tsem-assets/Geist_Pixel/GeistPixel-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a {
+padding: 5px;
+border: 4px ridge honeydew;
+
+text-decoration: none;
+color: black;
+background-image: radial-gradient(aliceblue, whitesmoke);
+}
+
+a:active {
+
+border: 3px inset aliceblue;
+
+}
+
+#name {
+
+font-size: 18px;
+
+
+}
+
+
+#me {
+
+border-radius: 50%;
+transform: rotate(15deg);
+border: 0.5px solid dimgray;
+}
+
+
+#words {
+
+
+width: 400px;
+
+border-top: 0.5px dashed gray;
+border-bottom: 0.5px dashed gray;
+margin: auto;
+font-size: 18px;
+
+}
+
+#aboutbox {
+
+
+width: 400px;
+
+border-top: 0.5px dashed gray;
+margin: auto;
+font-size: 18px;
+text-align: justify;
+letter-spacing: 0.5px;
+}
+
+#picbox {
+
+
+width: 400px;
+margin: auto;
+background-image: url('./tsem-assets/dot.png');
+background-size: cover;
+border: 0.5px dashed gray;
+opacity: 33%;
+}
+
+#nowbox {
+
+width: 333px;
+height: 333px;
+margin: auto;
+font-size: 18px;
+font-style: italic;
+text-align: justify;
+border-bottom: 0.5px dashed gray;
+}
+
+
+#now {
+font-size: 18px;
+padding: 0.5%;
+text-align: left;
+width: 288px;
+height: 288px;
+border: 1px dotted gray;
+position: absolute;
+right: 0%;
+top: 0%;
+background-image: url('./tsem-assets/dot.png');
+background-size: contain;
+opacity: 33%;
+}
+
+
+#status {
+padding: 1%;
+width: 200px;
+height: 200px;
+position: absolute;
+right: 0%;
+bottom: 0%;
+border: 0.5px dashed gray;
+filter: grayscale(50%);
+font-size: 13px;
+}
+
+
+#flo1 {
+position: absolute;
+right: 10%;
+top: 5%;
+transform: rotate(10deg);
+}
+
+#flo2 {
+position: absolute;
+right: 20%;
+top: 55%;
+transform: rotate(110deg);
+
+}
+
+#flo3 {
+position: absolute;
+right: 2%;
+bottom: 5%;
+transform: rotate(110deg);
+
+}
+
+#flo4 {
+position: sticky;
+left: 10%;
+top: 5%;
+transform: rotate(10deg);
+
+}
+
+#flo5 {
+position: sticky;
+left: 20%;
+top: 55%;
+transform: rotate(-110deg);
+
+}
+
+#flo6 {
+position: sticky;
+top: 55%;
+transform: rotate(110deg);
+opacity: 90%;
+}
+
+
+#stickynote {
+position: absolute;
+left: 10%;
+top: 10%;
+
+}
