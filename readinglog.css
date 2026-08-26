@@ -6,14 +6,27 @@
 cursor: url('./cursor.cur'), auto !important;
 }
 
+html {
+height: 100vh;
+
+}
 
 body {
 
 background-color: ghostwhite;
+padding: 10px;
 color: black;
-
+height: 100%;
 font-size: 15px;
 font-family: courier new;
+
+
+
+}
+
+a:visited {
+color: black;
+
 }
 
 
@@ -47,7 +60,7 @@ background-color: lightblue;
 position: absolute;
 opacity: 93%;
 backdrop-filter: blur(10px);
-top: 10%;
+top: 11%;
 left: 22%;
 padding: 200px;
 text-align: center;
@@ -62,4 +75,27 @@ animation-timing-function: cubic-bezier(.5,1,1,1);
 opacity: 0%;
 
 
+}
+
+
+#square {
+filter: blur(9px);
+height: 500px;
+width: 500px;
+border: 20px solid lightgreen;
+outline: 20px solid pink;
+background-color: lightblue;
+position: absolute;
+opacity: 93%;
+backdrop-filter: blur(10px);
+top: 10%;
+left: 22%;
+padding: 200px;
+text-align: center;
+font-size: 200px;
+
+animation-duration: 150s;
+animation-iteration-count: infinite;
+animation-timing-function: cubic-bezier(.5,1,1,1);
+z-index: -1;
 }
