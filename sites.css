@@ -1,6 +1,6 @@
 * {
 
-cursor: url('./cursor.cur'), auto !important;
+
 
 }
 
@@ -19,9 +19,6 @@ font-size: 15px;
 color: black;
 background-color: ghostwhite;
 
-    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAABB0lEQVR4Xu3YMQ6DMAAEwfD/RydFpBSUYQ02zFRUyKylK9hepLbfEwlBY4LGBI0JGhM0JmhM0JigMUFjgsYEjQkaEzQmaEzQmKAxQWOCxmYI+v6d5muGM/1thsMLGhM0JuhBtwq4d8WGChoTNCbo4k69wCs29GyCxgSNCTrY0MDpyxYhaEzQmKAreeKGDiVoTNCYoDFBY4LGBI0JGhM0JmhM0NiIoEN/PsxuxMcKGhM0Juhgjwo8YkP3BI0JGhN0cZde4BkbejZBY4LGBD3o0oB7d9hQQWOCxgS9szts6FQEjQkaEzQmaEzQmKAxQWOCxgSNCRoTNCZoTNCYoDFBY4LGBI0JGvsAAPkgVSJ08mQAAAAQZGVCR0RGN0NBNEY2MTY2OTQ5OULmPH9tAAAAAElFTkSuQmCC") 28 /  28px / 0 round;
-    border-width:  15px;
-    border-style:  solid;
 }
 
 @font-face {
@@ -69,5 +66,10 @@ padding-bottom: 10px;
 
 /*
 background-image: linear-gradient(aliceblue, lavenderblush, ghostwhite, white);
+
+
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAABB0lEQVR4Xu3YMQ6DMAAEwfD/RydFpBSUYQ02zFRUyKylK9hepLbfEwlBY4LGBI0JGhM0JmhM0JigMUFjgsYEjQkaEzQmaEzQmKAxQWOCxmYI+v6d5muGM/1thsMLGhM0JuhBtwq4d8WGChoTNCbo4k69wCs29GyCxgSNCTrY0MDpyxYhaEzQmKAreeKGDiVoTNCYoDFBY4LGBI0JGhM0JmhM0NiIoEN/PsxuxMcKGhM0Juhgjwo8YkP3BI0JGhN0cZde4BkbejZBY4LGBD3o0oB7d9hQQWOCxgS9szts6FQEjQkaEzQmaEzQmKAxQWOCxgSNCRoTNCZoTNCYoDFBY4LGBI0JGvsAAPkgVSJ08mQAAAAQZGVCR0RGN0NBNEY2MTY2OTQ5OULmPH9tAAAAAElFTkSuQmCC") 28 /  28px / 0 round;
+    border-width:  15px;
+    border-style:  solid;
 
 */
