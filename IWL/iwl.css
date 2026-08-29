@@ -1,0 +1,159 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+
+  cursor: url('https://cdn.cursors-4u.net/css-previews/bobblehead-bunny-005ae02f-css.webp') 0 0, auto !important;
+
+}
+
+
+html {
+height: 100vh;
+width: 100vw;
+
+}
+
+
+
+body {
+margin: 0 0;
+height: 100%;
+width: 100%;
+color: serif;
+font-family: Chemins-Regular;
+position: fixed;
+background-color: white;
+border-bottom: 5.5px solid gainsboro;
+}
+
+@font-face {
+    font-family: "Chemins-Regular";
+    src: url('./CheminsRegular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+summary::marker {
+
+color: rgba(250, 250, 250, 0.5);
+
+}
+
+
+footer {
+
+width: 100%;
+height: 4%;
+position: sticky;
+bottom: 0%;
+background-image: linear-gradient(ghostwhite, gainsboro, lightgray);
+border-top: 0.5px solid dimgray
+}
+
+#bigtable {
+
+width: 100vw;
+height: 100%;
+margin-top: 0px;
+
+overflow: hidden;
+}
+
+
+#toc {
+margin: 0 0;
+width: 20%;
+height: 100%;
+display: inline-block;
+overflow: scroll;
+border-right: 1px solid dimgray;
+background-color: white;
+
+background-size: cover;
+
+}
+
+#surface {
+
+margin-left: -7px;
+width: 79.8%;
+height: 100%;
+display: inline-block;
+overflow: scroll;
+background-color: white;
+border-left: 0.5px solid dimgray;
+padding: 5%;
+}
+
+
+#item {
+
+width: 100%;
+padding: 1.5%;
+border-bottom: 0.5px dotted gray;
+background-color: white;
+text-align: left;
+font-family: helvetica neue;
+color: dimgray;
+font-size: 16px;
+}
+
+#item:hover {
+
+background-color: aliceblue;
+
+
+}
+
+#info-box {
+
+
+width: 484px;
+background-color: whitesmoke;
+
+
+font-family: helvetica neue;
+font-weight: 300;
+color: gray;
+position: absolute;
+right: 0%;
+bottom: 10%;
+padding: 1%;
+font-size: 17.5px;
+border-bottom-color: transparent;
+border-right-color: transparent;
+border-bottom-style: solid;
+border-bottom-width: 4px;
+}
+
+@keyframes pulse {
+from {opacity: 100;}
+to {opacity: 0%;}
+
+
+}
+
+#colon {
+
+
+animation: pulse 1s ease-in-out infinite alternate;
+}
+
+
+#status {
+color: blue;
+font-size: 13.5px;
+
+}
+
+
+/*
+
+background-image: url('./IWL-assets/newyear.png');
+
+
+*/
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href = './iwl.css' rel = "stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" media="screen and (max-width: 1024px) and (orientation: portrait)" href="./glassy_mobile.css">
+
+<link rel="stylesheet" media="screen and (max-width: 1024px) and (orientation: landscape)" href="./glassy_landscape.css">
+
+<link rel="icon" type="image/x-icon" href="./favicon2.ico">
+</head>
+<body>
+
+<div id = "bigtable">
+<div id = "toc">
+<div id = "item" style = "text-align: center; font-size: 17px; border-bottom: 0.5px solid dimgray; background-color: whitesmoke; color: dimgray; box-shadow: none;">Inner World Log</div>
+<div id = "item" onclick = "bringEightthirteen()">Aug. 13</div>
+<div id = "item" onclick = "bringEighttwelve()">Aug. 12</div>
+<div id = "item" onclick = "bringEighteleven()">Aug. 11</div>
+
+
+
+<!--
+<div id = "item"></div>
+<div id = "item"></div>
+<div id = "item"></div>
+<div id = "item"></div>
+<img src = "./IWL-assets/time.gif" width = "100" height = "190">
+-->
+
+</div>
+<div id = "surface">
+
+<img src = "./iwl-assets/newyear.png" id = "drawing" width = "300" height = "300">
+<br><br>
+<span id = "status">Status&emsp;<span id = "colon">:</span> feeling okay</span>
+
+</div>
+
+</div>
+
+
+<div id = "info-box">This log is based on a prompt that I wrote in my Tarot Notebook. The prompt is: <br><br>
+<div style = "width: 70%; margin: auto;">
+<i>Imagine yourself as a naturalist exploring your inner world. What are the flora and fauna that you observe there? What is the look of the landscape?
+</i></div><br>
+The idea is that our emotions are like creatures<!--and our thoughts are their terrain. More info <u>here.</u>-->.
+
+</div>
+
+
+
+
+
+
+<script>
+
+
+function bringEighteleven() {
+
+var imageEls = document.getElementsByTagName("img");
+var myPost = document.getElementById("status");
+
+for (var i = 0; i < imageEls.length; i++) {
+                imageEls[i].src = "./IWL-assets/jasbiscus.png";
+ }
+
+
+myPost.innerHTML = "Strange hibiscus...fragrance of sleep.";
+}
+
+
+function bringEighttwelve() {
+
+var imageEls = document.getElementsByTagName("img");
+var myPost = document.getElementById("status");
+
+for (var i = 0; i < imageEls.length; i++) {
+                imageEls[i].src = "./IWL-assets/nighthill.png";
+ }
+
+
+myPost.innerHTML = "Nighttime hill with black stars + flowers.";
+}
+
+
+function bringEightthirteen() {
+
+var imageEls = document.getElementsByTagName("img");
+var myPost = document.getElementById("status");
+
+for (var i = 0; i < imageEls.length; i++) {
+                imageEls[i].src = "./IWL-assets/ghost.png";
+ }
+
+
+myPost.innerHTML = "Scent chasing...";
+}
+
+
+
+</script>
+
+</body>
+</html>
