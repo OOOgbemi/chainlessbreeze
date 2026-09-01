@@ -34,9 +34,14 @@ cursor: pointer;
 
 td a {
 
+}
 
+header {
 
-
+letter-spacing: 0px;
+font-size: 22.5px;
+padding-left: 5%;
+text-align: left;
 }
 
 
