@@ -20,6 +20,8 @@ height: 100%;
 font-size: 15px;
 font-family: courier new;
 
+
+
 }
 
 a {
@@ -68,7 +70,7 @@ left: 22%;
 padding: 200px;
 text-align: center;
 font-size: 200px;
-animation-name: goround;
+transform: rotate(33deg);
 animation-duration: 150s;
 animation-iteration-count: infinite;
 animation-timing-function: cubic-bezier(.5,1,1,1);
