@@ -15,6 +15,9 @@
 <div id = "bigtable">
 <div id = "toc">
 <div id = "item" style = "text-align: center; font-size: 17px; border-bottom: 0.5px solid gray; background-color: whitesmoke; color: dimgray; box-shadow: none;">Inner World Log</div>
+
+<div id = "item" onclick = "bringEightthirtyone()">Aug. 31</div>
+<div id = "item" onclick = "bringEightthirty()">Aug. 30</div>
 <div id = "item" onclick = "bringEightthirteen()">Aug. 13</div>
 <div id = "item" onclick = "bringEighttwelve()">Aug. 12</div>
 <div id = "item" onclick = "bringEighteleven()">Aug. 11</div>
@@ -45,7 +48,9 @@
 <div style = "width: 70%; margin: auto;">
 <i>Imagine yourself as a naturalist exploring your inner world. What are the flora and fauna that you observe there? What is the look of the landscape?
 </i></div><br>
-The idea is that our emotions are like creatures<!--and our thoughts are their terrain. More info <u>here.</u>-->.
+The idea is that our emotions are like creatures, and our thoughts are their terrain.
+<br><br>Go back.
+<!-- More info <u>here.</u>-->
 
 </div>
 
@@ -96,6 +101,33 @@ for (var i = 0; i < imageEls.length; i++) {
 
 
 myPost.innerHTML = "Scent chasing...";
+}
+
+
+function bringEightthirty() {
+
+var imageEls = document.getElementsByTagName("img");
+var myPost = document.getElementById("status");
+
+for (var i = 0; i < imageEls.length; i++) {
+                imageEls[i].src = "./IWL-assets/commonroot.jpg";
+ }
+
+
+myPost.innerHTML = "sharing a common root...";
+}
+
+function bringEightthirtyone() {
+
+var imageEls = document.getElementsByTagName("img");
+var myPost = document.getElementById("status");
+
+for (var i = 0; i < imageEls.length; i++) {
+                imageEls[i].src = "./IWL-assets/microbe.png";
+ }
+
+
+myPost.innerHTML = "funny microbe";
 }
 
 
