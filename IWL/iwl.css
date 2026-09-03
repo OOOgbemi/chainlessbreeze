@@ -111,22 +111,18 @@ background-color: aliceblue;
 #info-box {
 
 
-width: 484px;
+width: 505px;
 background-color: whitesmoke;
-
-
+border-right: 1px solid blue;
 font-family: helvetica neue;
 font-weight: 300;
 color: gray;
 position: absolute;
 right: 0%;
-bottom: 10%;
+bottom: 11%;
 padding: 1%;
 font-size: 17.5px;
-border-bottom-color: transparent;
-border-right-color: transparent;
-border-bottom-style: solid;
-border-bottom-width: 4px;
+
 }
 
 @keyframes pulse {
