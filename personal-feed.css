@@ -24,6 +24,7 @@ color: gray;
 width: 255px;
 backdrop-filter: blur(10px);
 z-index: 1;
+margin-bottom: -25px;
 }
 
 figure {
@@ -39,7 +40,7 @@ figcaption {
 #feed {
 
 width: 99%;
-margin: 33px auto;
+margin: 0px auto;
 
 text-align: right;
 
@@ -58,4 +59,16 @@ width: 313px;
 height: 313px;
 
 
+}
+
+#insignia {
+opacity: 30%;
+position: sticky;
+right: 10%;
+top: 10%;
+transform: skewY(20deg);
+transform: skewX(20deg);
+margin-bottom: -29px;
+margin-left: 1.5px;
+filter: blur(0.5px);
 }
