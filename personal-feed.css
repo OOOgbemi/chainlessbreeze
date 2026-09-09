@@ -65,7 +65,7 @@ height: 313px;
 opacity: 30%;
 position: sticky;
 left: 44%;
-top: 5%;
+top: 23%;
 transform: skewY(20deg);
 transform: skewX(20deg);
 
@@ -76,8 +76,8 @@ filter: blur(0.5px);
 #insignia2 {
 opacity: 30%;
 position: sticky;
-left: 33%;
-top: 5%;
+left: 36%;
+top: 23%;
 transform: skewY(20deg);
 transform: skewX(20deg);
 
