@@ -98,9 +98,10 @@ font-size: 16px;
 #collage-set {
 outline: 0.5px solid black; 
 background-color: gainsboro; 
-border: 3px outset gainsboro; 
+border-color: gainsboro;
 font-size: 12px;
-
+text-decoration: none;
+color: black;
 }
 
 
