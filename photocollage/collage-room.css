@@ -13,10 +13,28 @@ body {
 
 background-color: dimgray;
 font-family: verdana;
-color: honeydew;
+color: black;
 font-size: 14px;
 background-image: url('./room.gif');
 text-align: justify;
+}
+
+#back-button {
+
+background-color: lightgray; 
+outline: 0.5px solid dimgray; 
+color: black; 
+border: 3px outset lightgray; 
+font-family: serif; 
+text-decoration: none;
+
+
+}
+
+#back-button:active {
+border: 3px inset white;
+
+
 }
 
 
@@ -47,6 +65,36 @@ transform: rotate(5deg);
 #seal:hover {
 
 opacity: 0%;
+
+}
+
+
+#explainer {
+width: 500px;
+height: 270px;
+margin: 100px auto;
+background-color: gainsboro;
+color: black;
+font-family: sans-serif;
+border: 6px ridge lightgray;
+outline: 0.5px solid dimgray;
+padding: 1%;
+font-size: 16px;
+}
+
+#collage-set {
+outline: 0.5px solid black; 
+background-color: gainsboro; 
+border: 3px outset gainsboro; 
+font-size: 12px;
+
+}
+
+
+
+#collage-set:active {
+
+
 
 }
 
