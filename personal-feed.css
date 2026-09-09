@@ -40,7 +40,7 @@ figcaption {
 #feed {
 
 width: 99%;
-margin: 0px auto;
+margin: -242px auto;
 
 text-align: right;
 
@@ -62,7 +62,7 @@ height: 313px;
 }
 
 #insignia {
-opacity: 30%;
+opacity: 33%;
 position: sticky;
 left: 78%;
 top: 5%;
@@ -70,7 +70,7 @@ transform: skewY(20deg);
 transform: skewX(-15deg);
 
 margin-left: 1.5px;
-filter: blur(0.5px);
+filter: blur(0.1px);
 }
 
 #insignia2 {
@@ -82,5 +82,5 @@ transform: skewY(20deg);
 transform: skewX(-15deg);
 
 margin-left: 1.5px;
-filter: blur(0px);
+filter: blur(0.7px);
 }
