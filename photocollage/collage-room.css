@@ -19,6 +19,19 @@ background-image: url('./room.gif');
 text-align: justify;
 }
 
+a {
+border-style: outset;
+border-thickness: 3px;
+
+}
+
+a:active {
+
+border-style: inset;
+border-thickness: 3px;
+
+}
+
 #back-button {
 
 background-color: lightgray; 
@@ -97,4 +110,3 @@ font-size: 12px;
 
 
 }
-
