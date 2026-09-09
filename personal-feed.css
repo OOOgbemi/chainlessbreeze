@@ -76,7 +76,7 @@ filter: blur(0.5px);
 #insignia2 {
 opacity: 30%;
 position: sticky;
-left: 30%;
+left: 33%;
 top: 5%;
 transform: skewY(20deg);
 transform: skewX(20deg);
