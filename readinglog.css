@@ -13,7 +13,7 @@ height: 100vh;
 
 body {
 
-background-color: ghostwhite;
+background-color: darkkhaki;
 padding: 10px;
 color: black;
 height: 100%;
@@ -30,7 +30,7 @@ summary::marker {
 
 a {
 cursor: pointer;
-
+color: black;
 }
 
 a:visited {
@@ -93,19 +93,18 @@ height: 500px;
 width: 500px;
 border-radius: 5%;
 border: 20px solid lightgreen;
-outline: 20px solid pink;
-background-color: lightblue;
+border-radius: 30%;
+outline: 10px solid orchid;
+background-color: plum;
 position: absolute;
 left: 31%;
 right: 31%;
-bottom: -10%;
-opacity: 93%;
+bottom: 10%;
+opacity: 88%;
 backdrop-filter: blur(10px);
-
 padding: 200px;
 text-align: center;
 font-size: 200px;
-
 animation-duration: 150s;
 animation-iteration-count: infinite;
 animation-timing-function: cubic-bezier(.5,1,1,1);
