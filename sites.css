@@ -54,6 +54,8 @@ border: 0.5px solid;
 margin: auto;
 border-left-color: transparent;
 border-right-color: transparent;
+background-color: rgba(240, 248, 255, 0.1);
+
 }
 
 th {
