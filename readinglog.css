@@ -17,11 +17,15 @@ background-color: ghostwhite;
 padding: 10px;
 color: black;
 height: 100%;
-font-size: 15px;
-font-family: courier new;
+font-size: 22px;
+font-family: serif;
 
 
 
+}
+
+summary::marker {
+  content: "⇢   ";
 }
 
 a {
@@ -57,20 +61,20 @@ color: black;
 
 #circle {
 filter: blur(9px);
-height: 300px;
-width: 650px;
+height: 80px;
+width: 100px;
 border: 20px solid lightgreen;
-outline: 20px solid pink;
-background-color: lightblue;
+border-radius: 30%;
+outline: 10px solid orchid;
+background-color: plum;
 position: absolute;
 opacity: 93%;
-backdrop-filter: blur(10px);
-top: 11%;
+top: 22%;
 left: 22%;
-padding: 200px;
 text-align: center;
 font-size: 200px;
 transform: rotate(33deg);
+transform: skewY(20deg);
 animation-duration: 150s;
 animation-iteration-count: infinite;
 animation-timing-function: cubic-bezier(.5,1,1,1);
