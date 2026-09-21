@@ -18,6 +18,7 @@ letter-spacing: 1px;
 font-size: 15px;
 color: black;
 background-color: ghostwhite;
+background-image: url('./tsem-assets/paper.png');
 overflow-x: hidden;
 }
 
@@ -39,7 +40,7 @@ td a {
 header {
 
 letter-spacing: 0px;
-font-size: 22.5px;
+font-size: 23px;
 padding-left: 5%;
 text-align: left;
 }
