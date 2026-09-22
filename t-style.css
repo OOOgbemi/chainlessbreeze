@@ -19,6 +19,7 @@ text-align: center;
 background-image: radial-gradient(lightgreen 0%, aliceblue 6% 72%, pink 93%);
 height: 100vh;
 background-size: cover;
+
     border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAABB0lEQVR4Xu3YMQ6DMAAEwfD/RydFpBSUYQ02zFRUyKylK9hepLbfEwlBY4LGBI0JGhM0JmhM0JigMUFjgsYEjQkaEzQmaEzQmKAxQWOCxmYI+v6d5muGM/1thsMLGhM0JuhBtwq4d8WGChoTNCbo4k69wCs29GyCxgSNCTrY0MDpyxYhaEzQmKAreeKGDiVoTNCYoDFBY4LGBI0JGhM0JmhM0NiIoEN/PsxuxMcKGhM0Juhgjwo8YkP3BI0JGhN0cZde4BkbejZBY4LGBD3o0oB7d9hQQWOCxgS9szts6FQEjQkaEzQmaEzQmKAxQWOCxgSNCRoTNCZoTNCYoDFBY4LGBI0JGvsAAPkgVSJ08mQAAAAQZGVCR0RGN0NBNEY2MTY2OTQ5OULmPH9tAAAAAElFTkSuQmCC") 28 /  28px / 0 round;
     border-width:  15px;
     border-style:  solid;
@@ -38,7 +39,6 @@ background-size: cover;
 a {
 padding: 5px;
 border: 4px ridge honeydew;
-
 text-decoration: none;
 color: black;
 background-image: radial-gradient(aliceblue, whitesmoke);
@@ -59,11 +59,17 @@ font-size: 18px;
 
 
 #me {
-
+background-image: url("./tsem-assets/me-tone.png");
+background-size: contain;
+width: 150px;
+height: 267px;
+margin: auto;
 border-radius: 50%;
 transform: rotate(15deg);
 border: 0.5px solid dimgray;
+
 }
+
 
 
 #words {
@@ -193,5 +199,12 @@ opacity: 90%;
 position: absolute;
 left: 10%;
 top: 10%;
+
+}
+
+
+#show {
+display: none;
+
 
 }
