@@ -16,6 +16,8 @@
 <div id = "toc">
 <div id = "item" style = "text-align: center; font-size: 17px; border-bottom: 0.5px solid gray; background-color: whitesmoke; color: dimgray; box-shadow: none;">Inner World Log</div>
 
+<div id = "item" onclick = "bringNinetwentyfour()">Sep. 24</div>
+<div id = "item" onclick = "bringNineone()">Sep. 1</div>
 <div id = "item" onclick = "bringEightthirtyone()">Aug. 31</div>
 <div id = "item" onclick = "bringEightthirty()">Aug. 30</div>
 <div id = "item" onclick = "bringEightthirteen()">Aug. 13</div>
@@ -132,9 +134,38 @@ myPost.innerHTML = "funny microbe";
 }
 
 
+function bringNineone() {
+
+var imageEls = document.getElementsByTagName("img");
+var myPost = document.getElementById("status");
+
+for (var i = 0; i < imageEls.length; i++) {
+                imageEls[i].src = "./IWL-assets/apparition.png";
+ }
+
+
+myPost.innerHTML = "rosy apparition";
+}
+
+
+function bringNinetwentyfour() {
+
+var imageEls = document.getElementsByTagName("img");
+var myPost = document.getElementById("status");
+
+for (var i = 0; i < imageEls.length; i++) {
+                imageEls[i].src = "./IWL-assets/microbe2.png";
+ }
+
+
+myPost.innerHTML = "another bacterium...";
+}
+
+
 
 </script>
 
 </body>
 </html>
+
 
