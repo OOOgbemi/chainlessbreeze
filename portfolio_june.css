@@ -16,15 +16,22 @@ padding: 5%;
 background-color: honeydew;
 font-family: verdana;
 color: #4e5b4c;
-font-size: 14px;
-border-bottom: 1px dotted lawngreen;
+font-size: 16px;
+border-bottom: 1px dotted lightgreen;
 height: 50%;
 }
 
 a {
-font-family: verdana;
+
 color: #4e5b4c;
 text-decoration: none;
+background-color: lavender;
+}
+
+
+a:hover {
+
+
 
 }
 
@@ -40,7 +47,7 @@ font-style: normal;
 #button {
 font-size: 14px;
 background-color: honeydew;
-color: #9883e5;
+
 
 }
 
@@ -50,4 +57,19 @@ text-decoration-style: dashed;
 text-decoration-color: gray;
 
 
+}
+
+
+#bubble {
+
+position: fixed;
+right: 6%;
+top: 4.4%;
+padding: 4%;
+font-family: snell roundhand;
+backdrop-filter: blur(5px);
+font-size: 222px;
+text-align: center;
+transform: rotate(8deg);
+opacity: 10%;
 }
