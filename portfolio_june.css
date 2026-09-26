@@ -13,12 +13,15 @@ Dark Gray: #545454;
 
 body {
 padding: 5%;
-background-color: honeydew;
+background-color: aliceblue;
+background-image: radial-gradient(lightgreen 0%, aliceblue 6% 72%, gainsboro 93%);
 font-family: verdana;
 color: #4e5b4c;
 font-size: 16px;
 border-bottom: 1px dotted lightgreen;
 height: 50%;
+
+border: 1px dashed gray;
 }
 
 a {
