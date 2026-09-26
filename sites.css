@@ -18,7 +18,7 @@ letter-spacing: 1px;
 font-size: 15px;
 color: black;
 background-color: lightcyan;
-background-image: url('./tsem-assets/paper.png');
+background-image: radial-gradient(lightgreen 0%, aliceblue 6% 72%, pink 93%);
 overflow-x: hidden;
 }
 
@@ -43,6 +43,7 @@ letter-spacing: 0px;
 font-size: 23px;
 padding-left: 5%;
 text-align: left;
+margin-top: 4%;
 }
 
 
