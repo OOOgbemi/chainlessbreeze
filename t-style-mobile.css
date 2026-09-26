@@ -11,12 +11,12 @@ cursor: url('./cursor.cur'), auto !important;
 body {
 margin: 0 0;
 padding: 1%;
-background-color: aliceblue;
+background-color: azure;
 font-family: Geist Pixel;
 font-size: 11px;
 color: dimgray;
 text-align: center;
-background-image: radial-gradient(lightgreen 0%, aliceblue 6% 72%, cornflowerblue 93%);
+background-image: radial-gradient(lightgreen 0%, aliceblue 6% 72%, azure 93%);
 height: 100vh;
 background-size: cover;
 
