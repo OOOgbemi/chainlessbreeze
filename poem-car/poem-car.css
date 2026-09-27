@@ -28,6 +28,7 @@ font-family: arial narrow, sans serif;
 
 a {
 color: black;
+font-weight: bold;
 text-decoration-style: dotted;
 text-decoration-color: black;
 }
@@ -67,8 +68,8 @@ font-size: 17px;
 height: 222px;
 width: 244px;
 font-family: arial;
-font-weight: bold;
-
+font-weight: normal;
+transform: rotate(-1deg);
 }
 
 #bar {
