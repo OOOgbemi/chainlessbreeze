@@ -53,6 +53,7 @@ background-image: radial-gradient(lavender 3%, mistyrose);
 box-shadow: 0 0 50px 60px mistyrose;
 opacity: 100%;
 z-index: 1;
+height: 270px;
 }
 
 marquee {
