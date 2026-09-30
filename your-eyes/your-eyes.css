@@ -37,10 +37,10 @@ text-align: center;
 }
 
 #essay {
-width: 40%;
+width: 321px;
 text-align: justify;
 margin: auto;
-
+transform: rotate(1deg);
 }
 
 
