@@ -1,0 +1,85 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+ scrollbar-color: transparent transparent; /* thumb and track color */
+  scrollbar-width: 0px;
+
+
+
+}
+
+html {
+
+}
+
+body {
+margin: 0 0;
+width: 100vw;
+background-color: snow;
+font-family: FifteenTwenty;
+font-size: 17px;
+letter-spacing: -1px;
+color: rgba(0, 0, 0, 0.65);
+}
+
+@font-face {
+    font-family: "FifteenTwenty";
+    src: url('./aw-assets/FifteenTwenty/FifteenTwenty-Bold.otf') format("opentype");
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+a {
+color: deeppink;
+
+
+
+}
+
+
+#page {
+transform: rotate(1.5deg);
+width: 30%;
+margin: auto;
+margin-left: 40px;
+height: 1000px;
+padding: 2.5%;
+background-color: #7dcea0;
+background-image: url('./aw-assets/paper-pink.png');
+background-size: contain;
+margin-top: 50px;
+box-shadow: 1px 1px 2px silver;
+text-align: justify;
+display: inline-block;
+}
+
+
+#explain {
+position: fixed;
+margin-left: 40px;
+transform: rotate(-1deg);
+width: 30%;
+display: inline-block;
+height: 500px;
+padding: 2.5%;
+background-color: #7dcea0;
+background-image: url('./aw-assets/paper.png');
+background-size: contain;
+margin-top: 50px;
+box-shadow: 1px 1px 2px silver;
+text-align: justify;
+
+
+}
+
+
+/*
+
+Very dark gray: #161616;
+
+*/
