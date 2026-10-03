@@ -35,7 +35,7 @@ color: rgba(0, 0, 0, 0.65);
 
 
 a {
-color: deeppink;
+color: rgba(0, 0, 0, 0.65);
 
 
 
@@ -50,7 +50,7 @@ margin-left: 40px;
 height: 1000px;
 padding: 2.5%;
 background-color: #7dcea0;
-background-image: url('./aw-assets/paper-pink.png');
+background-image: url('./aw-assets/paper-pink.jpeg');
 background-size: contain;
 margin-top: 50px;
 box-shadow: 1px 1px 2px silver;
@@ -68,7 +68,7 @@ display: inline-block;
 height: 500px;
 padding: 2.5%;
 background-color: #7dcea0;
-background-image: url('./aw-assets/paper.png');
+background-image: url('./aw-assets/paper.jpeg');
 background-size: contain;
 margin-top: 50px;
 box-shadow: 1px 1px 2px silver;
