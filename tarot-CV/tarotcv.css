@@ -41,6 +41,12 @@ text-align: left;
 list-style-type: square;
 }
 
+#about {
+
+width: 500px;
+
+}
+
 #page {
 text-align: left;
 padding: 2%;
