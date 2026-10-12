@@ -1,0 +1,69 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+
+
+}
+
+
+body {
+margin: 0 0;
+background-color: white;
+text-align: center;
+background-attachment: fixed;
+font-family: serif;
+background-image: url('./pinkpage.jpeg');
+background-size: 100vw 100vh;
+color: black;
+font-size: 17px;
+}
+
+@font-face {
+    font-family: "Chemins-Regular";
+    src: url('./CheminsRegular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a {
+
+color: black;
+
+}
+
+
+ul {
+list-style-position: inside;
+text-align: left;
+list-style-type: square;
+}
+
+#page {
+text-align: left;
+padding: 2%;
+width: 666px;
+backdrop-filter: blur(100px);
+border: 1px solid;
+margin: 99px auto;
+border-radius: 3px;
+
+
+}
+
+
+
+#square {
+
+width: 400px;
+height: 400px;
+margin: auto;
+text-align: justify;
+padding: 1%;
+border: 0.5px solid black;
+box-shadow: 1px 1px 3px dimgray;
+font-size: 26px;
+color: ray;
+}
