@@ -132,6 +132,35 @@ text-align: justify;
 width: 100%;
 }
 
+#poems {
+background-image: none;
+background-color: #f995cc;
+box-shadow: none;
+font-size: 22px;
+font-family: arial narrow, sans serif;
+color: black;
+padding: 10%;
+
+
+
+}
+ 
+
+ul {
+list-style-type: square;
+
+}
+
+#toc {
+
+position: fixed;
+right: 10%;
+top: 10%;
+font-size: 23px
+
+}
+
+
 /*
 
 */
