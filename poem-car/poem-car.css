@@ -1,166 +1,272 @@
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+<!DOCTYPE html>
+<html>
+<head>
+<title>Poem Car</title>
 
- scrollbar-color: transparent transparent; /* thumb and track color */
-  scrollbar-width: 0px;
+<link href = './poem-car.css' rel = 'stylesheet'>
 
-}
-
-html {
-
-}
-
-body {
-margin: 0 0;
-width: 100vw;
-background-color: hotpink;
-background-image: url('./pcar-assets/faintflowers.jpeg');
-background-size: cover;
-background-attachment: fixed;
-background-repeat: no repeat;
-box-shadow: 0px 0px 50px hotpink inset;
-color: deeppink;
-font-size: 23px;
-font-family: arial narrow, sans serif;
-}
-
-a {
-color: black;
-font-weight: bold;
-text-decoration-style: dotted;
-text-decoration-color: black;
-}
+<link rel="icon" type="image/x-icon" href="./favicon.ico">
 
 
-header {
-font-size: 99px;
-position: fixed;
-background-image: radial-gradient(lavender 3%, mistyrose);
-box-shadow: 0 0 50px 60px mistyrose;
-opacity: 50%;
-}
+<link rel="stylesheet" media="screen and (max-width: 1024px) and (orientation: portrait)" href="./poem-car-mobile.css">
+<link rel="stylesheet" media="screen and (max-width: 1024px) and (orientation: landscape)" href="./poem-car-mobile.css">
 
-#info {
-position: fixed;
-top: 0%;
-right: 0.5%;
-width: 333px;
-opacity: 83%;
-height: 270px;
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap" rel="stylesheet">
 
-}
+</head>
+<body id = "poems">
 
-summary {
-margin-bottom: 10px;
-background-image: radial-gradient(lavender 3%, mistyrose);
-box-shadow: 0 0 50px 60px mistyrose;
+<div id = "toc">
+<u><b>Table of Contents</u></b>
+<ul>
+<a href="#p1"><li>Thinking in Shades of Lipstick</li></a>
+<a href="#p2"><li>Bamboo Skyscrapers</li></a>
+<a href="#p3"><li>Anger Album</li></a>
+<a href="#p4"><li>Frangipani</li></a>
+<a href="#p5"><li>Good Grief</li></a>
+<a href="#p6"><li>Car Poem/Swamp Rose</li></a>
+<a href="#p7"><li>Upset Stomach</li></a>
+<a href="#p8"><li>Parenting Poem</li></a>
+<a href="#p9"><li>Erica Poem</li></a>
+<a href="#p10"><li>Regret Egret</li></a>
+<a href="#p11"><li>Anthill Poem</li></a>
+<a href="#p12"><li>Here it Comes</li></a>
+<a href="#p13"><li>Angel Eyes</li></a>
+<a href="#p14"><li>Blissful Poem...</li></a>
+<a href="#p15"><li>Frowning</li></a>
+</ul>
+</div>
+<u id = "p1"><b>Thinking in Shades of Lipstick</b></u>
+<br><br>
+Soft plum Vivian<br>
+slip catwalk I'll<br>
+have the claret/<br>
+burgundy, pozhaluysta... An icy<br>
+nymphet radiance<br>
+a cool<br>
+magnolia baby -<br>
+satin<br>
+finish.<br>
+<br><br>
+I am always driving there in my sunglasses,<br>
+mon amour.<br>
+Had you noticed?<br>
+Mystique 001<br>
+evening<br>
+in Tokyo
+<br><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;Lady
 
-}
+<br><br>
+<br><br>
 
-#sticky {
+<u id = "p2"><b>Bamboo Skyscrapers</b></u>
+<br><br>
+Bamboo cloud-churches<br>
+Gbagada; I feel as dull<br>
+as a<br>
+skyscraper.<br>
+I feel as blunt as a magnate.
 
+<br><br>
+<br><br>
 
-background-color: rgba(103, 148, 239, 0.4);
-color: black;
-font-size: 17px;
-height: 222px;
-width: 244px;
-font-family: arial;
-font-weight: normal;
-transform: rotate(0deg);
-position: fixed;
-left: 40%;
-right: 40%;
-z-index: 2;
--webkit-backdrop-filter: blur(50px);
-}
+<u id = "p3"><b>Anger Album</b></u>
+<br><br>
+Don't let it out<br>
+I can remember the names of several cities; one is Syracuse<br>
+I let it slide. But, in London, forgot.<br>
+Fell down and tasted something<br>
+nice. Houston,<br>
+ocean, saliva, home.<br>
+<br><br>
+In each city, I played the cello to an incredible standard.<br>
+In each one, I passively observed<br>
+towers, unions, history, radio stations, networks,<br>
+Americanisms.<br>
+<br><br>
+And to think that in all this time, I was the helicopter,<br>
+you the parent.<br>
+To think that in all this time, you were not actually<br>
+teaching me how<br>
+to be weird.<br>
 
-#bar {
-width: 100%;
-height: 4%;
-border-bottom: 0.5px solid rgba(103, 148, 239, 0.8);
-background-color: rgba(103, 148, 239, 0.4);
-display: block;
-font-size: 6px;
-color: gray;
-font-weight: normal;
-font-family: arial narrow;
-}
+<br><br>
+<br><br>
 
-marquee {
-position: sticky;
-top: 52%;
-opacity: 20%;
-font-size: 111px;
-}
+<u id = "p4"><b>Frangipani</b></u>
+<br><br>
+There should be time enough for one more miniature garden,<br>
+for the wet spiral<br>
+of one more conch,<br>
+for a concert of passions and a meeting<br>
+of temple floors. For the lonely<br>
+tile, panorama - <br>
+desert whispers.
 
+<br><br>
+<br><br>
 
-#essay {
-position: relative;
-transform: rotate(2deg);
-width: 300px;
-margin: 0px auto;
-background-image: radial-gradient(lavender 3%, mistyrose);
-box-shadow: 0 0 50px 100px mistyrose;
-text-align: justify;
-opacity: 83%;
-font-size: 26px;
-z-index: -1;
-}
+<u id = "p5"><b>Good Grief</b></u>
+<br><br>
+Hello, darling.<br>
+You are always listening to<br>
+high-tech what. You can taste the cement<br>
+now, and your head is...       bellowing.
+<br><br>
+Do you care about symbols? No and yet<br>
+you become<br>
+a heavy fanatic in every<br>
+moment of crisis.
+<br><br>
+Say goodbye<br>
+to your favorite artists, since they all appear<br>
+to be saying goodbye<br>
+to you. A dreaded<br>
+voice urges you not to worry,<br>
+since their goodbyes are<br>
+&emsp;&emsp;well-omened,<br>
+and, besides, they’re on<br>
+the news.
 
+<br><br>
+<br><br>
 
-#serif {
+<u id = "p6"><b>Car Poem/Swamp Rose</b></u>
+<br><br>
+Fresh pink guitar-lady Oh no<br>
+She is stuck<br>
+under a tempest<br>
+!!<br>
+Now<br>
+only the blooming gutters<br>
+can give her back her<br>
+turquoise<br>
+phosphorescence<br>
+her unimpeachable<br>
+odor
 
-font-family: serif;
-font-style: italic;
+<br><br>
+<br><br>
 
-}
+<u id = "p7"><b>Upset Stomach</b></u>
+<br><br>
+Fuddy-duddy I am desperately in love<br>
+Oh! I am<br>
+sick<br>
+to my stomach.<br>
+A salient surprise<br>
+on a rusty morning. Hang on -<br>
+whose birthday is<br>
+it?
 
-#sigil {
+<br><br>
+<br><br>
 
-font-family: "Aguafina Script", cursive;
-font-size: 222px;
-position: fixed;
-top: 9%;
-left: 3%;
-z-index: -1;
-opacity: 11%;
-color: blueviolet;
-text-align: justify;
-width: 100%;
-}
+<u id = "p8"><b>Parenting Poem</b></u>
+<br><br>
+No rest for the I's in the windows<br>
+I observe<br>
+that there are no decent words<br>
+for ugliness.<br>
+I am surprised at that,<br>
+but it is not quite<br>
+the same feeling.<br>
+A twilit sadness is more<br>
+what is troubling<br>
+my pre-teen.<br>
 
-#poems {
-background-image: none;
-background-color: #f995cc;
-box-shadow: none;
-font-size: 22px;
-font-family: arial narrow, sans serif;
-color: black;
-padding: 10%;
+<br><br>
+<br><br>
 
+<u id = "p9"><b>Erica Poem</u></b>
+<br><br>
+You may not agree<br>
+with me,<br>
+but her first name<br>
+is<br>
+Erica,<br>
+and she knows all about the sibilants<br>
+and<br>
+the chimes.<br>
 
+<br><br>
+<br><br>
 
-}
- 
+<u id = "p10"><b>Regret Egret</u></b>
+<br><br>
+Experience, tedium, cardinal<br>
+sins, settling down.<br>
+The knockout stages.<br>
+<br>
+Forgiveness in exercise.<br>
+Forgiveness is exercise.<br>
+<br>
+I want to win!!!
 
-ul {
-list-style-type: square;
+<br><br>
+<br><br>
 
-}
+<u id = "p11"><b>Anthill Poem</u></b>
+<br><br>
+Why don't you leave my anthills alone?<br>
+These are not<br>
+&emsp;&emsp;&emsp;&emsp;your<br>
+Cuban<br>
+buttercups!
 
-#toc {
+<br><br>
+<br><br>
 
-position: fixed;
-right: 10%;
-top: 10%;
-font-size: 23px
+<u id = "p12"><b>Here it Comes</u></b>
+<br><br>
+Open wide! Love is coming...<br>
+And he is bringing<br>
+the sextiles.
 
-}
+<br><br>
+<br><br>
 
+<u id = "p13"><b>Angel-eyes</u></b>
+<br><br>
+Whenever I look at you,<br>
+darling,<br>
+rain in all directions.
+<br><br>
+&emsp;&emsp;&emsp;My apologetic cells...
 
-/*
+<br><br>
+<br><br>
 
-*/
+<u id = "p14"><b>Blissful Poem...</u></b>
+<br><br>
+Bliss in the tropics.<br>
+I haven't forgotten. I<br>
+have just moved on -<br>
+a jewel tucked into<br>
+a frangipani blossom.<br>
+<br><br>
+Paradise garbage tincture fabric,<br>
+indigo fingers,<br>
+swathes, prostrations, patterned<br>
+&emsp;&emsp;&emsp;silk.<br>
+
+<br><br>
+<br><br>
+
+<u id = "p15"><b>Frowning</u></b>
+<br><br>
+A freshness...<br>
+remainders...?
+
+<br><br>
+<br><br>
+<br><br>
+<img src = "./pcar-assets/faintflowers.jpeg" width = "66" style = "opacity: 50%;">
+<br><br>
+
+<a href = "../index.html">Home Page</a>
+</body>
+</html>
