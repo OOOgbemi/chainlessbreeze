@@ -113,6 +113,16 @@ text-align: justify;
 width: 100%;
 }
 
+#poems {
+
+font-size: 33px;
+}
+
+#toc {
+
+display: none;
+}
+
 /*
 
 */
