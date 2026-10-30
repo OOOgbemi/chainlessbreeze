@@ -114,11 +114,17 @@ width: 100%;
 }
 
 #poems {
-
+font-family: sans-serif;
 font-size: 33px;
 }
 
 #toc {
+
+display: none;
+}
+
+.vanish {
+
 
 display: none;
 }
