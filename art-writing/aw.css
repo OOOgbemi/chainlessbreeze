@@ -17,11 +17,13 @@ html {
 body {
 margin: 0 0;
 width: 100vw;
-background-color: black;
+background-color: darkgreen;
 font-family: FifteenTwenty;
 font-size: 17px;
 letter-spacing: -1px;
 color: rgba(0, 0, 0, 0.65);
+padding: 3%;
+overflow: scroll;
 }
 
 @font-face {
@@ -49,27 +51,27 @@ margin: auto;
 margin-left: 40px;
 height: 1000px;
 padding: 2.5%;
-background-color: green;
+background-color: firebrick;
 background-size: contain;
 margin-top: 50px;
-box-shadow: 1px 1px 2px silver;
+box-shadow: 1px 1px 2px black;
 text-align: justify;
 display: inline-block;
 }
 
 
 #explain {
-position: fixed;
+
 margin-left: 40px;
-transform: rotate(-1deg);
+transform: rotate(0deg);
 width: 30%;
 display: inline-block;
 height: 500px;
 padding: 2.5%;
-background-color: red;
+background-color: firebrick;
 background-size: contain;
 margin-top: 50px;
-box-shadow: 1px 1px 2px silver;
+box-shadow: 1px 1px 2px black;
 text-align: justify;
 
 
