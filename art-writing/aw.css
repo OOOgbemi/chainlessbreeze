@@ -17,7 +17,7 @@ html {
 body {
 margin: 0 0;
 width: 100vw;
-background-color: snow;
+background-color: black;
 font-family: FifteenTwenty;
 font-size: 17px;
 letter-spacing: -1px;
@@ -49,8 +49,7 @@ margin: auto;
 margin-left: 40px;
 height: 1000px;
 padding: 2.5%;
-background-color: #7dcea0;
-background-image: url('./aw-assets/paper-pink.jpeg');
+background-color: green;
 background-size: contain;
 margin-top: 50px;
 box-shadow: 1px 1px 2px silver;
@@ -67,8 +66,7 @@ width: 30%;
 display: inline-block;
 height: 500px;
 padding: 2.5%;
-background-color: #7dcea0;
-background-image: url('./aw-assets/paper.jpeg');
+background-color: red;
 background-size: contain;
 margin-top: 50px;
 box-shadow: 1px 1px 2px silver;
