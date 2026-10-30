@@ -17,7 +17,7 @@ html {
 body {
 margin: 0 0;
 width: 100vw;
-background-color: darkgreen;
+background-color: green;
 font-family: FifteenTwenty;
 font-size: 17px;
 letter-spacing: -1px;
@@ -68,7 +68,7 @@ width: 30%;
 display: inline-block;
 height: 500px;
 padding: 2.5%;
-background-color: firebrick;
+background-color: darkgreen;
 background-size: contain;
 margin-top: 50px;
 box-shadow: 1px 1px 2px black;
