@@ -18,6 +18,7 @@ width: 100vw;
 background-color: white;
 background-image: url('./pcar-assets/faintflowers.jpeg');
 color: deeppink;
+font-size: 20px;
 }
 
 
@@ -28,31 +29,6 @@ color: deeppink;
 
 }
 
-#eye {
-filter: hueRotate(100deg);
-width: 100%;
-text-align: center;
-
-
-}
-
-#essay {
-width: 40%;
-text-align: justify;
-margin: auto;
-
-}
-
-
-#diamond {
-
-position: absolute;
-top: 10%;
-left: 10%;
-
-
-
-}
 
 
 /*
